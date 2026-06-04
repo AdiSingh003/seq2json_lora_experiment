@@ -1,0 +1,49 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+*.env
+
+# Hugging Face / Transformers / PEFT artifacts
+*.bin
+*.safetensors
+adapter/
+checkpoints/
+model/*
+models/*
+artifacts*/
+
+# Dataset and cache files
+*.cache
+*.jsonl
+*.csv
+*.tsv
+
+# Logs
+*.log
+log/
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode directories
+__pycache__/
+
+# Ignore generated reports/artifacts if you only want source
+artifacts*/

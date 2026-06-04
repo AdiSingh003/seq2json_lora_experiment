@@ -1,0 +1,28 @@
+---
+Query 1: थप्पड़ कहाँ देखें
+Generated output:
+{"query_type": "rating/review", "title": "थप्पड़"}
+Parsed JSON:
+{
+  "query_type": "rating/review",
+  "title": "थप्पड़"
+}
+
+---
+Query 2: पारिवारिक में अनुष्का की बेस्ट फिल्म कौन सी है
+Generated output:
+{"similar_to": "Anuvaal"}
+Parsed JSON:
+{
+  "similar_to": "Anuvaal"
+}
+
+---
+Query 3: कोई तमिल स्पोर्ट्स फिल्म सुझाओ
+Generated output:
+{"title": "KoLIZM"}
+Parsed JSON:
+{
+  "title": "KoLIZM"
+}
+
