@@ -1,0 +1,132 @@
+query,generated,parsed_json
+show me the latest movies on MX Player,"{
+  ""query"": ""show me the latest movies on MX Player"",
+  ""type"": ""query"",
+  ""params"": {
+    ""movie_id"": ""1234567890"",
+    ""title"": ""The Great Gatsby"",
+    ""release_date"": ""2018-01-01"",
+    ""category"": ""Movies"",
+    ""language"": ""en""
+  },
+  ""type"": ""intent"",
+  ""params"": {
+    ""movie_id"": ""1234567890"",
+    ""title"": ""The Great Gatsby"",
+    ""release_date"": ""2018-01-01"",
+    ""category"": ""Movies"",
+    ""language"": ""en""
+  }
+}","{'query': 'show me the latest movies on MX Player', 'type': 'intent', 'params': {'movie_id': '1234567890', 'title': 'The Great Gatsby', 'release_date': '2018-01-01', 'category': 'Movies', 'language': 'en'}}"
+find the cast of Scam 1992,"{
+  ""type"": ""intent"",
+  ""id"": ""1992_00000000000000000000000000000000"",
+  ""name"": ""Scam 1992"",
+  ""description"": ""The cast of Scam 1992 is a group of 1992-era crime syndicates that operate in the United States."",
+  ""type"": ""intent"",
+  ""id"": ""1992_00000000000000000000000000000000"",
+  ""name"": ""Scam 1992"",
+  ""description"": ""The cast of Scam 1992 is a group of 1992-era crime syndicates that operate in the United States."",
+  ""type"": ""intent"",
+  ""id"": ""1992_00000000000000000000000000000000"",
+  ""name"":",
+what new Tamil releases are available on Netflix,"{
+  ""query"": ""what new Tamil releases are available on Netflix"",
+  ""intent"": {
+    ""type"": ""query"",
+    ""params"": {
+      ""query"": ""what new Tamil releases are available on Netflix"",
+      ""params"": {
+        ""query"": ""what new Tamil releases are available on Netflix"",
+        ""params"": {
+          ""query"": ""what new Tamil releases are available on Netflix"",
+          ""params"": {
+            ""query"": ""what new Tamil releases are available on Netflix"",
+            ""params"": {
+              ""query"": ""what new Tamil releases are available on Netflix"",
+              ""params"": {
+                ""query"": ""what new Tamil releases are available on Netflix"",
+                ""params"": {
+                  ""query"": ""what new Tamil releases are available on Netflix"",
+                  ""params"": {
+                    ""query"": ""what new Tamil releases are available on Netflix"",
+                    ""params"": {
+                      ""query"": ""what new Tamil releases are available on Netflix"",
+                      ""params"": {
+                        ""query"": ""what new Tamil releases are available on Netflix"",
+                        ""params"": {
+                          ""query"": ""what new Tamil releases are available on Netflix"",
+                          ""params"": {
+                            ""query"": ""what new Tamil releases are available on Netflix"",",
+play the latest songs from the movie soundtrack,"{
+  ""query"": ""play the latest songs from the movie soundtrack"",
+  ""intent"": {
+    ""type"": ""query"",
+    ""query"": {
+      ""query"": {
+        ""query"": {
+          ""query"": {
+            ""query"": {
+              ""query"": {
+                ""query"": {
+                  ""query"": {
+                    ""query"": {
+                      ""query"": {
+                        ""query"": {
+                          ""query"": {
+                            ""query"": {
+                              ""query"": {
+                                ""query"": {
+                                    ""query"": {
+                                        ""query"": {
+                                            ""query"": {
+                                            ""query"": {
+                                                ""query"": {
+                                                    ""query"": {
+                                                        ""query"": {
+                                                            ""query"": {
+                                                            ""query"": {
+                                                                ""query"": {
+                                                
+                                        ""query"": {
+                                            ""query"": {
+                                                ""query"": {
+                                                    ""query"": {
+                                                        ""query"": {
+                                                                ""query"": {
+                                                
+                                        ""query"": {
+                                                    ""query"": {
+                                                        ""query"": {
+                                                
+                                            ""query"": {
+                                                    ""query"": {
+                                                        ""query"": {
+                                                
+                                                    ""query"": {
+                                                
+                                                        ""query"": {
+                                                
+                                                                ""query"": {
+                                                
+                                        ""query"": {
+                                                
+                                            ""query"": {
+                                                
+                                                ""query",
+who acted in the movie related to the film scam,"{
+  ""query"": ""who acted in the movie related to the film scam"",
+  ""intent"": {
+    ""type"": ""query"",
+    ""query_type"": ""query"",
+    ""query_type_id"": ""1"",
+    ""query_type_id_type"": ""intent"",
+    ""query_type_id_type_id"": ""1"",
+    ""query_type_id_type_id_type"": ""1"",
+    ""query_type_id_type_id_type_id"": ""1"",
+    ""query_type_id_type_id_type_id_type"": ""1"",
+    ""query_type_id_type_id_type_id_type_id"": ""1"",
+    ""query_type_id_type_id_type_id_type_id_type"": ""1"",
+    ""query_type_id_type_id_type_id_type_id_type_id"": ""1"",
+    ""query_type_id_type_id_type_id_type_id_type_id_type"": ""1"",
+    ""query_type_id_type_id_type_id_",

@@ -1,0 +1,243 @@
+query,generated_before,parsed_json_before,generated_after,parsed_json_after
+show me the latest movies on MX Player," show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest movies on MX Player
+
+Query: show me the latest",,"
+{""platform"": ""MX Player"", ""recency"": ""latest""}","{'platform': 'MX Player', 'recency': 'latest'}"
+find the cast of Scam 1992," find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast of Scam 1992
+
+Query: find the cast",,"
+{""query_type"": ""search"", ""title"": ""Scam 1992""}","{'query_type': 'search', 'title': 'Scam 1992'}"
+what new Tamil releases are available on Netflix," what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases are available on Netflix
+
+Query: what new releases",,"
+{""platform"": ""Netflix"", ""query_type"": ""availability"", ""title"": ""Tamil""}","{'platform': 'Netflix', 'query_type': 'availability', 'title': 'Tamil'}"
+play the latest songs from the movie soundtrack," play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs from the movie soundtrack
+
+Query: play the latest songs",,"
+{""genre"": ""Mystery"", ""language"": ""Hindi"", ""recency"": ""latest""}","{'genre': 'Mystery', 'language': 'Hindi', 'recency': 'latest'}"
+who acted in the movie related to the film scam," the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a scam
+
+JSON: the movie was a",,"
+{""actor"": ""Salman Khan"", ""genre"": ""Acting"", ""language"": ""Hindi""}","{'actor': 'Salman Khan', 'genre': 'Acting', 'language': 'Hindi'}"

@@ -17,12 +17,10 @@ adapter/
 checkpoints/
 model/*
 models/*
-artifacts*/
 
 # Dataset and cache files
 *.cache
 *.jsonl
-*.csv
 *.tsv
 
 # Logs
@@ -44,6 +42,3 @@ Thumbs.db
 
 # Ignore Python bytecode directories
 __pycache__/
-
-# Ignore generated reports/artifacts if you only want source
-artifacts*/

@@ -1,0 +1,2501 @@
+id,query,intent_json,input_prompt,target_json
+1502,2021 films,"{""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: 2021 films
+JSON:","{""year"": 2021}"
+2587,pc ka panchayat,"{""actor"": ""Priyanka Chopra"", ""title"": ""Panchayat""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: pc ka panchayat
+JSON:","{""actor"": ""Priyanka Chopra"", ""title"": ""Panchayat""}"
+2654,thunivu jaisi movie,"{""similar_to"": ""Thunivu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: thunivu jaisi movie
+JSON:","{""similar_to"": ""Thunivu""}"
+1056,is delhi crime available on SonyLIV,"{""platform"": ""SonyLIV"", ""query_type"": ""availability"", ""title"": ""Delhi Crime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is delhi crime available on SonyLIV
+JSON:","{""platform"": ""SonyLIV"", ""query_type"": ""availability"", ""title"": ""Delhi Crime""}"
+706,king khan ki films,"{""actor"": ""Shah Rukh Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: king khan ki films
+JSON:","{""actor"": ""Shah Rukh Khan""}"
+107,new telugu lo biopic,"{""genre"": ""Biopic"", ""language"": ""Telugu"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: new telugu lo biopic
+JSON:","{""genre"": ""Biopic"", ""language"": ""Telugu"", ""recency"": ""latest""}"
+590,best marathi family,"{""genre"": ""Family"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best marathi family
+JSON:","{""genre"": ""Family"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}"
+2469,dark comedy movies of vicky kaushal,"{""actor"": ""Vicky Kaushal"", ""genre"": ""Dark comedy""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dark comedy movies of vicky kaushal
+JSON:","{""actor"": ""Vicky Kaushal"", ""genre"": ""Dark comedy""}"
+2414,similar to uri,"{""similar_to"": ""Uri""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: similar to uri
+JSON:","{""similar_to"": ""Uri""}"
+1601,drishyam,"{""title"": ""Drishyam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: drishyam
+JSON:","{""title"": ""Drishyam""}"
+2465,darling new movie bhool bhulaiyaa,"{""actor"": ""Prabhas"", ""recency"": ""latest"", ""title"": ""Bhool Bhulaiyaa""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: darling new movie bhool bhulaiyaa
+JSON:","{""actor"": ""Prabhas"", ""recency"": ""latest"", ""title"": ""Bhool Bhulaiyaa""}"
+229,hrithik superhit movies,"{""actor"": ""Hrithik Roshan"", ""rating_type"": ""hit""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: hrithik superhit movies
+JSON:","{""actor"": ""Hrithik Roshan"", ""rating_type"": ""hit""}"
+916,movies like sacred games,"{""similar_to"": ""Sacred Games""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like sacred games
+JSON:","{""similar_to"": ""Sacred Games""}"
+795,ranveer ka bahubali,"{""actor"": ""Ranveer Singh"", ""title"": ""Bahubali""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranveer ka bahubali
+JSON:","{""actor"": ""Ranveer Singh"", ""title"": ""Bahubali""}"
+3022,tiger ki best biopic film,"{""actor"": ""Tiger Shroff"", ""genre"": ""Biopic"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: tiger ki best biopic film
+JSON:","{""actor"": ""Tiger Shroff"", ""genre"": ""Biopic"", ""rating_type"": ""top rated""}"
+3544,must watch punjabi mystery film,"{""genre"": ""Mystery"", ""language"": ""Punjabi"", ""rating_type"": ""must watch""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: must watch punjabi mystery film
+JSON:","{""genre"": ""Mystery"", ""language"": ""Punjabi"", ""rating_type"": ""must watch""}"
+1074,movies like kabir singh,"{""similar_to"": ""Kabir Singh""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like kabir singh
+JSON:","{""similar_to"": ""Kabir Singh""}"
+3352,gehraiyaan type movie,"{""similar_to"": ""Gehraiyaan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: gehraiyaan type movie
+JSON:","{""similar_to"": ""Gehraiyaan""}"
+1745,kat supernatural movie,"{""actor"": ""Katrina Kaif"", ""genre"": ""Supernatural""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kat supernatural movie
+JSON:","{""actor"": ""Katrina Kaif"", ""genre"": ""Supernatural""}"
+1085,family supernatural movies 2020,"{""audience"": ""family"", ""genre"": ""Supernatural"", ""year"": 2020}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family supernatural movies 2020
+JSON:","{""audience"": ""family"", ""genre"": ""Supernatural"", ""year"": 2020}"
+927,show me Tamil movies from 2020,"{""language"": ""Tamil"", ""year"": 2020}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: show me Tamil movies from 2020
+JSON:","{""language"": ""Tamil"", ""year"": 2020}"
+3050,gujarati mystery web series,"{""content_type"": ""Web Series"", ""genre"": ""Mystery"", ""language"": ""Gujarati""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: gujarati mystery web series
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Mystery"", ""language"": ""Gujarati""}"
+1118,uri OTT release,"{""query_type"": ""availability"", ""title"": ""Uri""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: uri OTT release
+JSON:","{""query_type"": ""availability"", ""title"": ""Uri""}"
+643,777 charlie kahan dekhein,"{""query_type"": ""availability"", ""title"": ""777 Charlie""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: 777 charlie kahan dekhein
+JSON:","{""query_type"": ""availability"", ""title"": ""777 Charlie""}"
+4768,is bahubali available on Jio Cinema,"{""platform"": ""Jio Cinema"", ""query_type"": ""availability"", ""title"": ""Bahubali""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is bahubali available on Jio Cinema
+JSON:","{""platform"": ""Jio Cinema"", ""query_type"": ""availability"", ""title"": ""Bahubali""}"
+502,nawaz film jawan,"{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Jawan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawaz film jawan
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Jawan""}"
+4067,fahad ki best thriller film,"{""actor"": ""Fahadh Faasil"", ""genre"": ""Thriller"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: fahad ki best thriller film
+JSON:","{""actor"": ""Fahadh Faasil"", ""genre"": ""Thriller"", ""rating_type"": ""top rated""}"
+334,taapsee wali gehraiyaan,"{""actor"": ""Taapsee Pannu"", ""title"": ""Gehraiyaan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: taapsee wali gehraiyaan
+JSON:","{""actor"": ""Taapsee Pannu"", ""title"": ""Gehraiyaan""}"
+4685,superstar rajini sacred games movie,"{""actor"": ""Rajinikanth"", ""title"": ""Sacred Games""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: superstar rajini sacred games movie
+JSON:","{""actor"": ""Rajinikanth"", ""title"": ""Sacred Games""}"
+487,movies by mani ratnam,"{""director"": ""Mani Ratnam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies by mani ratnam
+JSON:","{""director"": ""Mani Ratnam""}"
+1963,vikram good hai ya nahi,"{""rating_type"": ""top rated"", ""title"": ""Vikram""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vikram good hai ya nahi
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Vikram""}"
+394,vidya movies,"{""actor"": ""Vidya Balan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vidya movies
+JSON:","{""actor"": ""Vidya Balan""}"
+4843,how is kabir singh,"{""query_type"": ""rating/review"", ""title"": ""Kabir Singh""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: how is kabir singh
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Kabir Singh""}"
+4867,vikram imdb rating,"{""query_type"": ""rating/review"", ""title"": ""Vikram""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vikram imdb rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Vikram""}"
+1756,YouTube pe kya dekhein,"{""platform"": ""YouTube""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: YouTube pe kya dekhein
+JSON:","{""platform"": ""YouTube""}"
+2516,best hindi family,"{""genre"": ""Family"", ""language"": ""Hindi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best hindi family
+JSON:","{""genre"": ""Family"", ""language"": ""Hindi"", ""rating_type"": ""top rated""}"
+3586,mirzapur OTT release,"{""query_type"": ""availability"", ""title"": ""Mirzapur""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mirzapur OTT release
+JSON:","{""query_type"": ""availability"", ""title"": ""Mirzapur""}"
+4316,best malayalam family,"{""genre"": ""Family"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best malayalam family
+JSON:","{""genre"": ""Family"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}"
+4967,mohanlal wali haseen dillruba,"{""actor"": ""Mohanlal"", ""title"": ""Haseen Dillruba""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mohanlal wali haseen dillruba
+JSON:","{""actor"": ""Mohanlal"", ""title"": ""Haseen Dillruba""}"
+2100,historical movies of taapsee,"{""actor"": ""Taapsee Pannu"", ""genre"": ""Historical""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: historical movies of taapsee
+JSON:","{""actor"": ""Taapsee Pannu"", ""genre"": ""Historical""}"
+3600,kareena sports movie,"{""actor"": ""Kareena Kapoor"", ""genre"": ""Sports""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kareena sports movie
+JSON:","{""actor"": ""Kareena Kapoor"", ""genre"": ""Sports""}"
+4122,what are good psychological thriller films on YouTube,"{""genre"": ""Psychological thriller"", ""platform"": ""YouTube"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good psychological thriller films on YouTube
+JSON:","{""genre"": ""Psychological thriller"", ""platform"": ""YouTube"", ""rating_type"": ""top rated""}"
+30,rk drishyam movie,"{""actor"": ""Ranbir Kapoor"", ""title"": ""Drishyam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: rk drishyam movie
+JSON:","{""actor"": ""Ranbir Kapoor"", ""title"": ""Drishyam""}"
+66,movies like bahubali,"{""similar_to"": ""Bahubali""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like bahubali
+JSON:","{""similar_to"": ""Bahubali""}"
+839,movies with nawaz,"{""actor"": ""Nawazuddin Siddiqui""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies with nawaz
+JSON:","{""actor"": ""Nawazuddin Siddiqui""}"
+3907,aadujeevitham OTT release,"{""query_type"": ""availability"", ""title"": ""Aadujeevitham""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: aadujeevitham OTT release
+JSON:","{""query_type"": ""availability"", ""title"": ""Aadujeevitham""}"
+3774,new marathi biopic,"{""genre"": ""Biopic"", ""language"": ""Marathi"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: new marathi biopic
+JSON:","{""genre"": ""Biopic"", ""language"": ""Marathi"", ""recency"": ""latest""}"
+4636,pathaan full movie,"{""title"": ""Pathaan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: pathaan full movie
+JSON:","{""title"": ""Pathaan""}"
+3162,bangla thriller film,"{""genre"": ""Thriller"", ""language"": ""Bengali""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bangla thriller film
+JSON:","{""genre"": ""Thriller"", ""language"": ""Bengali""}"
+2660,tamil mein 2020,"{""language"": ""Tamil"", ""year"": 2020}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: tamil mein 2020
+JSON:","{""language"": ""Tamil"", ""year"": 2020}"
+4616,scam 1992 full movie,"{""title"": ""Scam 1992""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: scam 1992 full movie
+JSON:","{""title"": ""Scam 1992""}"
+4629,fukrey 3 movie,"{""title"": ""Fukrey 3""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: fukrey 3 movie
+JSON:","{""title"": ""Fukrey 3""}"
+2452,priyanka superhit movies,"{""actor"": ""Priyanka Chopra"", ""rating_type"": ""hit""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: priyanka superhit movies
+JSON:","{""actor"": ""Priyanka Chopra"", ""rating_type"": ""hit""}"
+2847,best mystery movies of 2019,"{""genre"": ""Mystery"", ""rating_type"": ""top rated"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best mystery movies of 2019
+JSON:","{""genre"": ""Mystery"", ""rating_type"": ""top rated"", ""year"": 2019}"
+1145,mallu film show,"{""content_type"": ""Web Series"", ""language"": ""Malayalam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mallu film show
+JSON:","{""content_type"": ""Web Series"", ""language"": ""Malayalam""}"
+3079,Amazon Prime hindi,"{""language"": ""Hindi"", ""platform"": ""Amazon Prime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: Amazon Prime hindi
+JSON:","{""language"": ""Hindi"", ""platform"": ""Amazon Prime""}"
+1104,ranbir action movie,"{""actor"": ""Ranbir Kapoor"", ""genre"": ""Action""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranbir action movie
+JSON:","{""actor"": ""Ranbir Kapoor"", ""genre"": ""Action""}"
+169,I want to watch something sad,"{""mood"": ""sad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: I want to watch something sad
+JSON:","{""mood"": ""sad""}"
+1671,kollywood supernatural web series,"{""content_type"": ""Web Series"", ""genre"": ""Supernatural"", ""language"": ""Tamil""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kollywood supernatural web series
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Supernatural"", ""language"": ""Tamil""}"
+2571,best of anurag kashyap,"{""director"": ""Anurag Kashyap"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best of anurag kashyap
+JSON:","{""director"": ""Anurag Kashyap"", ""rating_type"": ""top rated""}"
+2378,is kgf chapter 2 worth watching,"{""query_type"": ""rating/review"", ""title"": ""KGF Chapter 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is kgf chapter 2 worth watching
+JSON:","{""query_type"": ""rating/review"", ""title"": ""KGF Chapter 2""}"
+4396,prabhas all movies list,"{""actor"": ""Prabhas""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: prabhas all movies list
+JSON:","{""actor"": ""Prabhas""}"
+4258,similar to varisu,"{""similar_to"": ""Varisu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: similar to varisu
+JSON:","{""similar_to"": ""Varisu""}"
+3863,historical movies of mammukka,"{""actor"": ""mammootty"", ""genre"": ""Historical""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: historical movies of mammukka
+JSON:","{""actor"": ""mammootty"", ""genre"": ""Historical""}"
+24,underrated Hindi films,"{""language"": ""Hindi"", ""rating_type"": ""underrated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: underrated Hindi films
+JSON:","{""language"": ""Hindi"", ""rating_type"": ""underrated""}"
+2634,bhojpuri drama movies,"{""genre"": ""Drama"", ""language"": ""Bhojpuri""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bhojpuri drama movies
+JSON:","{""genre"": ""Drama"", ""language"": ""Bhojpuri""}"
+3341,family movies 2018,"{""genre"": ""Family"", ""year"": 2018}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family movies 2018
+JSON:","{""genre"": ""Family"", ""year"": 2018}"
+2216,family horror movies 2021,"{""audience"": ""family"", ""genre"": ""Horror"", ""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family horror movies 2021
+JSON:","{""audience"": ""family"", ""genre"": ""Horror"", ""year"": 2021}"
+3683,what are good family films on ZEE5,"{""genre"": ""Family"", ""platform"": ""ZEE5"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good family films on ZEE5
+JSON:","{""genre"": ""Family"", ""platform"": ""ZEE5"", ""rating_type"": ""top rated""}"
+4725,is pagglait worth watching,"{""query_type"": ""rating/review"", ""title"": ""Pagglait""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is pagglait worth watching
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Pagglait""}"
+1908,vijay deverakonda film varisu,"{""actor"": ""Vijay Deverakonda"", ""title"": ""Varisu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vijay deverakonda film varisu
+JSON:","{""actor"": ""Vijay Deverakonda"", ""title"": ""Varisu""}"
+85,movies with alia bhatt,"{""actor"": ""Alia Bhatt""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies with alia bhatt
+JSON:","{""actor"": ""Alia Bhatt""}"
+228,show me Punjabi movies from 2021,"{""language"": ""Punjabi"", ""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: show me Punjabi movies from 2021
+JSON:","{""language"": ""Punjabi"", ""year"": 2021}"
+297,top OTT show recommend karo,"{""content_type"": ""Web Series"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top OTT show recommend karo
+JSON:","{""content_type"": ""Web Series"", ""rating_type"": ""top rated""}"
+1002,the family man jaisi movie,"{""similar_to"": ""The Family Man""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: the family man jaisi movie
+JSON:","{""similar_to"": ""The Family Man""}"
+2139,what are good dark comedy films on Netflix,"{""genre"": ""Dark comedy"", ""platform"": ""Netflix"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good dark comedy films on Netflix
+JSON:","{""genre"": ""Dark comedy"", ""platform"": ""Netflix"", ""rating_type"": ""top rated""}"
+712,ulaganayagan action movie,"{""actor"": ""Kamal Haasan"", ""genre"": ""Action""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ulaganayagan action movie
+JSON:","{""actor"": ""Kamal Haasan"", ""genre"": ""Action""}"
+2802,pagglait available hai kya OTT pe,"{""query_type"": ""availability"", ""title"": ""Pagglait""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: pagglait available hai kya OTT pe
+JSON:","{""query_type"": ""availability"", ""title"": ""Pagglait""}"
+2528,nawazuddin wali manjummel boys,"{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Manjummel Boys""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawazuddin wali manjummel boys
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Manjummel Boys""}"
+3753,haseen dillruba good hai ya nahi,"{""rating_type"": ""top rated"", ""title"": ""Haseen Dillruba""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: haseen dillruba good hai ya nahi
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Haseen Dillruba""}"
+3322,movies starring allu arjun,"{""actor"": ""Allu Arjun""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies starring allu arjun
+JSON:","{""actor"": ""Allu Arjun""}"
+3182,vikram vedha,"{""title"": ""Vikram Vedha""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vikram vedha
+JSON:","{""title"": ""Vikram Vedha""}"
+4184,Netflix telugu,"{""language"": ""Telugu"", ""platform"": ""Netflix""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: Netflix telugu
+JSON:","{""language"": ""Telugu"", ""platform"": ""Netflix""}"
+1616,aspirants with lalettan,"{""actor"": ""Mohanlal"", ""title"": ""Aspirants""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: aspirants with lalettan
+JSON:","{""actor"": ""Mohanlal"", ""title"": ""Aspirants""}"
+3025,good dark movie,"{""mood"": ""dark"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: good dark movie
+JSON:","{""mood"": ""dark"", ""rating_type"": ""top rated""}"
+1414,dobaaraa review,"{""query_type"": ""rating/review"", ""title"": ""Dobaaraa""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dobaaraa review
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Dobaaraa""}"
+764,drishyam jaisi movie,"{""similar_to"": ""Drishyam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: drishyam jaisi movie
+JSON:","{""similar_to"": ""Drishyam""}"
+656,mohanlal kgf movie,"{""actor"": ""Mohanlal"", ""title"": ""KGF""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mohanlal kgf movie
+JSON:","{""actor"": ""Mohanlal"", ""title"": ""KGF""}"
+4798,brahmastra jesi film suggest karo,"{""similar_to"": ""Brahmastra""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: brahmastra jesi film suggest karo
+JSON:","{""similar_to"": ""Brahmastra""}"
+3850,mani ratnam film with ayushman,"{""actor"": ""Ayushmann Khurrana"", ""title"": ""Mani Ratnam film""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mani ratnam film with ayushman
+JSON:","{""actor"": ""Ayushmann Khurrana"", ""title"": ""Mani Ratnam film""}"
+4154,is ponniyin selvan available on ZEE5,"{""platform"": ""ZEE5"", ""query_type"": ""availability"", ""title"": ""Ponniyin Selvan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is ponniyin selvan available on ZEE5
+JSON:","{""platform"": ""ZEE5"", ""query_type"": ""availability"", ""title"": ""Ponniyin Selvan""}"
+469,vijay ki best sci-fi film,"{""actor"": ""Vijay Deverakonda"", ""genre"": ""Sci-Fi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vijay ki best sci-fi film
+JSON:","{""actor"": ""Vijay Deverakonda"", ""genre"": ""Sci-Fi"", ""rating_type"": ""top rated""}"
+158,show me Malayalam movies from 2019,"{""language"": ""Malayalam"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: show me Malayalam movies from 2019
+JSON:","{""language"": ""Malayalam"", ""year"": 2019}"
+1296,kantara available hai kya OTT pe,"{""query_type"": ""availability"", ""title"": ""Kantara""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kantara available hai kya OTT pe
+JSON:","{""query_type"": ""availability"", ""title"": ""Kantara""}"
+498,underrated Bengali films,"{""language"": ""Bengali"", ""rating_type"": ""underrated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: underrated Bengali films
+JSON:","{""language"": ""Bengali"", ""rating_type"": ""underrated""}"
+4741,marathi inspirational movie,"{""language"": ""Marathi"", ""mood"": ""inspirational""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: marathi inspirational movie
+JSON:","{""language"": ""Marathi"", ""mood"": ""inspirational""}"
+2941,roohi with rajini,"{""actor"": ""Rajinikanth"", ""title"": ""Roohi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: roohi with rajini
+JSON:","{""actor"": ""Rajinikanth"", ""title"": ""Roohi""}"
+3457,nawaz new movie kesari,"{""actor"": ""Nawazuddin Siddiqui"", ""recency"": ""latest"", ""title"": ""Kesari""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawaz new movie kesari
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""recency"": ""latest"", ""title"": ""Kesari""}"
+374,is dream girl 2 available on YouTube,"{""platform"": ""YouTube"", ""query_type"": ""availability"", ""title"": ""Dream Girl 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is dream girl 2 available on YouTube
+JSON:","{""platform"": ""YouTube"", ""query_type"": ""availability"", ""title"": ""Dream Girl 2""}"
+80,I want to watch something happy,"{""mood"": ""happy""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: I want to watch something happy
+JSON:","{""mood"": ""happy""}"
+1554,koi romantic movie suggest karo,"{""mood"": ""romantic""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: koi romantic movie suggest karo
+JSON:","{""mood"": ""romantic""}"
+1670,movies starring badshah,"{""actor"": ""Shah Rukh Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies starring badshah
+JSON:","{""actor"": ""Shah Rukh Khan""}"
+2132,what are good historical films on SonyLIV,"{""genre"": ""Historical"", ""platform"": ""SonyLIV"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good historical films on SonyLIV
+JSON:","{""genre"": ""Historical"", ""platform"": ""SonyLIV"", ""rating_type"": ""top rated""}"
+4440,best malayalam mystery,"{""genre"": ""Mystery"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best malayalam mystery
+JSON:","{""genre"": ""Mystery"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}"
+466,mammootty ke saare movies,"{""actor"": ""Mammootty""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mammootty ke saare movies
+JSON:","{""actor"": ""Mammootty""}"
+249,award winning Malayalam films,"{""language"": ""Malayalam"", ""rating_type"": ""award winning""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: award winning Malayalam films
+JSON:","{""language"": ""Malayalam"", ""rating_type"": ""award winning""}"
+932,where to watch andhadhun,"{""query_type"": ""availability"", ""title"": ""Andhadhun""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: where to watch andhadhun
+JSON:","{""query_type"": ""availability"", ""title"": ""Andhadhun""}"
+1336,salman wali movie,"{""actor"": ""Salman Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: salman wali movie
+JSON:","{""actor"": ""Salman Khan""}"
+4525,thriller movies of greek god,"{""actor"": ""Hrithik Roshan"", ""genre"": ""Thriller""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: thriller movies of greek god
+JSON:","{""actor"": ""Hrithik Roshan"", ""genre"": ""Thriller""}"
+1339,is the family man worth watching,"{""query_type"": ""rating/review"", ""title"": ""The Family Man""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is the family man worth watching
+JSON:","{""query_type"": ""rating/review"", ""title"": ""The Family Man""}"
+1407,bachchan sahab movies,"{""actor"": ""Amitabh Bachchan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bachchan sahab movies
+JSON:","{""actor"": ""Amitabh Bachchan""}"
+1091,dark comedy show,"{""content_type"": ""Web Series"", ""genre"": ""Dark comedy""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dark comedy show
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Dark comedy""}"
+4210,rajini ki films,"{""actor"": ""Rajinikanth""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: rajini ki films
+JSON:","{""actor"": ""Rajinikanth""}"
+743,top rated Malayalam action,"{""genre"": ""Action"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Malayalam action
+JSON:","{""genre"": ""Action"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}"
+2324,gujarati comedy web series,"{""content_type"": ""Web Series"", ""genre"": ""Comedy"", ""language"": ""Gujarati""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: gujarati comedy web series
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Comedy"", ""language"": ""Gujarati""}"
+3602,pk rating,"{""query_type"": ""rating/review"", ""title"": ""PK""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: pk rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""PK""}"
+2124,is premalu good,"{""rating_type"": ""top rated"", ""title"": ""Premalu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is premalu good
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Premalu""}"
+2095,how is drishyam,"{""query_type"": ""rating/review"", ""title"": ""Drishyam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: how is drishyam
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Drishyam""}"
+241,best mystery movies of 2023,"{""genre"": ""Mystery"", ""rating_type"": ""top rated"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best mystery movies of 2023
+JSON:","{""genre"": ""Mystery"", ""rating_type"": ""top rated"", ""year"": 2023}"
+2352,greek god wali brahmastra,"{""actor"": ""Hrithik Roshan"", ""title"": ""Brahmastra""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: greek god wali brahmastra
+JSON:","{""actor"": ""Hrithik Roshan"", ""title"": ""Brahmastra""}"
+1371,omg 2 rating,"{""query_type"": ""rating/review"", ""title"": ""OMG 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: omg 2 rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""OMG 2""}"
+1058,top rated Tamil supernatural,"{""genre"": ""Supernatural"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Tamil supernatural
+JSON:","{""genre"": ""Supernatural"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}"
+4817,vijay deverakonda ke saare movies,"{""actor"": ""Vijay Deverakonda""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vijay deverakonda ke saare movies
+JSON:","{""actor"": ""Vijay Deverakonda""}"
+200,dark comedy movies of ranveer singh,"{""actor"": ""Ranveer Singh"", ""genre"": ""Dark comedy""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dark comedy movies of ranveer singh
+JSON:","{""actor"": ""Ranveer Singh"", ""genre"": ""Dark comedy""}"
+2281,is garuda gamana vrishabha vahana worth watching,"{""query_type"": ""rating/review"", ""title"": ""Garuda Gamana Vrishabha Vahana""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is garuda gamana vrishabha vahana worth watching
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Garuda Gamana Vrishabha Vahana""}"
+4750,supernatural movies of lalettan,"{""actor"": ""Mohanlal"", ""genre"": ""Supernatural""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: supernatural movies of lalettan
+JSON:","{""actor"": ""Mohanlal"", ""genre"": ""Supernatural""}"
+2221,motivational wali movie,"{""mood"": ""motivational""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: motivational wali movie
+JSON:","{""mood"": ""motivational""}"
+4772,raees good hai ya nahi,"{""rating_type"": ""top rated"", ""title"": ""Raees""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: raees good hai ya nahi
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Raees""}"
+2820,mujhe romantic movie chahiye,"{""mood"": ""romantic""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mujhe romantic movie chahiye
+JSON:","{""mood"": ""romantic""}"
+3151,nawazuddin ki best sports film,"{""actor"": ""Nawazuddin Siddiqui"", ""genre"": ""Sports"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawazuddin ki best sports film
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""genre"": ""Sports"", ""rating_type"": ""top rated""}"
+4257,ranveer singh wali sardar udham,"{""actor"": ""Ranveer Singh"", ""title"": ""Sardar Udham""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranveer singh wali sardar udham
+JSON:","{""actor"": ""Ranveer Singh"", ""title"": ""Sardar Udham""}"
+3108,thappad OTT release,"{""query_type"": ""availability"", ""title"": ""Thappad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: thappad OTT release
+JSON:","{""query_type"": ""availability"", ""title"": ""Thappad""}"
+1974,what are good mystery films on Jio Cinema,"{""genre"": ""Mystery"", ""platform"": ""Jio Cinema"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good mystery films on Jio Cinema
+JSON:","{""genre"": ""Mystery"", ""platform"": ""Jio Cinema"", ""rating_type"": ""top rated""}"
+1376,haseen dillruba full movie,"{""title"": ""Haseen Dillruba""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: haseen dillruba full movie
+JSON:","{""title"": ""Haseen Dillruba""}"
+3969,top rated Telugu thriller,"{""genre"": ""Thriller"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Telugu thriller
+JSON:","{""genre"": ""Thriller"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}"
+4063,dips new movie garuda gamana vrishabha vahana,"{""actor"": ""Deepika Padukone"", ""recency"": ""latest"", ""title"": ""Garuda Gamana Vrishabha Vahana""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dips new movie garuda gamana vrishabha vahana
+JSON:","{""actor"": ""Deepika Padukone"", ""recency"": ""latest"", ""title"": ""Garuda Gamana Vrishabha Vahana""}"
+4446,ulaganayagan wali sardar udham,"{""actor"": ""Kamal Haasan"", ""title"": ""Sardar Udham""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ulaganayagan wali sardar udham
+JSON:","{""actor"": ""Kamal Haasan"", ""title"": ""Sardar Udham""}"
+3558,aamir khan ke saare movies,"{""actor"": ""Aamir Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: aamir khan ke saare movies
+JSON:","{""actor"": ""Aamir Khan""}"
+965,ranveer singh ki films,"{""actor"": ""Ranveer Singh""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranveer singh ki films
+JSON:","{""actor"": ""Ranveer Singh""}"
+180,movies like gulabo sitabo,"{""similar_to"": ""Gulabo Sitabo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like gulabo sitabo
+JSON:","{""similar_to"": ""Gulabo Sitabo""}"
+3699,liger streaming kahan hai,"{""query_type"": ""availability"", ""title"": ""Liger""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: liger streaming kahan hai
+JSON:","{""query_type"": ""availability"", ""title"": ""Liger""}"
+3822,bebo ka 2025 wala,"{""actor"": ""Kareena Kapoor"", ""year"": 2025}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bebo ka 2025 wala
+JSON:","{""actor"": ""Kareena Kapoor"", ""year"": 2025}"
+4879,kollywood crime movies,"{""genre"": ""Crime"", ""language"": ""Tamil""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kollywood crime movies
+JSON:","{""genre"": ""Crime"", ""language"": ""Tamil""}"
+3900,sacred games review,"{""query_type"": ""rating/review"", ""title"": ""Sacred Games""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: sacred games review
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Sacred Games""}"
+4488,ayushman 2023 movie,"{""actor"": ""Ayushmann Khurrana"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ayushman 2023 movie
+JSON:","{""actor"": ""Ayushmann Khurrana"", ""year"": 2023}"
+3239,Amazon Prime OTT show,"{""content_type"": ""Web Series"", ""platform"": ""Amazon Prime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: Amazon Prime OTT show
+JSON:","{""content_type"": ""Web Series"", ""platform"": ""Amazon Prime""}"
+2975,movies like delhi crime,"{""similar_to"": ""Delhi Crime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like delhi crime
+JSON:","{""similar_to"": ""Delhi Crime""}"
+3581,scam 1992 OTT release,"{""query_type"": ""availability"", ""title"": ""Scam 1992""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: scam 1992 OTT release
+JSON:","{""query_type"": ""availability"", ""title"": ""Scam 1992""}"
+2888,dasara review,"{""query_type"": ""rating/review"", ""title"": ""Dasara""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dasara review
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Dasara""}"
+2576,skanda imdb rating,"{""query_type"": ""rating/review"", ""title"": ""Skanda""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: skanda imdb rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Skanda""}"
+1420,raees jesi film suggest karo,"{""similar_to"": ""Raees""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: raees jesi film suggest karo
+JSON:","{""similar_to"": ""Raees""}"
+3908,SonyLIV marathi,"{""language"": ""Marathi"", ""platform"": ""SonyLIV""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: SonyLIV marathi
+JSON:","{""language"": ""Marathi"", ""platform"": ""SonyLIV""}"
+4674,rk ka 2024 wala,"{""actor"": ""Ranbir Kapoor"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: rk ka 2024 wala
+JSON:","{""actor"": ""Ranbir Kapoor"", ""year"": 2024}"
+4903,top rated Telugu romance,"{""genre"": ""Romance"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Telugu romance
+JSON:","{""genre"": ""Romance"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}"
+1861,if you liked thappad,"{""similar_to"": ""Thappad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: if you liked thappad
+JSON:","{""similar_to"": ""Thappad""}"
+9,top series recommend karo,"{""content_type"": ""Web Series"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top series recommend karo
+JSON:","{""content_type"": ""Web Series"", ""rating_type"": ""top rated""}"
+2895,brahmastra review,"{""query_type"": ""rating/review"", ""title"": ""Brahmastra""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: brahmastra review
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Brahmastra""}"
+2848,bhai ke saare movies,"{""actor"": ""Salman Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bhai ke saare movies
+JSON:","{""actor"": ""Salman Khan""}"
+3665,nawaz wali raees,"{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Raees""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawaz wali raees
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Raees""}"
+145,skanda ka rating kya hai,"{""query_type"": ""rating/review"", ""title"": ""Skanda""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: skanda ka rating kya hai
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Skanda""}"
+2105,telugu horror,"{""genre"": ""Horror"", ""language"": ""Telugu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: telugu horror
+JSON:","{""genre"": ""Horror"", ""language"": ""Telugu""}"
+3144,panchayat jesi film suggest karo,"{""similar_to"": ""Panchayat""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: panchayat jesi film suggest karo
+JSON:","{""similar_to"": ""Panchayat""}"
+842,hrithik all movies list,"{""actor"": ""Hrithik Roshan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: hrithik all movies list
+JSON:","{""actor"": ""Hrithik Roshan""}"
+1129,superstar rajini superhit movies,"{""actor"": ""Rajinikanth"", ""rating_type"": ""hit""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: superstar rajini superhit movies
+JSON:","{""actor"": ""Rajinikanth"", ""rating_type"": ""hit""}"
+152,top rated Malayalam sports,"{""genre"": ""Sports"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Malayalam sports
+JSON:","{""genre"": ""Sports"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}"
+3592,how is bramayugam,"{""query_type"": ""rating/review"", ""title"": ""Bramayugam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: how is bramayugam
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Bramayugam""}"
+1053,if you liked gehraiyaan,"{""similar_to"": ""Gehraiyaan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: if you liked gehraiyaan
+JSON:","{""similar_to"": ""Gehraiyaan""}"
+1591,taapsee film premalu,"{""actor"": ""Taapsee Pannu"", ""title"": ""Premalu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: taapsee film premalu
+JSON:","{""actor"": ""Taapsee Pannu"", ""title"": ""Premalu""}"
+3009,family romance movies 2023,"{""audience"": ""family"", ""genre"": ""Romance"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family romance movies 2023
+JSON:","{""audience"": ""family"", ""genre"": ""Romance"", ""year"": 2023}"
+2030,top rated Punjabi family,"{""genre"": ""Family"", ""language"": ""Punjabi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Punjabi family
+JSON:","{""genre"": ""Family"", ""language"": ""Punjabi"", ""rating_type"": ""top rated""}"
+3419,top kannada family movies,"{""genre"": ""Family"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top kannada family movies
+JSON:","{""genre"": ""Family"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}"
+1808,bebo ke saare movies,"{""actor"": ""Kareena Kapoor""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bebo ke saare movies
+JSON:","{""actor"": ""Kareena Kapoor""}"
+2697,marathi crime film,"{""genre"": ""Crime"", ""language"": ""Marathi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: marathi crime film
+JSON:","{""genre"": ""Crime"", ""language"": ""Marathi""}"
+3040,kat wali bard of blood,"{""actor"": ""Katrina Kaif"", ""title"": ""Bard of Blood""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kat wali bard of blood
+JSON:","{""actor"": ""Katrina Kaif"", ""title"": ""Bard of Blood""}"
+473,greek god drama movie,"{""actor"": ""Hrithik Roshan"", ""genre"": ""Drama""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: greek god drama movie
+JSON:","{""actor"": ""Hrithik Roshan"", ""genre"": ""Drama""}"
+3290,lokesh kanagaraj 2021 movie,"{""director"": ""Lokesh Kanagaraj"", ""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: lokesh kanagaraj 2021 movie
+JSON:","{""director"": ""Lokesh Kanagaraj"", ""year"": 2021}"
+4075,best mallu film movies 2022,"{""language"": ""Malayalam"", ""rating_type"": ""top rated"", ""year"": 2022}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best mallu film movies 2022
+JSON:","{""language"": ""Malayalam"", ""rating_type"": ""top rated"", ""year"": 2022}"
+3497,is sacred games available on Jio Cinema,"{""platform"": ""Jio Cinema"", ""query_type"": ""availability"", ""title"": ""Sacred Games""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is sacred games available on Jio Cinema
+JSON:","{""platform"": ""Jio Cinema"", ""query_type"": ""availability"", ""title"": ""Sacred Games""}"
+280,top rated Telugu comedy,"{""genre"": ""Comedy"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Telugu comedy
+JSON:","{""genre"": ""Comedy"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}"
+1742,koi sad movie suggest karo,"{""mood"": ""sad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: koi sad movie suggest karo
+JSON:","{""mood"": ""sad""}"
+4625,vidya jalsa movie,"{""actor"": ""Vidya Balan"", ""title"": ""Jalsa""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vidya jalsa movie
+JSON:","{""actor"": ""Vidya Balan"", ""title"": ""Jalsa""}"
+2887,biopic show,"{""content_type"": ""Web Series"", ""genre"": ""Biopic""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: biopic show
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Biopic""}"
+1942,movies starring kareena,"{""actor"": ""Kareena Kapoor""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies starring kareena
+JSON:","{""actor"": ""Kareena Kapoor""}"
+101,feeling sad movie,"{""mood"": ""sad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: feeling sad movie
+JSON:","{""mood"": ""sad""}"
+2805,top rated Bengali psychological thriller,"{""genre"": ""Psychological thriller"", ""language"": ""Bengali"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Bengali psychological thriller
+JSON:","{""genre"": ""Psychological thriller"", ""language"": ""Bengali"", ""rating_type"": ""top rated""}"
+3571,mohanlal ki films,"{""actor"": ""Mohanlal""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mohanlal ki films
+JSON:","{""actor"": ""Mohanlal""}"
+3685,vicky omg 2 movie,"{""actor"": ""Vicky Kaushal"", ""title"": ""OMG 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vicky omg 2 movie
+JSON:","{""actor"": ""Vicky Kaushal"", ""title"": ""OMG 2""}"
+3662,sad t'wood film,"{""language"": ""Telugu"", ""mood"": ""sad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: sad t'wood film
+JSON:","{""language"": ""Telugu"", ""mood"": ""sad""}"
+531,roohi streaming kahan hai,"{""query_type"": ""availability"", ""title"": ""Roohi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: roohi streaming kahan hai
+JSON:","{""query_type"": ""availability"", ""title"": ""Roohi""}"
+1887,nawaz film manjummel boys,"{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Manjummel Boys""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawaz film manjummel boys
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Manjummel Boys""}"
+682,best punjabi mystery,"{""genre"": ""Mystery"", ""language"": ""Punjabi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best punjabi mystery
+JSON:","{""genre"": ""Mystery"", ""language"": ""Punjabi"", ""rating_type"": ""top rated""}"
+3795,mirzapur streaming kahan hai,"{""query_type"": ""availability"", ""title"": ""Mirzapur""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mirzapur streaming kahan hai
+JSON:","{""query_type"": ""availability"", ""title"": ""Mirzapur""}"
+3945,top gujarati family movies,"{""genre"": ""Family"", ""language"": ""Gujarati"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top gujarati family movies
+JSON:","{""genre"": ""Family"", ""language"": ""Gujarati"", ""rating_type"": ""top rated""}"
+4667,nawaz rocky aur rani movie,"{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Rocky Aur Rani""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawaz rocky aur rani movie
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Rocky Aur Rani""}"
+2019,best biopic movies of 2025,"{""genre"": ""Biopic"", ""rating_type"": ""top rated"", ""year"": 2025}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best biopic movies of 2025
+JSON:","{""genre"": ""Biopic"", ""rating_type"": ""top rated"", ""year"": 2025}"
+1097,hi nanna with priyanka,"{""actor"": ""Priyanka Chopra"", ""title"": ""Hi Nanna""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: hi nanna with priyanka
+JSON:","{""actor"": ""Priyanka Chopra"", ""title"": ""Hi Nanna""}"
+830,I want to watch something funny,"{""mood"": ""funny""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: I want to watch something funny
+JSON:","{""mood"": ""funny""}"
+2806,supernatural movies of shah rukh,"{""actor"": ""Shah Rukh Khan"", ""genre"": ""Supernatural""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: supernatural movies of shah rukh
+JSON:","{""actor"": ""Shah Rukh Khan"", ""genre"": ""Supernatural""}"
+3830,show me Hindi movies from 2020,"{""language"": ""Hindi"", ""year"": 2020}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: show me Hindi movies from 2020
+JSON:","{""language"": ""Hindi"", ""year"": 2020}"
+4382,is kartik calling kartik good,"{""rating_type"": ""top rated"", ""title"": ""Kartik Calling Kartik""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is kartik calling kartik good
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Kartik Calling Kartik""}"
+3892,top rated Punjabi action,"{""genre"": ""Action"", ""language"": ""Punjabi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Punjabi action
+JSON:","{""genre"": ""Action"", ""language"": ""Punjabi"", ""rating_type"": ""top rated""}"
+765,ayushmann superhit movies,"{""actor"": ""Ayushmann Khurrana"", ""rating_type"": ""hit""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ayushmann superhit movies
+JSON:","{""actor"": ""Ayushmann Khurrana"", ""rating_type"": ""hit""}"
+2768,mard ko dard nahi hota kahan dekhein,"{""query_type"": ""availability"", ""title"": ""Mard Ko Dard Nahi Hota""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mard ko dard nahi hota kahan dekhein
+JSON:","{""query_type"": ""availability"", ""title"": ""Mard Ko Dard Nahi Hota""}"
+4329,similar to the family man,"{""similar_to"": ""The Family Man""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: similar to the family man
+JSON:","{""similar_to"": ""The Family Man""}"
+3296,mammukka ka beast,"{""actor"": ""mammootty"", ""title"": ""Beast""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mammukka ka beast
+JSON:","{""actor"": ""mammootty"", ""title"": ""Beast""}"
+2195,greek god 2021 movie,"{""actor"": ""Hrithik Roshan"", ""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: greek god 2021 movie
+JSON:","{""actor"": ""Hrithik Roshan"", ""year"": 2021}"
+2358,kantara good hai ya nahi,"{""rating_type"": ""top rated"", ""title"": ""Kantara""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kantara good hai ya nahi
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Kantara""}"
+3426,katrina new movie ponniyin selvan,"{""actor"": ""Katrina Kaif"", ""recency"": ""latest"", ""title"": ""Ponniyin Selvan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: katrina new movie ponniyin selvan
+JSON:","{""actor"": ""Katrina Kaif"", ""recency"": ""latest"", ""title"": ""Ponniyin Selvan""}"
+3980,shah rukh ki films,"{""actor"": ""Shah Rukh Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: shah rukh ki films
+JSON:","{""actor"": ""Shah Rukh Khan""}"
+912,taapsee movies,"{""actor"": ""Taapsee Pannu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: taapsee movies
+JSON:","{""actor"": ""Taapsee Pannu""}"
+3146,rrr with srk,"{""actor"": ""Shah Rukh Khan"", ""title"": ""RRR""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: rrr with srk
+JSON:","{""actor"": ""Shah Rukh Khan"", ""title"": ""RRR""}"
+1000,best marathi show,"{""content_type"": ""Web Series"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best marathi show
+JSON:","{""content_type"": ""Web Series"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}"
+3654,taapsee ki best thriller film,"{""actor"": ""Taapsee Pannu"", ""genre"": ""Thriller"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: taapsee ki best thriller film
+JSON:","{""actor"": ""Taapsee Pannu"", ""genre"": ""Thriller"", ""rating_type"": ""top rated""}"
+2484,mallu film romance web series,"{""content_type"": ""Web Series"", ""genre"": ""Romance"", ""language"": ""Malayalam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mallu film romance web series
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Romance"", ""language"": ""Malayalam""}"
+4077,best hindi mein historical,"{""genre"": ""Historical"", ""language"": ""Hindi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best hindi mein historical
+JSON:","{""genre"": ""Historical"", ""language"": ""Hindi"", ""rating_type"": ""top rated""}"
+2371,alia 2022 movie,"{""actor"": ""Alia Bhatt"", ""year"": 2022}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: alia 2022 movie
+JSON:","{""actor"": ""Alia Bhatt"", ""year"": 2022}"
+4839,top kannada thriller movies,"{""genre"": ""Thriller"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top kannada thriller movies
+JSON:","{""genre"": ""Thriller"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}"
+34,MX Player bhojpuri,"{""language"": ""Bhojpuri"", ""platform"": ""MX Player""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: MX Player bhojpuri
+JSON:","{""language"": ""Bhojpuri"", ""platform"": ""MX Player""}"
+3790,kat 2018 movie,"{""actor"": ""Katrina Kaif"", ""year"": 2018}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kat 2018 movie
+JSON:","{""actor"": ""Katrina Kaif"", ""year"": 2018}"
+1021,best mystery movies of 2021,"{""genre"": ""Mystery"", ""rating_type"": ""top rated"", ""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best mystery movies of 2021
+JSON:","{""genre"": ""Mystery"", ""rating_type"": ""top rated"", ""year"": 2021}"
+1648,family supernatural movies 2023,"{""audience"": ""family"", ""genre"": ""Supernatural"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family supernatural movies 2023
+JSON:","{""audience"": ""family"", ""genre"": ""Supernatural"", ""year"": 2023}"
+734,best movies on Netflix,"{""platform"": ""Netflix"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best movies on Netflix
+JSON:","{""platform"": ""Netflix"", ""rating_type"": ""top rated""}"
+4583,alia bhatt new film,"{""actor"": ""Alia Bhatt"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: alia bhatt new film
+JSON:","{""actor"": ""Alia Bhatt"", ""recency"": ""latest""}"
+3275,telugu lo supernatural 2023,"{""genre"": ""Supernatural"", ""language"": ""Telugu"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: telugu lo supernatural 2023
+JSON:","{""genre"": ""Supernatural"", ""language"": ""Telugu"", ""year"": 2023}"
+1621,ranveer singh comedy movie,"{""actor"": ""Ranveer Singh"", ""genre"": ""Comedy""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranveer singh comedy movie
+JSON:","{""actor"": ""Ranveer Singh"", ""genre"": ""Comedy""}"
+3136,irfan khan ke saare movies,"{""actor"": ""Irrfan Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: irfan khan ke saare movies
+JSON:","{""actor"": ""Irrfan Khan""}"
+2690,jawan jesi film suggest karo,"{""similar_to"": ""Jawan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: jawan jesi film suggest karo
+JSON:","{""similar_to"": ""Jawan""}"
+2708,family psychological thriller movies 2023,"{""audience"": ""family"", ""genre"": ""Psychological thriller"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family psychological thriller movies 2023
+JSON:","{""audience"": ""family"", ""genre"": ""Psychological thriller"", ""year"": 2023}"
+298,best kat movies,"{""actor"": ""Katrina Kaif"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best kat movies
+JSON:","{""actor"": ""Katrina Kaif"", ""rating_type"": ""top rated""}"
+2340,bengali web series,"{""content_type"": ""Web Series"", ""language"": ""Bengali""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bengali web series
+JSON:","{""content_type"": ""Web Series"", ""language"": ""Bengali""}"
+654,panchayat online,"{""title"": ""Panchayat""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: panchayat online
+JSON:","{""title"": ""Panchayat""}"
+3775,vidya mystery movie,"{""actor"": ""Vidya Balan"", ""genre"": ""Mystery""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vidya mystery movie
+JSON:","{""actor"": ""Vidya Balan"", ""genre"": ""Mystery""}"
+1256,movies starring rajini,"{""actor"": ""Rajinikanth""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies starring rajini
+JSON:","{""actor"": ""Rajinikanth""}"
+4521,rebel star prabhas wali movie,"{""actor"": ""Prabhas""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: rebel star prabhas wali movie
+JSON:","{""actor"": ""Prabhas""}"
+231,war ke jaise aur koi hai kya,"{""similar_to"": ""War""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: war ke jaise aur koi hai kya
+JSON:","{""similar_to"": ""War""}"
+3277,kartik calling kartik good hai ya nahi,"{""rating_type"": ""top rated"", ""title"": ""Kartik Calling Kartik""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kartik calling kartik good hai ya nahi
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Kartik Calling Kartik""}"
+3231,is dasara available on Disney+ Hotstar,"{""platform"": ""Disney+ Hotstar"", ""query_type"": ""availability"", ""title"": ""Dasara""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is dasara available on Disney+ Hotstar
+JSON:","{""platform"": ""Disney+ Hotstar"", ""query_type"": ""availability"", ""title"": ""Dasara""}"
+692,tollywood drama web series,"{""content_type"": ""Web Series"", ""genre"": ""Drama"", ""language"": ""Telugu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: tollywood drama web series
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Drama"", ""language"": ""Telugu""}"
+2755,best of kjo,"{""director"": ""Karan Johar"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best of kjo
+JSON:","{""director"": ""Karan Johar"", ""rating_type"": ""top rated""}"
+4864,ranveer ki best psychological thriller film,"{""actor"": ""Ranveer Singh"", ""genre"": ""Psychological thriller"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranveer ki best psychological thriller film
+JSON:","{""actor"": ""Ranveer Singh"", ""genre"": ""Psychological thriller"", ""rating_type"": ""top rated""}"
+970,intense night movie,"{""mood"": ""intense""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: intense night movie
+JSON:","{""mood"": ""intense""}"
+634,top rated Gujarati drama,"{""genre"": ""Drama"", ""language"": ""Gujarati"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Gujarati drama
+JSON:","{""genre"": ""Drama"", ""language"": ""Gujarati"", ""rating_type"": ""top rated""}"
+4093,lalettan ka manjummel boys,"{""actor"": ""Mohanlal"", ""title"": ""Manjummel Boys""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: lalettan ka manjummel boys
+JSON:","{""actor"": ""Mohanlal"", ""title"": ""Manjummel Boys""}"
+4078,SonyLIV biopic movies,"{""genre"": ""Biopic"", ""platform"": ""SonyLIV""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: SonyLIV biopic movies
+JSON:","{""genre"": ""Biopic"", ""platform"": ""SonyLIV""}"
+1322,raees,"{""title"": ""Raees""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: raees
+JSON:","{""title"": ""Raees""}"
+1832,mard ko dard nahi hota good hai ya nahi,"{""rating_type"": ""top rated"", ""title"": ""Mard Ko Dard Nahi Hota""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mard ko dard nahi hota good hai ya nahi
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Mard Ko Dard Nahi Hota""}"
+2179,best sports movies of 2019,"{""genre"": ""Sports"", ""rating_type"": ""top rated"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best sports movies of 2019
+JSON:","{""genre"": ""Sports"", ""rating_type"": ""top rated"", ""year"": 2019}"
+1418,movies like kgf,"{""similar_to"": ""KGF""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like kgf
+JSON:","{""similar_to"": ""KGF""}"
+1783,ranveer ka andhadhun,"{""actor"": ""Ranveer Singh"", ""title"": ""Andhadhun""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranveer ka andhadhun
+JSON:","{""actor"": ""Ranveer Singh"", ""title"": ""Andhadhun""}"
+4716,best sandalwood movies 2022,"{""language"": ""Kannada"", ""rating_type"": ""top rated"", ""year"": 2022}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best sandalwood movies 2022
+JSON:","{""language"": ""Kannada"", ""rating_type"": ""top rated"", ""year"": 2022}"
+4702,ayushmann wali drishyam 2,"{""actor"": ""Ayushmann Khurrana"", ""title"": ""Drishyam 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ayushmann wali drishyam 2
+JSON:","{""actor"": ""Ayushmann Khurrana"", ""title"": ""Drishyam 2""}"
+4119,taapsee new movie ludo,"{""actor"": ""Taapsee Pannu"", ""recency"": ""latest"", ""title"": ""Ludo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: taapsee new movie ludo
+JSON:","{""actor"": ""Taapsee Pannu"", ""recency"": ""latest"", ""title"": ""Ludo""}"
+1653,watch kantara,"{""title"": ""Kantara""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: watch kantara
+JSON:","{""title"": ""Kantara""}"
+1484,how is kushi,"{""query_type"": ""rating/review"", ""title"": ""Kushi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: how is kushi
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Kushi""}"
+2276,movies like ponniyin selvan,"{""similar_to"": ""Ponniyin Selvan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like ponniyin selvan
+JSON:","{""similar_to"": ""Ponniyin Selvan""}"
+878,movies like ludo,"{""similar_to"": ""Ludo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like ludo
+JSON:","{""similar_to"": ""Ludo""}"
+3526,emotional movie,"{""mood"": ""emotional""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: emotional movie
+JSON:","{""mood"": ""emotional""}"
+2017,kamal gulabo sitabo movie,"{""actor"": ""Kamal Haasan"", ""title"": ""Gulabo Sitabo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kamal gulabo sitabo movie
+JSON:","{""actor"": ""Kamal Haasan"", ""title"": ""Gulabo Sitabo""}"
+427,best ranveer singh movies,"{""actor"": ""Ranveer Singh"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best ranveer singh movies
+JSON:","{""actor"": ""Ranveer Singh"", ""rating_type"": ""top rated""}"
+627,katrina wali movie,"{""actor"": ""Katrina Kaif""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: katrina wali movie
+JSON:","{""actor"": ""Katrina Kaif""}"
+1590,ranveer singh ke saare movies,"{""actor"": ""Ranveer Singh""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranveer singh ke saare movies
+JSON:","{""actor"": ""Ranveer Singh""}"
+2224,dabangg wala bangla supernatural,"{""actor"": ""Salman Khan"", ""genre"": ""Supernatural"", ""language"": ""Bengali""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dabangg wala bangla supernatural
+JSON:","{""actor"": ""Salman Khan"", ""genre"": ""Supernatural"", ""language"": ""Bengali""}"
+2218,what are good sci-fi films on Disney+ Hotstar,"{""genre"": ""Sci-Fi"", ""platform"": ""Disney+ Hotstar"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good sci-fi films on Disney+ Hotstar
+JSON:","{""genre"": ""Sci-Fi"", ""platform"": ""Disney+ Hotstar"", ""rating_type"": ""top rated""}"
+4484,sacred games type movie,"{""similar_to"": ""Sacred Games""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: sacred games type movie
+JSON:","{""similar_to"": ""Sacred Games""}"
+1486,top sandalwood psychological thriller movies,"{""genre"": ""Psychological thriller"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top sandalwood psychological thriller movies
+JSON:","{""genre"": ""Psychological thriller"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}"
+1740,kat ki best movie,"{""actor"": ""Katrina Kaif"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kat ki best movie
+JSON:","{""actor"": ""Katrina Kaif"", ""rating_type"": ""top rated""}"
+2481,how is jailer,"{""query_type"": ""rating/review"", ""title"": ""Jailer""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: how is jailer
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Jailer""}"
+2585,good inspirational movie,"{""mood"": ""inspirational"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: good inspirational movie
+JSON:","{""mood"": ""inspirational"", ""rating_type"": ""top rated""}"
+2894,badshah ka ludo,"{""actor"": ""Shah Rukh Khan"", ""title"": ""Ludo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: badshah ka ludo
+JSON:","{""actor"": ""Shah Rukh Khan"", ""title"": ""Ludo""}"
+150,family sci-fi movies 2020,"{""audience"": ""family"", ""genre"": ""Sci-Fi"", ""year"": 2020}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family sci-fi movies 2020
+JSON:","{""audience"": ""family"", ""genre"": ""Sci-Fi"", ""year"": 2020}"
+677,kangana movies,"{""actor"": ""Kangana Ranaut""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kangana movies
+JSON:","{""actor"": ""Kangana Ranaut""}"
+1262,taapsee ki best drama film,"{""actor"": ""Taapsee Pannu"", ""genre"": ""Drama"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: taapsee ki best drama film
+JSON:","{""actor"": ""Taapsee Pannu"", ""genre"": ""Drama"", ""rating_type"": ""top rated""}"
+4918,watch roohi,"{""title"": ""Roohi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: watch roohi
+JSON:","{""title"": ""Roohi""}"
+13,new releases on Disney+ Hotstar,"{""platform"": ""Disney+ Hotstar"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: new releases on Disney+ Hotstar
+JSON:","{""platform"": ""Disney+ Hotstar"", ""recency"": ""latest""}"
+1834,gadar 2 with dulquer,"{""actor"": ""Dulquer Salmaan"", ""title"": ""Gadar 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: gadar 2 with dulquer
+JSON:","{""actor"": ""Dulquer Salmaan"", ""title"": ""Gadar 2""}"
+3249,uri with bunny,"{""actor"": ""Allu Arjun"", ""title"": ""Uri""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: uri with bunny
+JSON:","{""actor"": ""Allu Arjun"", ""title"": ""Uri""}"
+1492,best supernatural movies of 2024,"{""genre"": ""Supernatural"", ""rating_type"": ""top rated"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best supernatural movies of 2024
+JSON:","{""genre"": ""Supernatural"", ""rating_type"": ""top rated"", ""year"": 2024}"
+2728,pc wali garuda gamana vrishabha vahana,"{""actor"": ""Priyanka Chopra"", ""title"": ""Garuda Gamana Vrishabha Vahana""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: pc wali garuda gamana vrishabha vahana
+JSON:","{""actor"": ""Priyanka Chopra"", ""title"": ""Garuda Gamana Vrishabha Vahana""}"
+3687,rrr imdb rating,"{""query_type"": ""rating/review"", ""title"": ""RRR""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: rrr imdb rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""RRR""}"
+1425,bunny ke saare movies,"{""actor"": ""Allu Arjun""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bunny ke saare movies
+JSON:","{""actor"": ""Allu Arjun""}"
+4606,pushpa movie,"{""title"": ""Pushpa""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: pushpa movie
+JSON:","{""title"": ""Pushpa""}"
+4596,top rated Malayalam drama,"{""genre"": ""Drama"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Malayalam drama
+JSON:","{""genre"": ""Drama"", ""language"": ""Malayalam"", ""rating_type"": ""top rated""}"
+732,feeling scary movie,"{""mood"": ""scary""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: feeling scary movie
+JSON:","{""mood"": ""scary""}"
+1232,inspirational tamil mein film,"{""language"": ""Tamil"", ""mood"": ""inspirational""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: inspirational tamil mein film
+JSON:","{""language"": ""Tamil"", ""mood"": ""inspirational""}"
+1635,watch drishyam,"{""title"": ""Drishyam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: watch drishyam
+JSON:","{""title"": ""Drishyam""}"
+3937,mohanlal rrr movie,"{""actor"": ""Mohanlal"", ""title"": ""RRR""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mohanlal rrr movie
+JSON:","{""actor"": ""Mohanlal"", ""title"": ""RRR""}"
+1211,movies like omg 2,"{""similar_to"": ""OMG 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like omg 2
+JSON:","{""similar_to"": ""OMG 2""}"
+3269,vidya ke saare movies,"{""actor"": ""Vidya Balan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vidya ke saare movies
+JSON:","{""actor"": ""Vidya Balan""}"
+1935,panchayat film,"{""title"": ""Panchayat""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: panchayat film
+JSON:","{""title"": ""Panchayat""}"
+554,dream girl 2 review,"{""query_type"": ""rating/review"", ""title"": ""Dream Girl 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dream girl 2 review
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Dream Girl 2""}"
+492,rajamouli all films,"{""director"": ""SS Rajamouli""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: rajamouli all films
+JSON:","{""director"": ""SS Rajamouli""}"
+2963,bhojpuri biopic,"{""genre"": ""Biopic"", ""language"": ""Bhojpuri""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bhojpuri biopic
+JSON:","{""genre"": ""Biopic"", ""language"": ""Bhojpuri""}"
+2330,is dangal on YouTube,"{""platform"": ""YouTube"", ""title"": ""Dangal""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is dangal on YouTube
+JSON:","{""platform"": ""YouTube"", ""title"": ""Dangal""}"
+2196,is bard of blood available on SonyLIV,"{""platform"": ""SonyLIV"", ""query_type"": ""availability"", ""title"": ""Bard of Blood""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is bard of blood available on SonyLIV
+JSON:","{""platform"": ""SonyLIV"", ""query_type"": ""availability"", ""title"": ""Bard of Blood""}"
+3065,marathi biopic,"{""genre"": ""Biopic"", ""language"": ""Marathi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: marathi biopic
+JSON:","{""genre"": ""Biopic"", ""language"": ""Marathi""}"
+658,I want to watch something thriller wala,"{""mood"": ""thriller wala""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: I want to watch something thriller wala
+JSON:","{""mood"": ""thriller wala""}"
+2375,movies like leo,"{""similar_to"": ""Leo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like leo
+JSON:","{""similar_to"": ""Leo""}"
+2226,nawazuddin ka fukrey 3,"{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Fukrey 3""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawazuddin ka fukrey 3
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""Fukrey 3""}"
+4265,drishyam 2 film,"{""title"": ""Drishyam 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: drishyam 2 film
+JSON:","{""title"": ""Drishyam 2""}"
+1171,bard of blood with rk,"{""actor"": ""Ranbir Kapoor"", ""title"": ""Bard of Blood""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bard of blood with rk
+JSON:","{""actor"": ""Ranbir Kapoor"", ""title"": ""Bard of Blood""}"
+133,top 10 dark comedy movies ever made,"{""genre"": ""Dark comedy"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top 10 dark comedy movies ever made
+JSON:","{""genre"": ""Dark comedy"", ""rating_type"": ""top rated""}"
+472,bhool bhulaiyaa review,"{""query_type"": ""rating/review"", ""title"": ""Bhool Bhulaiyaa""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bhool bhulaiyaa review
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Bhool Bhulaiyaa""}"
+3226,top kollywood romance movies,"{""genre"": ""Romance"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top kollywood romance movies
+JSON:","{""genre"": ""Romance"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}"
+1406,top kannada supernatural movies,"{""genre"": ""Supernatural"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top kannada supernatural movies
+JSON:","{""genre"": ""Supernatural"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}"
+2877,is kushi available on Amazon Prime,"{""platform"": ""Amazon Prime"", ""query_type"": ""availability"", ""title"": ""Kushi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is kushi available on Amazon Prime
+JSON:","{""platform"": ""Amazon Prime"", ""query_type"": ""availability"", ""title"": ""Kushi""}"
+4505,mr perfectionist film dobaaraa,"{""actor"": ""Aamir Khan"", ""title"": ""Dobaaraa""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mr perfectionist film dobaaraa
+JSON:","{""actor"": ""Aamir Khan"", ""title"": ""Dobaaraa""}"
+4693,kota factory jesi film suggest karo,"{""similar_to"": ""Kota Factory""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kota factory jesi film suggest karo
+JSON:","{""similar_to"": ""Kota Factory""}"
+2827,romance movies of dips,"{""actor"": ""Deepika Padukone"", ""genre"": ""Romance""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: romance movies of dips
+JSON:","{""actor"": ""Deepika Padukone"", ""genre"": ""Romance""}"
+288,best thriller movies of 2018,"{""genre"": ""Thriller"", ""rating_type"": ""top rated"", ""year"": 2018}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best thriller movies of 2018
+JSON:","{""genre"": ""Thriller"", ""rating_type"": ""top rated"", ""year"": 2018}"
+1870,alia wali mard ko dard nahi hota,"{""actor"": ""Alia Bhatt"", ""title"": ""Mard Ko Dard Nahi Hota""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: alia wali mard ko dard nahi hota
+JSON:","{""actor"": ""Alia Bhatt"", ""title"": ""Mard Ko Dard Nahi Hota""}"
+3115,best crime movies of 2018,"{""genre"": ""Crime"", ""rating_type"": ""top rated"", ""year"": 2018}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best crime movies of 2018
+JSON:","{""genre"": ""Crime"", ""rating_type"": ""top rated"", ""year"": 2018}"
+3626,top bollywood psychological thriller movies,"{""genre"": ""Psychological thriller"", ""language"": ""Hindi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top bollywood psychological thriller movies
+JSON:","{""genre"": ""Psychological thriller"", ""language"": ""Hindi"", ""rating_type"": ""top rated""}"
+2313,aamir khan film kesari,"{""actor"": ""Aamir Khan"", ""title"": ""Kesari""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: aamir khan film kesari
+JSON:","{""actor"": ""Aamir Khan"", ""title"": ""Kesari""}"
+4924,alia bhatt film freddy,"{""actor"": ""Alia Bhatt"", ""title"": ""Freddy""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: alia bhatt film freddy
+JSON:","{""actor"": ""Alia Bhatt"", ""title"": ""Freddy""}"
+1619,arjun reddy wala new movie kartik calling kartik,"{""actor"": ""Vijay Deverakonda"", ""recency"": ""latest"", ""title"": ""Kartik Calling Kartik""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: arjun reddy wala new movie kartik calling kartik
+JSON:","{""actor"": ""Vijay Deverakonda"", ""recency"": ""latest"", ""title"": ""Kartik Calling Kartik""}"
+995,family mystery movies 2024,"{""audience"": ""family"", ""genre"": ""Mystery"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family mystery movies 2024
+JSON:","{""audience"": ""family"", ""genre"": ""Mystery"", ""year"": 2024}"
+1804,mohanlal ka 2023 wala,"{""actor"": ""Mohanlal"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mohanlal ka 2023 wala
+JSON:","{""actor"": ""Mohanlal"", ""year"": 2023}"
+2643,feeling motivational movie,"{""mood"": ""motivational""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: feeling motivational movie
+JSON:","{""mood"": ""motivational""}"
+4803,romantic bhojpuri film,"{""language"": ""Bhojpuri"", ""mood"": ""romantic""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: romantic bhojpuri film
+JSON:","{""language"": ""Bhojpuri"", ""mood"": ""romantic""}"
+3536,marathi psychological thriller movies,"{""genre"": ""Psychological thriller"", ""language"": ""Marathi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: marathi psychological thriller movies
+JSON:","{""genre"": ""Psychological thriller"", ""language"": ""Marathi""}"
+4832,alia bhatt superhit movies,"{""actor"": ""Alia Bhatt"", ""rating_type"": ""hit""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: alia bhatt superhit movies
+JSON:","{""actor"": ""Alia Bhatt"", ""rating_type"": ""hit""}"
+3912,watch sacred games,"{""title"": ""Sacred Games""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: watch sacred games
+JSON:","{""title"": ""Sacred Games""}"
+2108,kat wali movie,"{""actor"": ""Katrina Kaif""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kat wali movie
+JSON:","{""actor"": ""Katrina Kaif""}"
+3045,srk film panchayat,"{""actor"": ""Shah Rukh Khan"", ""title"": ""Panchayat""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: srk film panchayat
+JSON:","{""actor"": ""Shah Rukh Khan"", ""title"": ""Panchayat""}"
+417,kota factory type movie,"{""similar_to"": ""Kota Factory""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kota factory type movie
+JSON:","{""similar_to"": ""Kota Factory""}"
+978,top 10 drama movies ever made,"{""genre"": ""Drama"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top 10 drama movies ever made
+JSON:","{""genre"": ""Drama"", ""rating_type"": ""top rated""}"
+2418,article 15 good hai ya nahi,"{""rating_type"": ""top rated"", ""title"": ""Article 15""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: article 15 good hai ya nahi
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Article 15""}"
+506,best tamil mystery,"{""genre"": ""Mystery"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best tamil mystery
+JSON:","{""genre"": ""Mystery"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}"
+4153,the family man type movie,"{""similar_to"": ""The Family Man""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: the family man type movie
+JSON:","{""similar_to"": ""The Family Man""}"
+4256,b'wood sports,"{""genre"": ""Sports"", ""language"": ""Hindi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: b'wood sports
+JSON:","{""genre"": ""Sports"", ""language"": ""Hindi""}"
+3942,deepika tamil mein family,"{""actor"": ""Deepika Padukone"", ""genre"": ""Family"", ""language"": ""Tamil""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: deepika tamil mein family
+JSON:","{""actor"": ""Deepika Padukone"", ""genre"": ""Family"", ""language"": ""Tamil""}"
+415,arjun reddy wala roohi movie,"{""actor"": ""Vijay Deverakonda"", ""title"": ""Roohi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: arjun reddy wala roohi movie
+JSON:","{""actor"": ""Vijay Deverakonda"", ""title"": ""Roohi""}"
+4149,is manjummel boys available on SonyLIV,"{""platform"": ""SonyLIV"", ""query_type"": ""availability"", ""title"": ""Manjummel Boys""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is manjummel boys available on SonyLIV
+JSON:","{""platform"": ""SonyLIV"", ""query_type"": ""availability"", ""title"": ""Manjummel Boys""}"
+1184,new on Netflix,"{""platform"": ""Netflix"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: new on Netflix
+JSON:","{""platform"": ""Netflix"", ""recency"": ""latest""}"
+486,12th fail with taapsee,"{""actor"": ""Taapsee Pannu"", ""title"": ""12th Fail""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: 12th fail with taapsee
+JSON:","{""actor"": ""Taapsee Pannu"", ""title"": ""12th Fail""}"
+894,article 15 online,"{""title"": ""Article 15""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: article 15 online
+JSON:","{""title"": ""Article 15""}"
+806,inspirational films recommend karo,"{""mood"": ""inspirational""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: inspirational films recommend karo
+JSON:","{""mood"": ""inspirational""}"
+556,top rated Tamil thriller,"{""genre"": ""Thriller"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Tamil thriller
+JSON:","{""genre"": ""Thriller"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}"
+3826,fahadh film mard ko dard nahi hota,"{""actor"": ""Fahadh Faasil"", ""title"": ""Mard Ko Dard Nahi Hota""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: fahadh film mard ko dard nahi hota
+JSON:","{""actor"": ""Fahadh Faasil"", ""title"": ""Mard Ko Dard Nahi Hota""}"
+1198,best 2020 films,"{""rating_type"": ""top rated"", ""year"": 2020}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best 2020 films
+JSON:","{""rating_type"": ""top rated"", ""year"": 2020}"
+4254,vicky kaushal wali bard of blood,"{""actor"": ""Vicky Kaushal"", ""title"": ""Bard of Blood""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vicky kaushal wali bard of blood
+JSON:","{""actor"": ""Vicky Kaushal"", ""title"": ""Bard of Blood""}"
+4059,amitabh comedy movie,"{""actor"": ""Amitabh Bachchan"", ""genre"": ""Comedy""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: amitabh comedy movie
+JSON:","{""actor"": ""Amitabh Bachchan"", ""genre"": ""Comedy""}"
+1294,top marathi thriller movies,"{""genre"": ""Thriller"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top marathi thriller movies
+JSON:","{""genre"": ""Thriller"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}"
+2222,is phone bhoot available on Amazon Prime,"{""platform"": ""Amazon Prime"", ""query_type"": ""availability"", ""title"": ""Phone Bhoot""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is phone bhoot available on Amazon Prime
+JSON:","{""platform"": ""Amazon Prime"", ""query_type"": ""availability"", ""title"": ""Phone Bhoot""}"
+3505,andhadhun movie,"{""title"": ""Andhadhun""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: andhadhun movie
+JSON:","{""title"": ""Andhadhun""}"
+3655,badhaai ho with taapsee,"{""actor"": ""Taapsee Pannu"", ""title"": ""Badhaai Ho""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: badhaai ho with taapsee
+JSON:","{""actor"": ""Taapsee Pannu"", ""title"": ""Badhaai Ho""}"
+4759,kannada crime 2022,"{""genre"": ""Crime"", ""language"": ""Kannada"", ""year"": 2022}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kannada crime 2022
+JSON:","{""genre"": ""Crime"", ""language"": ""Kannada"", ""year"": 2022}"
+3007,freddy jaisi movie,"{""similar_to"": ""Freddy""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: freddy jaisi movie
+JSON:","{""similar_to"": ""Freddy""}"
+2094,similar to war,"{""similar_to"": ""War""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: similar to war
+JSON:","{""similar_to"": ""War""}"
+2188,top rated Gujarati biopic,"{""genre"": ""Biopic"", ""language"": ""Gujarati"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Gujarati biopic
+JSON:","{""genre"": ""Biopic"", ""language"": ""Gujarati"", ""rating_type"": ""top rated""}"
+3037,ranbir superhit movies,"{""actor"": ""Ranbir Kapoor"", ""rating_type"": ""hit""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ranbir superhit movies
+JSON:","{""actor"": ""Ranbir Kapoor"", ""rating_type"": ""hit""}"
+3919,omg 2 ka rating kya hai,"{""query_type"": ""rating/review"", ""title"": ""OMG 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: omg 2 ka rating kya hai
+JSON:","{""query_type"": ""rating/review"", ""title"": ""OMG 2""}"
+1273,sultan ke jaise aur koi hai kya,"{""similar_to"": ""Sultan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: sultan ke jaise aur koi hai kya
+JSON:","{""similar_to"": ""Sultan""}"
+291,family sci-fi movies 2019,"{""audience"": ""family"", ""genre"": ""Sci-Fi"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family sci-fi movies 2019
+JSON:","{""audience"": ""family"", ""genre"": ""Sci-Fi"", ""year"": 2019}"
+4828,lalettan wali kabir singh,"{""actor"": ""Mohanlal"", ""title"": ""Kabir Singh""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: lalettan wali kabir singh
+JSON:","{""actor"": ""Mohanlal"", ""title"": ""Kabir Singh""}"
+253,best romance movies of 2024,"{""genre"": ""Romance"", ""rating_type"": ""top rated"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best romance movies of 2024
+JSON:","{""genre"": ""Romance"", ""rating_type"": ""top rated"", ""year"": 2024}"
+3246,top marathi romance movies,"{""genre"": ""Romance"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top marathi romance movies
+JSON:","{""genre"": ""Romance"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}"
+351,new telugu lo horror,"{""genre"": ""Horror"", ""language"": ""Telugu"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: new telugu lo horror
+JSON:","{""genre"": ""Horror"", ""language"": ""Telugu"", ""recency"": ""latest""}"
+1188,is jalsa available on Netflix,"{""platform"": ""Netflix"", ""query_type"": ""availability"", ""title"": ""Jalsa""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is jalsa available on Netflix
+JSON:","{""platform"": ""Netflix"", ""query_type"": ""availability"", ""title"": ""Jalsa""}"
+1962,dulquer movies,"{""actor"": ""Dulquer Salmaan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dulquer movies
+JSON:","{""actor"": ""Dulquer Salmaan""}"
+423,funny movie,"{""mood"": ""funny""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: funny movie
+JSON:","{""mood"": ""funny""}"
+91,sad night movie,"{""mood"": ""sad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: sad night movie
+JSON:","{""mood"": ""sad""}"
+3730,top rated Bengali family,"{""genre"": ""Family"", ""language"": ""Bengali"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Bengali family
+JSON:","{""genre"": ""Family"", ""language"": ""Bengali"", ""rating_type"": ""top rated""}"
+2237,best telugu comedy,"{""genre"": ""Comedy"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best telugu comedy
+JSON:","{""genre"": ""Comedy"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}"
+671,show me Bengali movies from 2023,"{""language"": ""Bengali"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: show me Bengali movies from 2023
+JSON:","{""language"": ""Bengali"", ""year"": 2023}"
+3041,bhojpuri historical 2021,"{""genre"": ""Historical"", ""language"": ""Bhojpuri"", ""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bhojpuri historical 2021
+JSON:","{""genre"": ""Historical"", ""language"": ""Bhojpuri"", ""year"": 2021}"
+27,Amazon Prime original series,"{""badge"": ""Original"", ""content_type"": ""Web Series"", ""platform"": ""Amazon Prime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: Amazon Prime original series
+JSON:","{""badge"": ""Original"", ""content_type"": ""Web Series"", ""platform"": ""Amazon Prime""}"
+430,what are good drama films on Jio Cinema,"{""genre"": ""Drama"", ""platform"": ""Jio Cinema"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good drama films on Jio Cinema
+JSON:","{""genre"": ""Drama"", ""platform"": ""Jio Cinema"", ""rating_type"": ""top rated""}"
+684,top show recommend karo,"{""content_type"": ""Web Series"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top show recommend karo
+JSON:","{""content_type"": ""Web Series"", ""rating_type"": ""top rated""}"
+4464,best bhojpuri movies 2022,"{""language"": ""Bhojpuri"", ""rating_type"": ""top rated"", ""year"": 2022}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best bhojpuri movies 2022
+JSON:","{""language"": ""Bhojpuri"", ""rating_type"": ""top rated"", ""year"": 2022}"
+3946,best of arjun reddy wala,"{""actor"": ""Vijay Deverakonda"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best of arjun reddy wala
+JSON:","{""actor"": ""Vijay Deverakonda"", ""rating_type"": ""top rated""}"
+3524,what are good mystery films on Netflix,"{""genre"": ""Mystery"", ""platform"": ""Netflix"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good mystery films on Netflix
+JSON:","{""genre"": ""Mystery"", ""platform"": ""Netflix"", ""rating_type"": ""top rated""}"
+1542,imtiaz ali 2025 movie,"{""director"": ""Imtiaz Ali"", ""year"": 2025}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: imtiaz ali 2025 movie
+JSON:","{""director"": ""Imtiaz Ali"", ""year"": 2025}"
+2032,nawazuddin film 777 charlie,"{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""777 Charlie""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawazuddin film 777 charlie
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""title"": ""777 Charlie""}"
+2233,sacred games rating,"{""query_type"": ""rating/review"", ""title"": ""Sacred Games""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: sacred games rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Sacred Games""}"
+4121,aspirants review,"{""query_type"": ""rating/review"", ""title"": ""Aspirants""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: aspirants review
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Aspirants""}"
+3236,best dark comedy movies of 2023,"{""genre"": ""Dark comedy"", ""rating_type"": ""top rated"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best dark comedy movies of 2023
+JSON:","{""genre"": ""Dark comedy"", ""rating_type"": ""top rated"", ""year"": 2023}"
+255,mujhe emotional movie chahiye,"{""mood"": ""emotional""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mujhe emotional movie chahiye
+JSON:","{""mood"": ""emotional""}"
+1030,bunny new film,"{""actor"": ""Allu Arjun"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bunny new film
+JSON:","{""actor"": ""Allu Arjun"", ""recency"": ""latest""}"
+4393,top rated Marathi psychological thriller,"{""genre"": ""Psychological thriller"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Marathi psychological thriller
+JSON:","{""genre"": ""Psychological thriller"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}"
+3801,is vikram vedha available on Disney+ Hotstar,"{""platform"": ""Disney+ Hotstar"", ""query_type"": ""availability"", ""title"": ""Vikram Vedha""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is vikram vedha available on Disney+ Hotstar
+JSON:","{""platform"": ""Disney+ Hotstar"", ""query_type"": ""availability"", ""title"": ""Vikram Vedha""}"
+4311,is kota factory worth watching,"{""query_type"": ""rating/review"", ""title"": ""Kota Factory""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is kota factory worth watching
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Kota Factory""}"
+2510,top rated Bhojpuri family,"{""genre"": ""Family"", ""language"": ""Bhojpuri"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top rated Bhojpuri family
+JSON:","{""genre"": ""Family"", ""language"": ""Bhojpuri"", ""rating_type"": ""top rated""}"
+2293,top bangla sports movies,"{""genre"": ""Sports"", ""language"": ""Bengali"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top bangla sports movies
+JSON:","{""genre"": ""Sports"", ""language"": ""Bengali"", ""rating_type"": ""top rated""}"
+1324,gehraiyaan kahan dekhein,"{""query_type"": ""availability"", ""title"": ""Gehraiyaan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: gehraiyaan kahan dekhein
+JSON:","{""query_type"": ""availability"", ""title"": ""Gehraiyaan""}"
+1551,family comedy movies 2024,"{""audience"": ""family"", ""genre"": ""Comedy"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family comedy movies 2024
+JSON:","{""audience"": ""family"", ""genre"": ""Comedy"", ""year"": 2024}"
+4648,bahubali jesi film suggest karo,"{""similar_to"": ""Bahubali""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bahubali jesi film suggest karo
+JSON:","{""similar_to"": ""Bahubali""}"
+316,YouTube movies,"{""platform"": ""YouTube""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: YouTube movies
+JSON:","{""platform"": ""YouTube""}"
+1243,rk all movies list,"{""actor"": ""Ranbir Kapoor""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: rk all movies list
+JSON:","{""actor"": ""Ranbir Kapoor""}"
+2451,show me Kannada movies from 2023,"{""language"": ""Kannada"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: show me Kannada movies from 2023
+JSON:","{""language"": ""Kannada"", ""year"": 2023}"
+1579,stylish star all movies list,"{""actor"": ""Allu Arjun""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: stylish star all movies list
+JSON:","{""actor"": ""Allu Arjun""}"
+4626,is manjummel boys on MX Player,"{""platform"": ""MX Player"", ""title"": ""Manjummel Boys""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is manjummel boys on MX Player
+JSON:","{""platform"": ""MX Player"", ""title"": ""Manjummel Boys""}"
+3117,taapsee t'wood sci-fi,"{""actor"": ""Taapsee Pannu"", ""genre"": ""Sci-Fi"", ""language"": ""Telugu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: taapsee t'wood sci-fi
+JSON:","{""actor"": ""Taapsee Pannu"", ""genre"": ""Sci-Fi"", ""language"": ""Telugu""}"
+70,777 charlie full movie,"{""title"": ""777 Charlie""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: 777 charlie full movie
+JSON:","{""title"": ""777 Charlie""}"
+860,vijay wali rrr,"{""actor"": ""Vijay Deverakonda"", ""title"": ""RRR""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: vijay wali rrr
+JSON:","{""actor"": ""Vijay Deverakonda"", ""title"": ""RRR""}"
+2754,manjummel boys with aamir,"{""actor"": ""Aamir Khan"", ""title"": ""Manjummel Boys""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: manjummel boys with aamir
+JSON:","{""actor"": ""Aamir Khan"", ""title"": ""Manjummel Boys""}"
+1633,similar to thappad,"{""similar_to"": ""Thappad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: similar to thappad
+JSON:","{""similar_to"": ""Thappad""}"
+1651,Disney+ Hotstar movies,"{""platform"": ""Disney+ Hotstar""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: Disney+ Hotstar movies
+JSON:","{""platform"": ""Disney+ Hotstar""}"
+3861,movies starring lalettan,"{""actor"": ""Mohanlal""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies starring lalettan
+JSON:","{""actor"": ""Mohanlal""}"
+3107,k'wood supernatural film,"{""genre"": ""Supernatural"", ""language"": ""Tamil""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: k'wood supernatural film
+JSON:","{""genre"": ""Supernatural"", ""language"": ""Tamil""}"
+1075,shahenshah ka 2019 wala,"{""actor"": ""Amitabh Bachchan"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: shahenshah ka 2019 wala
+JSON:","{""actor"": ""Amitabh Bachchan"", ""year"": 2019}"
+4002,shershaah OTT release,"{""query_type"": ""availability"", ""title"": ""Shershaah""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: shershaah OTT release
+JSON:","{""query_type"": ""availability"", ""title"": ""Shershaah""}"
+788,animal rating,"{""query_type"": ""rating/review"", ""title"": ""Animal""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: animal rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Animal""}"
+2606,taapsee ka 2019 wala,"{""actor"": ""Taapsee Pannu"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: taapsee ka 2019 wala
+JSON:","{""actor"": ""Taapsee Pannu"", ""year"": 2019}"
+3631,best sandalwood web series,"{""content_type"": ""Web Series"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best sandalwood web series
+JSON:","{""content_type"": ""Web Series"", ""language"": ""Kannada"", ""rating_type"": ""top rated""}"
+2122,crime movies of akshay,"{""actor"": ""Akshay Kumar"", ""genre"": ""Crime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: crime movies of akshay
+JSON:","{""actor"": ""Akshay Kumar"", ""genre"": ""Crime""}"
+1875,bangla family,"{""genre"": ""Family"", ""language"": ""Bengali""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bangla family
+JSON:","{""genre"": ""Family"", ""language"": ""Bengali""}"
+812,best supernatural movies of 2019,"{""genre"": ""Supernatural"", ""rating_type"": ""top rated"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best supernatural movies of 2019
+JSON:","{""genre"": ""Supernatural"", ""rating_type"": ""top rated"", ""year"": 2019}"
+388,if you liked kesari,"{""similar_to"": ""Kesari""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: if you liked kesari
+JSON:","{""similar_to"": ""Kesari""}"
+2883,is leo available on ZEE5,"{""platform"": ""ZEE5"", ""query_type"": ""availability"", ""title"": ""Leo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is leo available on ZEE5
+JSON:","{""platform"": ""ZEE5"", ""query_type"": ""availability"", ""title"": ""Leo""}"
+1176,similar to kabir singh,"{""similar_to"": ""Kabir Singh""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: similar to kabir singh
+JSON:","{""similar_to"": ""Kabir Singh""}"
+3198,ulaganayagan movies,"{""actor"": ""Kamal Haasan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ulaganayagan movies
+JSON:","{""actor"": ""Kamal Haasan""}"
+2624,tamil dark comedy movies,"{""genre"": ""Dark comedy"", ""language"": ""Tamil""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: tamil dark comedy movies
+JSON:","{""genre"": ""Dark comedy"", ""language"": ""Tamil""}"
+1352,thunivu rating,"{""query_type"": ""rating/review"", ""title"": ""Thunivu""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: thunivu rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Thunivu""}"
+411,movies released in 2021,"{""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies released in 2021
+JSON:","{""year"": 2021}"
+4213,gujarati family web series,"{""content_type"": ""Web Series"", ""genre"": ""Family"", ""language"": ""Gujarati""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: gujarati family web series
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Family"", ""language"": ""Gujarati""}"
+110,show me Kannada movies from 2024,"{""language"": ""Kannada"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: show me Kannada movies from 2024
+JSON:","{""language"": ""Kannada"", ""year"": 2024}"
+4996,new punjabi dark comedy,"{""genre"": ""Dark comedy"", ""language"": ""Punjabi"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: new punjabi dark comedy
+JSON:","{""genre"": ""Dark comedy"", ""language"": ""Punjabi"", ""recency"": ""latest""}"
+3430,andhadhun kahan dekhein,"{""query_type"": ""availability"", ""title"": ""Andhadhun""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: andhadhun kahan dekhein
+JSON:","{""query_type"": ""availability"", ""title"": ""Andhadhun""}"
+2810,irfan khan wali ponniyin selvan,"{""actor"": ""Irrfan Khan"", ""title"": ""Ponniyin Selvan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: irfan khan wali ponniyin selvan
+JSON:","{""actor"": ""Irrfan Khan"", ""title"": ""Ponniyin Selvan""}"
+2595,dunki with shahenshah,"{""actor"": ""Amitabh Bachchan"", ""title"": ""Dunki""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dunki with shahenshah
+JSON:","{""actor"": ""Amitabh Bachchan"", ""title"": ""Dunki""}"
+2837,gujarati psychological thriller,"{""genre"": ""Psychological thriller"", ""language"": ""Gujarati""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: gujarati psychological thriller
+JSON:","{""genre"": ""Psychological thriller"", ""language"": ""Gujarati""}"
+2373,priyanka ki best thriller film,"{""actor"": ""Priyanka Chopra"", ""genre"": ""Thriller"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: priyanka ki best thriller film
+JSON:","{""actor"": ""Priyanka Chopra"", ""genre"": ""Thriller"", ""rating_type"": ""top rated""}"
+1236,biopic movies of hrithik,"{""actor"": ""Hrithik Roshan"", ""genre"": ""Biopic""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: biopic movies of hrithik
+JSON:","{""actor"": ""Hrithik Roshan"", ""genre"": ""Biopic""}"
+2147,dangal OTT release,"{""query_type"": ""availability"", ""title"": ""Dangal""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dangal OTT release
+JSON:","{""query_type"": ""availability"", ""title"": ""Dangal""}"
+4976,punjabi dark comedy,"{""genre"": ""Dark comedy"", ""language"": ""Punjabi""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: punjabi dark comedy
+JSON:","{""genre"": ""Dark comedy"", ""language"": ""Punjabi""}"
+600,I want to watch something dark,"{""mood"": ""dark""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: I want to watch something dark
+JSON:","{""mood"": ""dark""}"
+1435,Amazon Prime t'wood,"{""language"": ""Telugu"", ""platform"": ""Amazon Prime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: Amazon Prime t'wood
+JSON:","{""language"": ""Telugu"", ""platform"": ""Amazon Prime""}"
+4997,top tamil mein thriller movies,"{""genre"": ""Thriller"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: top tamil mein thriller movies
+JSON:","{""genre"": ""Thriller"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}"
+539,kgf chapter 2 film,"{""title"": ""KGF Chapter 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kgf chapter 2 film
+JSON:","{""title"": ""KGF Chapter 2""}"
+722,an action hero kahan dekhein,"{""query_type"": ""availability"", ""title"": ""An Action Hero""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: an action hero kahan dekhein
+JSON:","{""query_type"": ""availability"", ""title"": ""An Action Hero""}"
+4411,best of greek god,"{""actor"": ""Hrithik Roshan"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best of greek god
+JSON:","{""actor"": ""Hrithik Roshan"", ""rating_type"": ""top rated""}"
+1873,is gadar 2 available on YouTube,"{""platform"": ""YouTube"", ""query_type"": ""availability"", ""title"": ""Gadar 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is gadar 2 available on YouTube
+JSON:","{""platform"": ""YouTube"", ""query_type"": ""availability"", ""title"": ""Gadar 2""}"
+2846,shah rukh ki best horror film,"{""actor"": ""Shah Rukh Khan"", ""genre"": ""Horror"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: shah rukh ki best horror film
+JSON:","{""actor"": ""Shah Rukh Khan"", ""genre"": ""Horror"", ""rating_type"": ""top rated""}"
+2054,delhi crime type movie,"{""similar_to"": ""Delhi Crime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: delhi crime type movie
+JSON:","{""similar_to"": ""Delhi Crime""}"
+2908,best family movies of 2021,"{""genre"": ""Family"", ""rating_type"": ""top rated"", ""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best family movies of 2021
+JSON:","{""genre"": ""Family"", ""rating_type"": ""top rated"", ""year"": 2021}"
+2255,best dark comedy movies of 2018,"{""genre"": ""Dark comedy"", ""rating_type"": ""top rated"", ""year"": 2018}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best dark comedy movies of 2018
+JSON:","{""genre"": ""Dark comedy"", ""rating_type"": ""top rated"", ""year"": 2018}"
+3913,best tamil sci-fi,"{""genre"": ""Sci-Fi"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best tamil sci-fi
+JSON:","{""genre"": ""Sci-Fi"", ""language"": ""Tamil"", ""rating_type"": ""top rated""}"
+178,big b movies,"{""actor"": ""Amitabh Bachchan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: big b movies
+JSON:","{""actor"": ""Amitabh Bachchan""}"
+2891,malayalam biopic web series,"{""content_type"": ""Web Series"", ""genre"": ""Biopic"", ""language"": ""Malayalam""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: malayalam biopic web series
+JSON:","{""content_type"": ""Web Series"", ""genre"": ""Biopic"", ""language"": ""Malayalam""}"
+3674,bachchan sahab romance movie,"{""actor"": ""Amitabh Bachchan"", ""genre"": ""Romance""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bachchan sahab romance movie
+JSON:","{""actor"": ""Amitabh Bachchan"", ""genre"": ""Romance""}"
+81,bangla 2022,"{""language"": ""Bengali"", ""year"": 2022}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bangla 2022
+JSON:","{""language"": ""Bengali"", ""year"": 2022}"
+2562,pc new movie gehraiyaan,"{""actor"": ""Priyanka Chopra"", ""recency"": ""latest"", ""title"": ""Gehraiyaan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: pc new movie gehraiyaan
+JSON:","{""actor"": ""Priyanka Chopra"", ""recency"": ""latest"", ""title"": ""Gehraiyaan""}"
+1724,kamal movies,"{""actor"": ""Kamal Haasan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kamal movies
+JSON:","{""actor"": ""Kamal Haasan""}"
+1618,bhai new film,"{""actor"": ""Salman Khan"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: bhai new film
+JSON:","{""actor"": ""Salman Khan"", ""recency"": ""latest""}"
+1655,family action movies 2024,"{""audience"": ""family"", ""genre"": ""Action"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family action movies 2024
+JSON:","{""audience"": ""family"", ""genre"": ""Action"", ""year"": 2024}"
+2329,leo available hai kya OTT pe,"{""query_type"": ""availability"", ""title"": ""Leo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: leo available hai kya OTT pe
+JSON:","{""query_type"": ""availability"", ""title"": ""Leo""}"
+4614,family supernatural movies 2021,"{""audience"": ""family"", ""genre"": ""Supernatural"", ""year"": 2021}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family supernatural movies 2021
+JSON:","{""audience"": ""family"", ""genre"": ""Supernatural"", ""year"": 2021}"
+222,garuda gamana vrishabha vahana available hai kya OTT pe,"{""query_type"": ""availability"", ""title"": ""Garuda Gamana Vrishabha Vahana""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: garuda gamana vrishabha vahana available hai kya OTT pe
+JSON:","{""query_type"": ""availability"", ""title"": ""Garuda Gamana Vrishabha Vahana""}"
+94,best movies of 2019,"{""rating_type"": ""top rated"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best movies of 2019
+JSON:","{""rating_type"": ""top rated"", ""year"": 2019}"
+2610,kangana historical movie,"{""actor"": ""Kangana Ranaut"", ""genre"": ""Historical""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kangana historical movie
+JSON:","{""actor"": ""Kangana Ranaut"", ""genre"": ""Historical""}"
+3383,ludo with king khan,"{""actor"": ""Shah Rukh Khan"", ""title"": ""Ludo""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: ludo with king khan
+JSON:","{""actor"": ""Shah Rukh Khan"", ""title"": ""Ludo""}"
+4416,mammukka ka an action hero,"{""actor"": ""mammootty"", ""title"": ""An Action Hero""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mammukka ka an action hero
+JSON:","{""actor"": ""mammootty"", ""title"": ""An Action Hero""}"
+1398,what are good comedy films on SonyLIV,"{""genre"": ""Comedy"", ""platform"": ""SonyLIV"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good comedy films on SonyLIV
+JSON:","{""genre"": ""Comedy"", ""platform"": ""SonyLIV"", ""rating_type"": ""top rated""}"
+4687,duggu ka 12th fail,"{""actor"": ""Hrithik Roshan"", ""title"": ""12th Fail""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: duggu ka 12th fail
+JSON:","{""actor"": ""Hrithik Roshan"", ""title"": ""12th Fail""}"
+1293,show me Marathi movies from 2018,"{""language"": ""Marathi"", ""year"": 2018}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: show me Marathi movies from 2018
+JSON:","{""language"": ""Marathi"", ""year"": 2018}"
+2165,article 15 OTT release,"{""query_type"": ""availability"", ""title"": ""Article 15""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: article 15 OTT release
+JSON:","{""query_type"": ""availability"", ""title"": ""Article 15""}"
+2940,dream girl 2 streaming kahan hai,"{""query_type"": ""availability"", ""title"": ""Dream Girl 2""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dream girl 2 streaming kahan hai
+JSON:","{""query_type"": ""availability"", ""title"": ""Dream Girl 2""}"
+3669,is kantara good,"{""rating_type"": ""top rated"", ""title"": ""Kantara""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is kantara good
+JSON:","{""rating_type"": ""top rated"", ""title"": ""Kantara""}"
+813,kesari with kareena,"{""actor"": ""Kareena Kapoor"", ""title"": ""Kesari""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kesari with kareena
+JSON:","{""actor"": ""Kareena Kapoor"", ""title"": ""Kesari""}"
+1259,Amazon Prime pe kya dekhein,"{""platform"": ""Amazon Prime""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: Amazon Prime pe kya dekhein
+JSON:","{""platform"": ""Amazon Prime""}"
+890,family biopic movies 2019,"{""audience"": ""family"", ""genre"": ""Biopic"", ""year"": 2019}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: family biopic movies 2019
+JSON:","{""audience"": ""family"", ""genre"": ""Biopic"", ""year"": 2019}"
+1452,gehraiyaan film,"{""title"": ""Gehraiyaan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: gehraiyaan film
+JSON:","{""title"": ""Gehraiyaan""}"
+3317,darlings online,"{""actor"": ""Prabhas"", ""title"": ""Darlings""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: darlings online
+JSON:","{""actor"": ""Prabhas"", ""title"": ""Darlings""}"
+2560,kannada biopic,"{""genre"": ""Biopic"", ""language"": ""Kannada""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kannada biopic
+JSON:","{""genre"": ""Biopic"", ""language"": ""Kannada""}"
+3575,best telugu lo movies 2023,"{""language"": ""Telugu"", ""rating_type"": ""top rated"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best telugu lo movies 2023
+JSON:","{""language"": ""Telugu"", ""rating_type"": ""top rated"", ""year"": 2023}"
+2681,how is tiger zinda hai,"{""query_type"": ""rating/review"", ""title"": ""Tiger Zinda Hai""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: how is tiger zinda hai
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Tiger Zinda Hai""}"
+4652,best marathi web series,"{""content_type"": ""Web Series"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best marathi web series
+JSON:","{""content_type"": ""Web Series"", ""language"": ""Marathi"", ""rating_type"": ""top rated""}"
+4812,SonyLIV original,"{""badge"": ""Original"", ""platform"": ""SonyLIV""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: SonyLIV original
+JSON:","{""badge"": ""Original"", ""platform"": ""SonyLIV""}"
+4680,crime movies 2023,"{""genre"": ""Crime"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: crime movies 2023
+JSON:","{""genre"": ""Crime"", ""year"": 2023}"
+2965,movies like hi nanna,"{""similar_to"": ""Hi Nanna""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies like hi nanna
+JSON:","{""similar_to"": ""Hi Nanna""}"
+2673,dips drama 2024,"{""actor"": ""Deepika Padukone"", ""genre"": ""Drama"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: dips drama 2024
+JSON:","{""actor"": ""Deepika Padukone"", ""genre"": ""Drama"", ""year"": 2024}"
+562,mollywood binge worthy,"{""content_type"": ""Web Series"", ""language"": ""Malayalam"", ""query_type"": ""rating/review"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: mollywood binge worthy
+JSON:","{""content_type"": ""Web Series"", ""language"": ""Malayalam"", ""query_type"": ""rating/review"", ""rating_type"": ""top rated""}"
+2779,thappad type movie,"{""similar_to"": ""Thappad""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: thappad type movie
+JSON:","{""similar_to"": ""Thappad""}"
+2949,what are good comedy films on Netflix,"{""genre"": ""Comedy"", ""platform"": ""Netflix"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good comedy films on Netflix
+JSON:","{""genre"": ""Comedy"", ""platform"": ""Netflix"", ""rating_type"": ""top rated""}"
+2818,nawaz action movie,"{""actor"": ""Nawazuddin Siddiqui"", ""genre"": ""Action""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: nawaz action movie
+JSON:","{""actor"": ""Nawazuddin Siddiqui"", ""genre"": ""Action""}"
+2759,is aadujeevitham available on Netflix,"{""platform"": ""Netflix"", ""query_type"": ""availability"", ""title"": ""Aadujeevitham""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is aadujeevitham available on Netflix
+JSON:","{""platform"": ""Netflix"", ""query_type"": ""availability"", ""title"": ""Aadujeevitham""}"
+1757,movies starring mammootty,"{""actor"": ""Mammootty""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies starring mammootty
+JSON:","{""actor"": ""Mammootty""}"
+725,classic Marathi movies,"{""language"": ""Marathi"", ""rating_type"": ""classic""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: classic Marathi movies
+JSON:","{""language"": ""Marathi"", ""rating_type"": ""classic""}"
+220,jalsa with piggy chops,"{""actor"": ""Priyanka Chopra"", ""title"": ""Jalsa""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: jalsa with piggy chops
+JSON:","{""actor"": ""Priyanka Chopra"", ""title"": ""Jalsa""}"
+4140,thalaivar mystery 2024,"{""actor"": ""Rajinikanth"", ""genre"": ""Mystery"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: thalaivar mystery 2024
+JSON:","{""actor"": ""Rajinikanth"", ""genre"": ""Mystery"", ""year"": 2024}"
+3958,andhadhun with ayushmann,"{""actor"": ""Ayushmann Khurrana"", ""title"": ""Andhadhun""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: andhadhun with ayushmann
+JSON:","{""actor"": ""Ayushmann Khurrana"", ""title"": ""Andhadhun""}"
+1589,best psychological thriller movies of 2024,"{""genre"": ""Psychological thriller"", ""rating_type"": ""top rated"", ""year"": 2024}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best psychological thriller movies of 2024
+JSON:","{""genre"": ""Psychological thriller"", ""rating_type"": ""top rated"", ""year"": 2024}"
+3348,kollywood horror,"{""genre"": ""Horror"", ""language"": ""Tamil""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: kollywood horror
+JSON:","{""genre"": ""Horror"", ""language"": ""Tamil""}"
+3971,sallu movies,"{""actor"": ""Salman Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: sallu movies
+JSON:","{""actor"": ""Salman Khan""}"
+4708,sandalwood movies on Netflix,"{""language"": ""Kannada"", ""platform"": ""Netflix""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: sandalwood movies on Netflix
+JSON:","{""language"": ""Kannada"", ""platform"": ""Netflix""}"
+44,2023 blockbusters,"{""rating_type"": ""blockbuster"", ""year"": 2023}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: 2023 blockbusters
+JSON:","{""rating_type"": ""blockbuster"", ""year"": 2023}"
+3002,new b'wood mystery,"{""genre"": ""Mystery"", ""language"": ""Hindi"", ""recency"": ""latest""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: new b'wood mystery
+JSON:","{""genre"": ""Mystery"", ""language"": ""Hindi"", ""recency"": ""latest""}"
+211,movies with irfan khan,"{""actor"": ""Irrfan Khan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies with irfan khan
+JSON:","{""actor"": ""Irrfan Khan""}"
+678,similar to pk,"{""similar_to"": ""PK""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: similar to pk
+JSON:","{""similar_to"": ""PK""}"
+355,best thriller movies of 2022,"{""genre"": ""Thriller"", ""rating_type"": ""top rated"", ""year"": 2022}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: best thriller movies of 2022
+JSON:","{""genre"": ""Thriller"", ""rating_type"": ""top rated"", ""year"": 2022}"
+1434,greek god ki films,"{""actor"": ""Hrithik Roshan""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: greek god ki films
+JSON:","{""actor"": ""Hrithik Roshan""}"
+950,anurag kashyap movies,"{""director"": ""Anurag Kashyap""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: anurag kashyap movies
+JSON:","{""director"": ""Anurag Kashyap""}"
+2844,haseen dillruba movie,"{""title"": ""Haseen Dillruba""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: haseen dillruba movie
+JSON:","{""title"": ""Haseen Dillruba""}"
+578,I want to watch something feel good,"{""mood"": ""feel good"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: I want to watch something feel good
+JSON:","{""mood"": ""feel good"", ""rating_type"": ""top rated""}"
+3929,b'wood family 2018,"{""genre"": ""Family"", ""language"": ""Hindi"", ""year"": 2018}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: b'wood family 2018
+JSON:","{""genre"": ""Family"", ""language"": ""Hindi"", ""year"": 2018}"
+545,what are good mystery films on Disney+ Hotstar,"{""genre"": ""Mystery"", ""platform"": ""Disney+ Hotstar"", ""rating_type"": ""top rated""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: what are good mystery films on Disney+ Hotstar
+JSON:","{""genre"": ""Mystery"", ""platform"": ""Disney+ Hotstar"", ""rating_type"": ""top rated""}"
+368,movies with mammukka,"{""actor"": ""mammootty""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: movies with mammukka
+JSON:","{""actor"": ""mammootty""}"
+1613,manjummel boys imdb rating,"{""query_type"": ""rating/review"", ""title"": ""Manjummel Boys""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: manjummel boys imdb rating
+JSON:","{""query_type"": ""rating/review"", ""title"": ""Manjummel Boys""}"
+3551,is brahmastra available on MX Player,"{""platform"": ""MX Player"", ""query_type"": ""availability"", ""title"": ""Brahmastra""}","Convert the user query into a valid JSON intent object.
+Return only valid JSON, with no markdown fences and no extra text.
+
+Query: is brahmastra available on MX Player
+JSON:","{""platform"": ""MX Player"", ""query_type"": ""availability"", ""title"": ""Brahmastra""}"

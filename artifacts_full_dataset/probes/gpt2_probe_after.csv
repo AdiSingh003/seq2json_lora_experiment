@@ -1,0 +1,11 @@
+query,generated,parsed_json
+show me the latest movies on MX Player,"
+{""platform"": ""MX Player"", ""recency"": ""latest""}","{'platform': 'MX Player', 'recency': 'latest'}"
+find the cast of Scam 1992,"
+{""query_type"": ""search"", ""title"": ""Scam 1992""}","{'query_type': 'search', 'title': 'Scam 1992'}"
+what new Tamil releases are available on Netflix,"
+{""platform"": ""Netflix"", ""query_type"": ""availability"", ""title"": ""Tamil""}","{'platform': 'Netflix', 'query_type': 'availability', 'title': 'Tamil'}"
+play the latest songs from the movie soundtrack,"
+{""genre"": ""Mystery"", ""language"": ""Hindi"", ""recency"": ""latest""}","{'genre': 'Mystery', 'language': 'Hindi', 'recency': 'latest'}"
+who acted in the movie related to the film scam,"
+{""actor"": ""Salman Khan"", ""genre"": ""Acting"", ""language"": ""Hindi""}","{'actor': 'Salman Khan', 'genre': 'Acting', 'language': 'Hindi'}"

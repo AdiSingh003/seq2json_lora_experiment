@@ -1,0 +1,33 @@
+Best finetuned model: smollm2_135m
+Exact match rate: 0.994
+Valid JSON rate: 1.000
+Average key Jaccard: 0.998333
+Average precision: 0.998333
+Average recall: 0.998000
+Average F1: 0.997933
+
+All finetuned model after-finetune metrics:
+
+Model: gpt2
+  exact_match_rate: 0.828
+  valid_json_rate: 1.000
+  avg_key_jaccard: 0.934167
+  avg_precision: 0.898833
+  avg_recall: 0.908333
+  avg_f1: 0.900981
+
+Model: mt5-small
+  exact_match_rate: 0.418
+  valid_json_rate: 1.000
+  avg_key_jaccard: 0.698533
+  avg_precision: 0.650333
+  avg_recall: 0.685667
+  avg_f1: 0.656771
+
+Model: smollm2_135m
+  exact_match_rate: 0.994
+  valid_json_rate: 1.000
+  avg_key_jaccard: 0.998333
+  avg_precision: 0.998333
+  avg_recall: 0.998000
+  avg_f1: 0.997933

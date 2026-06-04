@@ -1,0 +1,6 @@
+query,generated,parsed_json
+show me the latest movies on MX Player,"{""platform"": ""MX Player"", ""query_type"": ""availability"", ""title"": ""The Series""}","{'platform': 'MX Player', 'query_type': 'availability', 'title': 'The Series'}"
+find the cast of Scam 1992,"{""actor"": ""Scam 1992"", ""year"": 1992}","{'actor': 'Scam 1992', 'year': 1992}"
+what new Tamil releases are available on Netflix,"{""platform"": ""Netflix"", ""query_type"": ""availability"", ""title"": ""New Tamil""}","{'platform': 'Netflix', 'query_type': 'availability', 'title': 'New Tamil'}"
+play the latest songs from the movie soundtrack,"{""genre"": ""Sound"", ""language"": ""Telugu"", ""rating_type"": ""top rated""}","{'genre': 'Sound', 'language': 'Telugu', 'rating_type': 'top rated'}"
+who acted in the movie related to the film scam,"{""actor"": ""Akshay Kumar"", ""title"": ""Scam""}","{'actor': 'Akshay Kumar', 'title': 'Scam'}"

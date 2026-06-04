@@ -1,0 +1,49 @@
+query,generated_before,parsed_json_before,generated_after,parsed_json_after
+show me the latest movies on MX Player,"{
+  ""query"": ""show me the latest movies on MX Player"",
+  ""intent"": ""movies"",
+  ""context"": {
+    ""platform"": ""mxplayer""
+  }
+}","{'query': 'show me the latest movies on MX Player', 'intent': 'movies', 'context': {'platform': 'mxplayer'}}","{""platform"": ""MX Player"", ""recency"": ""latest""}","{'platform': 'MX Player', 'recency': 'latest'}"
+find the cast of Scam 1992,"{
+  ""intent"": ""cast"",
+  ""query"": ""find the cast of Scam 1992"",
+  ""context"": {
+    ""user_id"": ""123456789"",
+    ""user_name"": ""John Doe"",
+    ""user_email"": ""john.doe@example.com""
+  }
+}","{'intent': 'cast', 'query': 'find the cast of Scam 1992', 'context': {'user_id': '123456789', 'user_name': 'John Doe', 'user_email': 'john.doe@example.com'}}","{""actor"": ""Akshay Kumar"", ""title"": ""Scam 1992""}","{'actor': 'Akshay Kumar', 'title': 'Scam 1992'}"
+what new Tamil releases are available on Netflix,"{
+  ""intent"": ""what_new_tamil_releases_are_available_on_netflix"",
+  ""context"": {
+    ""query"": ""what_new_tamil_releases_are_available_on_netflix""
+  },
+  ""response"": {
+    ""intent"": ""what_new_tamil_releases_are_available_on_netflix"",
+    ""context"": {
+      ""query"": ""what_new_tamil_releases_are_available_on_netflix""
+    }
+  }
+}","{'intent': 'what_new_tamil_releases_are_available_on_netflix', 'context': {'query': 'what_new_tamil_releases_are_available_on_netflix'}, 'response': {'intent': 'what_new_tamil_releases_are_available_on_netflix', 'context': {'query': 'what_new_tamil_releases_are_available_on_netflix'}}}","{""platform"": ""Netflix"", ""genre"": ""Web Series"", ""language"": ""Tamil""}","{'platform': 'Netflix', 'genre': 'Web Series', 'language': 'Tamil'}"
+play the latest songs from the movie soundtrack,"{
+  ""query"": ""play the latest songs from the movie soundtrack"",
+  ""intent"": ""music"",
+  ""context"": ""movie"",
+  ""entities"": [
+    {
+      ""name"": ""movie soundtrack""
+    }
+  ]
+}","{'query': 'play the latest songs from the movie soundtrack', 'intent': 'music', 'context': 'movie', 'entities': [{'name': 'movie soundtrack'}]}","{""actor"": ""mohanlal"", ""title"": ""Soundtrack""}","{'actor': 'mohanlal', 'title': 'Soundtrack'}"
+who acted in the movie related to the film scam,"{
+  ""query"": ""who acted in the movie related to the film scam"",
+  ""intent"": ""movie_related"",
+  ""entities"": [
+    {
+      ""name"": ""movie_related"",
+      ""type"": ""movie_related""
+    }
+  ]
+}","{'query': 'who acted in the movie related to the film scam', 'intent': 'movie_related', 'entities': [{'name': 'movie_related', 'type': 'movie_related'}]}","{""actor"": ""Salman Khan"", ""title"": ""Scam""}","{'actor': 'Salman Khan', 'title': 'Scam'}"
