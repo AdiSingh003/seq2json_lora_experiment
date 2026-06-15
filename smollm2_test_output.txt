@@ -1,28 +1,7661 @@
 ---
-Query 1: थप्पड़ कहाँ देखें
-Generated output:
-{"query_type": "rating/review", "title": "थप्पड़"}
-Parsed JSON:
+Query 1: Saurav Chakraborty kids 3-5
+Generated output (raw model):
+{"actor": "Saurav Chakraborty", "title": "Kesari"}
+Parsed JSON (raw model):
+{
+  "actor": "Saurav Chakraborty",
+  "title": "Kesari"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "age": "3-5 years",
+  "actor": "Saurav Chakraborty"
+}
+
+---
+Query 2: Salman Khan songs
+Generated output (raw model):
+{"actor": "Salman Khan"}
+Parsed JSON (raw model):
+{
+  "actor": "Salman Khan"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Salman Khan"
+}
+
+---
+Query 3: Disney kids 3-5
+Generated output (raw model):
+{"genre": "Family", "rating_type": "top rated", "title": "Disney Kids 3-5"}
+Parsed JSON (raw model):
+{
+  "genre": "Family",
+  "rating_type": "top rated",
+  "title": "Disney Kids 3-5"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "platform": "Disney+ Hotstar",
+  "age": "3-5 years",
+  "title": "Disney Kids 3-5"
+}
+
+---
+Query 4: 2025 Movies
+Generated output (raw model):
+{"year": 2025}
+Parsed JSON (raw model):
+{
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "year": "2025"
+}
+
+---
+Query 5: Live Awards
+Generated output (raw model):
+{"title": "Live Awards"}
+Parsed JSON (raw model):
+{
+  "title": "Live Awards"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Live Awards"
+}
+
+---
+Query 6: Dilip Joshi hindi shows
+Generated output (raw model):
+{"language": "Hindi", "content_type": "Web Series", "query_type": "availability", "title": "Dilip Joshi"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "content_type": "Web Series",
+  "query_type": "availability",
+  "title": "Dilip Joshi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "language": "Hindi",
+  "title": "Dilip Joshi"
+}
+
+---
+Query 7: Novak Djokovic
+Generated output (raw model):
+{"actor": "Novak Djokovic"}
+Parsed JSON (raw model):
+{
+  "actor": "Novak Djokovic"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Novak Djokovic"
+}
+
+---
+Query 8: Bahubli
+Generated output (raw model):
+{"title": "Bahubali"}
+Parsed JSON (raw model):
+{
+  "title": "Bahubali"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 9: IPL Highlights
+Generated output (raw model):
+{"title": "IPL"}
+Parsed JSON (raw model):
+{
+  "title": "IPL"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "IPL"
+}
+
+---
+Query 10: hindi comedy cartoons
+Generated output (raw model):
+{"genre": "Comedy", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "genre": "Comedy",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Comedy",
+  "language": "Hindi"
+}
+
+---
+Query 11: Sad songs
+Generated output (raw model):
+{"mood": "sad"}
+Parsed JSON (raw model):
+{
+  "mood": "sad"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "mood": "sad"
+}
+
+---
+Query 12: Football Highlights
+Generated output (raw model):
+{"actor": "Aamir Khan", "title": "Football"}
+Parsed JSON (raw model):
+{
+  "actor": "Aamir Khan",
+  "title": "Football"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Football"
+}
+
+---
+Query 13: Vande Gujarat 15
+Generated output (raw model):
+{"language": "Gujarati", "title": "Vande Gujarat 15"}
+Parsed JSON (raw model):
+{
+  "language": "Gujarati",
+  "title": "Vande Gujarat 15"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Vande Gujarat 15"
+}
+
+---
+Query 14: Salman Khan latest songs
+Generated output (raw model):
+{"actor": "Salman Khan", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Salman Khan",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "recency": "latest",
+  "actor": "Salman Khan"
+}
+
+---
+Query 15: Tom and Jerry comedy
+Generated output (raw model):
+{"actor": "Tom Cruise", "genre": "Comedy", "similar_to": "Tom and Jerry"}
+Parsed JSON (raw model):
+{
+  "actor": "Tom Cruise",
+  "genre": "Comedy",
+  "similar_to": "Tom and Jerry"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Comedy",
+  "actor": "Tom Cruise",
+  "similar_to": "Tom and Jerry"
+}
+
+---
+Query 16: Basketball matches
+Generated output (raw model):
+{"genre": "Sports", "title": "Basketball"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports",
+  "title": "Basketball"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Basketball"
+}
+
+---
+Query 17: CNN News 18
+Generated output (raw model):
+{"platform": "CNN", "query_type": "availability", "title": "CNN News 18"}
+Parsed JSON (raw model):
+{
+  "platform": "CNN",
+  "query_type": "availability",
+  "title": "CNN News 18"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "CNN News 18"
+}
+
+---
+Query 18: Marathi news
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Marathi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Marathi"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Marathi"
+}
+
+---
+Query 19: Ranbir Kapoor
+Generated output (raw model):
+{"actor": "Ranbir Kapoor"}
+Parsed JSON (raw model):
+{
+  "actor": "Ranbir Kapoor"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Ranbir Kapoor"
+}
+
+---
+Query 20: Drama shows
+Generated output (raw model):
+{"genre": "Drama"}
+Parsed JSON (raw model):
+{
+  "genre": "Drama"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Drama"
+}
+
+---
+Query 21: News 24
+Generated output (raw model):
+{"title": "News 24"}
+Parsed JSON (raw model):
+{
+  "title": "News 24"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "News 24"
+}
+
+---
+Query 22: Kid Krrish Bhutan
+Generated output (raw model):
+{"actor": "Salman Khan", "title": "Krishna"}
+Parsed JSON (raw model):
+{
+  "actor": "Salman Khan",
+  "title": "Krishna"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 23: Football matches
+Generated output (raw model):
+{"genre": "Sports", "title": "Football"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports",
+  "title": "Football"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Football"
+}
+
+---
+Query 24: LionsGate
+Generated output (raw model):
+{"platform": "Lions Gate"}
+Parsed JSON (raw model):
+{
+  "platform": "Lions Gate"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 25: cricket IPL matches
+Generated output (raw model):
+{"genre": "Web Series", "title": "Cricket OTT Show"}
+Parsed JSON (raw model):
+{
+  "genre": "Web Series",
+  "title": "Cricket OTT Show"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Cricket OTT Show"
+}
+
+---
+Query 26: Educational cartoons kids 5-8
+Generated output (raw model):
+{"audience": "kids", "genre": "Educational", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "audience": "kids",
+  "genre": "Educational",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "age": "5-8 years"
+}
+
+---
+Query 27: Christopher Nolan 2025
+Generated output (raw model):
+{"director": " Christopher Nolan", "year": 2025}
+Parsed JSON (raw model):
+{
+  "director": " Christopher Nolan",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "year": "2025",
+  "director": " Christopher Nolan"
+}
+
+---
+Query 28: Jetha Lal wala show
+Generated output (raw model):
+{"title": "Jetha Lal wala"}
+Parsed JSON (raw model):
+{
+  "title": "Jetha Lal wala"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "title": "Jetha Lal wala"
+}
+
+---
+Query 29: Alessio Pollacci drama shows
+Generated output (raw model):
+{"actor": "Alessio Pollacci", "genre": "Drama"}
+Parsed JSON (raw model):
+{
+  "actor": "Alessio Pollacci",
+  "genre": "Drama"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Drama",
+  "actor": "Alessio Pollacci"
+}
+
+---
+Query 30: Popular news channels
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Web Series", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Web Series",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 31: Action Adventure
+Generated output (raw model):
+{"genre": "Action", "title": "Action Adventure"}
+Parsed JSON (raw model):
+{
+  "genre": "Action",
+  "title": "Action Adventure"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Action",
+  "title": "Action Adventure"
+}
+
+---
+Query 32: Neha Kakkar ke gaane
+Generated output (raw model):
+{"actor": "Neha Lal", "title": "Gaane"}
+Parsed JSON (raw model):
+{
+  "actor": "Neha Lal",
+  "title": "Gaane"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Gaane",
+  "actor": "Neha Lal"
+}
+
+---
+Query 33: Sachin Jigar songs
+Generated output (raw model):
+{"actor": "Amitabh Bachchan", "genre": "Web Series", "title": "Sachin Jigar"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bachchan",
+  "genre": "Web Series",
+  "title": "Sachin Jigar"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "title": "Sachin Jigar"
+}
+
+---
+Query 34: Prasoon Joshi songs
+Generated output (raw model):
+{"actor": "Prasoon Joshi", "genre": "Web Series"}
+Parsed JSON (raw model):
+{
+  "actor": "Prasoon Joshi",
+  "genre": "Web Series"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Prasoon Joshi"
+}
+
+---
+Query 35: Neeraj Pandey movies
+Generated output (raw model):
+{"director": "Neeraj Pandey"}
+Parsed JSON (raw model):
+{
+  "director": "Neeraj Pandey"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Neeraj Pandey"
+}
+
+---
+Query 36: Sriram Raghavan thriller movies
+Generated output (raw model):
+{"actor": "Sriram Raghavan", "genre": "Thriller"}
+Parsed JSON (raw model):
+{
+  "actor": "Sriram Raghavan",
+  "genre": "Thriller"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Thriller",
+  "actor": "Sriram Raghavan"
+}
+
+---
+Query 37: U rated movies
+Generated output (raw model):
+{"rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 38: Ravi Varman cinematography
+Generated output (raw model):
+{"director": "Rajkumar Hirani", "content_type": "movie", "title": "Ravi Varman"}
+Parsed JSON (raw model):
+{
+  "director": "Rajkumar Hirani",
+  "content_type": "movie",
+  "title": "Ravi Varman"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Ravi Varman"
+}
+
+---
+Query 39: Sreekar Prasad
+Generated output (raw model):
+{"actor": "Sreekaran"}
+Parsed JSON (raw model):
+{
+  "actor": "Sreekaran"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 40: Resul Pookutty latest movies
+Generated output (raw model):
+{"actor": "Pokkuvu Resul", "rating_type": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Pokkuvu Resul",
+  "rating_type": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "recency": "latest",
+  "actor": "Pokkuvu Resul"
+}
+
+---
+Query 41: 5-8 age cartoons
+Generated output (raw model):
+{"genre": "Comedy", "rating_type": "top rated", "year": 2020}
+Parsed JSON (raw model):
+{
+  "genre": "Comedy",
+  "rating_type": "top rated",
+  "year": 2020
+}
+Final output (after rule-based value mapping):
+{
+  "age": "5-8 years"
+}
+
+---
+Query 42: Mani Ratnam Tamil movies
+Generated output (raw model):
+{"language": "Tamil", "director": "Mani Ratnam"}
+Parsed JSON (raw model):
+{
+  "language": "Tamil",
+  "director": "Mani Ratnam"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Tamil",
+  "director": "Mani Ratnam"
+}
+
+---
+Query 43: Rajkumar Hirani comedy movies
+Generated output (raw model):
+{"actor": "Rajkumar Hirani", "genre": "Comedy"}
+Parsed JSON (raw model):
+{
+  "actor": "Rajkumar Hirani",
+  "genre": "Comedy"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Comedy",
+  "actor": "Rajkumar Hirani"
+}
+
+---
+Query 44: bacchon ke liye movies
+Generated output (raw model):
+{"query_type": "availability", "title": "Bachchan sahab film"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "Bachchan sahab film"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 45: Vivah
+Generated output (raw model):
+{"actor": "Vivikta Chaudhuri"}
+Parsed JSON (raw model):
+{
+  "actor": "Vivikta Chaudhuri"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 46: Prabhas Kailash kher songs
+Generated output (raw model):
+{"actor": "Prabhas", "title": "Kailash Kher"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "title": "Kailash Kher"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "title": "Kailash Kher",
+  "actor": "Prabhas"
+}
+
+---
+Query 47: popular channels
+Generated output (raw model):
+{"content_type": "Web Series", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 48: diljit dosanjh latest
+Generated output (raw model):
+{"actor": "Dilwale Dulhania Lejeer", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Dilwale Dulhania Lejeer",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 49: Suhas Kadav cartoon
+Generated output (raw model):
+{"title": "Kadav"}
+Parsed JSON (raw model):
+{
+  "title": "Kadav"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Kadav"
+}
+
+---
+Query 50: Disney
+Generated output (raw model):
+{"platform": "Disney"}
+Parsed JSON (raw model):
+{
+  "platform": "Disney"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "Disney+ Hotstar"
+}
+
+---
+Query 51: Tennis Highlights
+Generated output (raw model):
+{"title": "Tennis Highlights"}
+Parsed JSON (raw model):
+{
+  "title": "Tennis Highlights"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Tennis Highlights"
+}
+
+---
+Query 52: National News
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Kannada", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Kannada",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 53: Nia DaCosta 2025
+Generated output (raw model):
+{"actor": "Nia Adhami", "year": 2025}
+Parsed JSON (raw model):
+{
+  "actor": "Nia Adhami",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "year": "2025",
+  "actor": "Nia Adhami"
+}
+
+---
+Query 54: Hindi songs
+Generated output (raw model):
+{"language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Hindi"
+}
+
+---
+Query 55: NDTV News
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "NDTV"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "NDTV"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 56: Priyadarshan Movies
+Generated output (raw model):
+{"director": "Priyadarshan"}
+Parsed JSON (raw model):
+{
+  "director": "Priyadarshan"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Priyadarshan"
+}
+
+---
+Query 57: Ed Sheeran
+Generated output (raw model):
+{"actor": "Ed Sheeran"}
+Parsed JSON (raw model):
+{
+  "actor": "Ed Sheeran"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Ed Sheeran"
+}
+
+---
+Query 58: Tom and Jerry
+Generated output (raw model):
+{"actor": "Tom Cruise", "title": "Tom and Jerry"}
+Parsed JSON (raw model):
+{
+  "actor": "Tom Cruise",
+  "title": "Tom and Jerry"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Tom and Jerry",
+  "actor": "Tom Cruise"
+}
+
+---
+Query 59: Saxophone Music
+Generated output (raw model):
+{"genre": "Music", "title": "Saxophone"}
+Parsed JSON (raw model):
+{
+  "genre": "Music",
+  "title": "Saxophone"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music",
+  "title": "Saxophone"
+}
+
+---
+Query 60: Cricket matches
+Generated output (raw model):
+{"title": "Cricket Matches"}
+Parsed JSON (raw model):
+{
+  "title": "Cricket Matches"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Cricket Matches"
+}
+
+---
+Query 61: BGMI
+Generated output (raw model):
+{"language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 62: 4K comedy shows
+Generated output (raw model):
+{"genre": "Comedy", "platform": "Kannada 4K"}
+Parsed JSON (raw model):
+{
+  "genre": "Comedy",
+  "platform": "Kannada 4K"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Comedy"
+}
+
+---
+Query 63: latest elections news
+Generated output (raw model):
+{"recency": "latest"}
+Parsed JSON (raw model):
+{
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 64: Superhero
+Generated output (raw model):
+{"title": "Superhero"}
+Parsed JSON (raw model):
+{
+  "title": "Superhero"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Superhero"
+}
+
+---
+Query 65: Daily News
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Daily News"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Daily News"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Daily News"
+}
+
+---
+Query 66: Live Performances
+Generated output (raw model):
+{"query_type": "availability", "title": "Live"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "Live"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Live"
+}
+
+---
+Query 67: kailash ker songs
+Generated output (raw model):
+{"title": "Kailash"}
+Parsed JSON (raw model):
+{
+  "title": "Kailash"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "title": "Kailash"
+}
+
+---
+Query 68: Classical hindi songs
+Generated output (raw model):
+{"language": "Hindi", "genre": "Classical"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "genre": "Classical"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Hindi"
+}
+
+---
+Query 69: Spy
+Generated output (raw model):
+{"title": "Spy"}
+Parsed JSON (raw model):
+{
+  "title": "Spy"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Spy"
+}
+
+---
+Query 70: Thriller
+Generated output (raw model):
+{"genre": "Thriller"}
+Parsed JSON (raw model):
+{
+  "genre": "Thriller"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Thriller"
+}
+
+---
+Query 71: Romantic movies
+Generated output (raw model):
+{"mood": "romantic"}
+Parsed JSON (raw model):
+{
+  "mood": "romantic"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "mood": "romantic"
+}
+
+---
+Query 72: Kailash Kher hits
+Generated output (raw model):
+{"actor": "Kailash Kher", "rating_type": "hit"}
+Parsed JSON (raw model):
+{
+  "actor": "Kailash Kher",
+  "rating_type": "hit"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Kailash Kher"
+}
+
+---
+Query 73: Excel Entertainment
+Generated output (raw model):
+{"title": "Excel"}
+Parsed JSON (raw model):
+{
+  "title": "Excel"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Excel"
+}
+
+---
+Query 74: Cricket Highlights
+Generated output (raw model):
+{"actor": "Amitabh Bachchan", "title": "Cricket"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bachchan",
+  "title": "Cricket"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Cricket"
+}
+
+---
+Query 75: Live TV Shows
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "Live Streaming" }
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "Live Streaming"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows"
+}
+
+---
+Query 76: Marathi Live channels
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Marathi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Marathi"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Marathi"
+}
+
+---
+Query 77: Aaj Tak
+Generated output (raw model):
+{"title": "Aaj Tak"}
+Parsed JSON (raw model):
+{
+  "title": "Aaj Tak"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Aaj Tak"
+}
+
+---
+Query 78: India team Virat Kohli
+Generated output (raw model):
+{"actor": "Virat Kohli", "title": "Team Virat"}
+Parsed JSON (raw model):
+{
+  "actor": "Virat Kohli",
+  "title": "Team Virat"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Team Virat",
+  "actor": "Virat Kohli"
+}
+
+---
+Query 79: JioCinema web series
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "Jio Cinema"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "Jio Cinema"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Web Series"
+}
+
+---
+Query 80: KK songs
+Generated output (raw model):
+{"actor": "Kareena Kapoor"}
+Parsed JSON (raw model):
+{
+  "actor": "Kareena Kapoor"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs"
+}
+
+---
+Query 81: SP Balasubrahmanyam songs
+Generated output (raw model):
+{"actor": "Shah Rukh Khan", "genre": "Web Series", "title": "SP Balasubrahmanyam"}
+Parsed JSON (raw model):
+{
+  "actor": "Shah Rukh Khan",
+  "genre": "Web Series",
+  "title": "SP Balasubrahmanyam"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "title": "SP Balasubrahmanyam"
+}
+
+---
+Query 82: Amit Trivedi songs
+Generated output (raw model):
+{"actor": "Amit Trivedi"}
+Parsed JSON (raw model):
+{
+  "actor": "Amit Trivedi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Amit Trivedi"
+}
+
+---
+Query 83: Irshad Kamil songs
+Generated output (raw model):
+{"actor": "Irshad Kamil"}
+Parsed JSON (raw model):
+{
+  "actor": "Irshad Kamil"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Irshad Kamil"
+}
+
+---
+Query 84: Gulzar old songs
+Generated output (raw model):
+{"actor": "Gulzar Irrfan", "rating_type": "old"}
+Parsed JSON (raw model):
+{
+  "actor": "Gulzar Irrfan",
+  "rating_type": "old"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Gulzar Irrfan"
+}
+
+---
+Query 85: Manoj Muntashir devotional songs
+Generated output (raw model):
+{"actor": "Manoj Kumar", "genre": "Divine", "rating_type": "devotional"}
+Parsed JSON (raw model):
+{
+  "actor": "Manoj Kumar",
+  "genre": "Divine",
+  "rating_type": "devotional"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Manoj Kumar"
+}
+
+---
+Query 86: Salim Javed movies
+Generated output (raw model):
+{"actor": "Salim Shafique"}
+Parsed JSON (raw model):
+{
+  "actor": "Salim Shafique"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Salim Shafique"
+}
+
+---
+Query 87: Juhi Chaturvedi comedy movies
+Generated output (raw model):
+{"actor": "Juhi Chaturvedi", "genre": "Comedy"}
+Parsed JSON (raw model):
+{
+  "actor": "Juhi Chaturvedi",
+  "genre": "Comedy"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Comedy",
+  "actor": "Juhi Chaturvedi"
+}
+
+---
+Query 88: 7+ rated shows
+Generated output (raw model):
+{"content_type": "Web Series", "rating_type": "7+"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "rating_type": "7+"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows"
+}
+
+---
+Query 89: Binod Pradhan cinematography
+Generated output (raw model):
+{"actor": "Binod Pradhan", "genre": "Cinematography"}
+Parsed JSON (raw model):
+{
+  "actor": "Binod Pradhan",
+  "genre": "Cinematography"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Binod Pradhan"
+}
+
+---
+Query 90: Santosh Sivan Hindi movies
+Generated output (raw model):
+{"language": "Hindi", "director": "Santosh Sivan"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "director": "Santosh Sivan"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi",
+  "director": "Santosh Sivan"
+}
+
+---
+Query 91: Karan Johar romantic movies
+Generated output (raw model):
+{"actor": "Karan Johar", "mood": "romantic"}
+Parsed JSON (raw model):
+{
+  "actor": "Karan Johar",
+  "mood": "romantic"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "mood": "romantic",
+  "actor": "Karan Johar"
+}
+
+---
+Query 92: bacchon ke liye naye cartoon
+Generated output (raw model):
+{"similar_to": "Bachchan"}
+Parsed JSON (raw model):
+{
+  "similar_to": "Bachchan"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 93: Weekend Binge
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Weekend Binge"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Weekend Binge"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Weekend Binge"
+}
+
+---
+Query 94: Upcoming This Week
+Generated output (raw model):
+{"query_type": "availability", "title": "This Week"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "This Week"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "This Week"
+}
+
+---
+Query 95: Disney content
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "Disney"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "Disney"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "Disney+ Hotstar"
+}
+
+---
+Query 96: Comedy Kids
+Generated output (raw model):
+{"actor": "Ranbir Kapoor", "genre": "Comedy"}
+Parsed JSON (raw model):
+{
+  "actor": "Ranbir Kapoor",
+  "genre": "Comedy"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "genre": "Comedy"
+}
+
+---
+Query 97: Cartoon Movies
+Generated output (raw model):
+{"genre": "Cartoon"}
+Parsed JSON (raw model):
+{
+  "genre": "Cartoon"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 98: Comedy Movies
+Generated output (raw model):
+{"genre": "Comedy"}
+Parsed JSON (raw model):
+{
+  "genre": "Comedy"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Comedy"
+}
+
+---
+Query 99: Colors Tv
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Colors"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Colors"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Colors"
+}
+
+---
+Query 100: Thriller Movies
+Generated output (raw model):
+{"genre": "Thriller"}
+Parsed JSON (raw model):
+{
+  "genre": "Thriller"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Thriller"
+}
+
+---
+Query 101: Shri Amarnathji news
+Generated output (raw model):
+{"query_type": "availability", "title": "Shri Amarnathji"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "Shri Amarnathji"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Shri Amarnathji"
+}
+
+---
+Query 102: Telugu News
+Generated output (raw model):
+{"language": "Telugu", "content_type": "Web Series"}
+Parsed JSON (raw model):
+{
+  "language": "Telugu",
+  "content_type": "Web Series"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Telugu"
+}
+
+---
+Query 103: hindi music channels
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music",
+  "language": "Hindi"
+}
+
+---
+Query 104: Boxing Highlights
+Generated output (raw model):
+{"title": "Boxing"}
+Parsed JSON (raw model):
+{
+  "title": "Boxing"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Boxing"
+}
+
+---
+Query 105: Deadpool & Wolverine
+Generated output (raw model):
+{"actor": "Hrithik Roshan", "title": "Deadpool & Wolverine"}
+Parsed JSON (raw model):
+{
+  "actor": "Hrithik Roshan",
+  "title": "Deadpool & Wolverine"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Deadpool & Wolverine"
+}
+
+---
+Query 106: jab we met songs
+Generated output (raw model):
+{"title": "Jab We Met"}
+Parsed JSON (raw model):
+{
+  "title": "Jab We Met"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "title": "Jab We Met"
+}
+
+---
+Query 107: Sacred Games
+Generated output (raw model):
+{"title": "Sacred Games"}
+Parsed JSON (raw model):
+{
+  "title": "Sacred Games"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Sacred Games"
+}
+
+---
+Query 108: Peppa Pig
+Generated output (raw model):
+{"title": "Peppa Pig"}
+Parsed JSON (raw model):
+{
+  "title": "Peppa Pig"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Peppa Pig"
+}
+
+---
+Query 109: Recent Highlights
+Generated output (raw model):
+{"query_type": "rating/review", "title": "Recent Highlights"}
+Parsed JSON (raw model):
 {
   "query_type": "rating/review",
-  "title": "थप्पड़"
+  "title": "Recent Highlights"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest",
+  "title": "Recent Highlights"
 }
 
 ---
-Query 2: पारिवारिक में अनुष्का की बेस्ट फिल्म कौन सी है
-Generated output:
-{"similar_to": "Anuvaal"}
-Parsed JSON:
+Query 110: MX Player ki latest web series
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "MX Player"}
+Parsed JSON (raw model):
 {
-  "similar_to": "Anuvaal"
+  "content_type": "Web Series",
+  "platform": "MX Player"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Web Series",
+  "platform": "MX Player",
+  "recency": "latest"
 }
 
 ---
-Query 3: कोई तमिल स्पोर्ट्स फिल्म सुझाओ
-Generated output:
-{"title": "KoLIZM"}
-Parsed JSON:
+Query 111: Sunidhi Chauhan party songs
+Generated output (raw model):
+{"actor": "Sunidhi Chauhan", "genre": "Party"}
+Parsed JSON (raw model):
 {
-  "title": "KoLIZM"
+  "actor": "Sunidhi Chauhan",
+  "genre": "Party"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Sunidhi Chauhan"
+}
+
+---
+Query 112: AR Rahman
+Generated output (raw model):
+{"actor": "AR Rahman"}
+Parsed JSON (raw model):
+{
+  "actor": "AR Rahman"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "AR Rahman"
+}
+
+---
+Query 113: Tanishk Bagchi
+Generated output (raw model):
+{"actor": "Tanishk Bagchi"}
+Parsed JSON (raw model):
+{
+  "actor": "Tanishk Bagchi"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Tanishk Bagchi"
+}
+
+---
+Query 114: AR Rahman Hindi movies
+Generated output (raw model):
+{"language": "Hindi", "actor": "AR Rahman"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "actor": "AR Rahman"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi",
+  "actor": "AR Rahman"
+}
+
+---
+Query 115: Irshad Kamil latest songs
+Generated output (raw model):
+{"actor": "Irshad Kamil", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Irshad Kamil",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "recency": "latest",
+  "actor": "Irshad Kamil"
+}
+
+---
+Query 116: Vijay Krishna Acharya
+Generated output (raw model):
+{"actor": "Vijay Krishna Acharya"}
+Parsed JSON (raw model):
+{
+  "actor": "Vijay Krishna Acharya"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Vijay Krishna Acharya"
+}
+
+---
+Query 117: Salim Javed Hindi movies
+Generated output (raw model):
+{"language": "Hindi", "director": "Salim Jaffrey"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "director": "Salim Jaffrey"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi",
+  "director": "Salim Jaffrey"
+}
+
+---
+Query 118: 16+ movies
+Generated output (raw model):
+{"rating_type": "top rated", "year": 2020}
+Parsed JSON (raw model):
+{
+  "rating_type": "top rated",
+  "year": 2020
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 119: A rated Hindi movies
+Generated output (raw model):
+{"language": "Hindi", "rating_type": "rated"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "rating_type": "rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi"
+}
+
+---
+Query 120: chhote bacchon ke liye 0-3
+Generated output (raw model):
+{"query_type": "rating/review", "title": "Chhote Bachchan"}
+Parsed JSON (raw model):
+{
+  "query_type": "rating/review",
+  "title": "Chhote Bachchan"
+}
+Final output (after rule-based value mapping):
+{
+  "age": "0-3 years",
+  "title": "Chhote Bachchan"
+}
+
+---
+Query 121: Anurag Kashyap ki films
+Generated output (raw model):
+{"director": "Anurag Kashyap"}
+Parsed JSON (raw model):
+{
+  "director": "Anurag Kashyap"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Anurag Kashyap"
+}
+
+---
+Query 122: Batnam
+Generated output (raw model):
+{"title": "Batnam"}
+Parsed JSON (raw model):
+{
+  "title": "Batnam"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Batnam"
+}
+
+---
+Query 123: IPL Star Sports
+Generated output (raw model):
+{"actor": "Hrithik Roshan", "genre": "Sports", "language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "actor": "Hrithik Roshan",
+  "genre": "Sports",
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports"
+}
+
+---
+Query 124: Network18
+Generated output (raw model):
+{"platform": "Network18"}
+Parsed JSON (raw model):
+{
+  "platform": "Network18"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 125: Network18 marathi news
+Generated output (raw model):
+{"language": "Marathi", "content_type": "Web Series", "platform": "Netflix"}
+Parsed JSON (raw model):
+{
+  "language": "Marathi",
+  "content_type": "Web Series",
+  "platform": "Netflix"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Marathi"
+}
+
+---
+Query 126: AR Rahman Concert
+Generated output (raw model):
+{"actor": "AR Rahman", "title": "AR Rahman Concert"}
+Parsed JSON (raw model):
+{
+  "actor": "AR Rahman",
+  "title": "AR Rahman Concert"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "AR Rahman Concert",
+  "actor": "AR Rahman"
+}
+
+---
+Query 127: Ranveer Singh
+Generated output (raw model):
+{"actor": "Ranveer Singh"}
+Parsed JSON (raw model):
+{
+  "actor": "Ranveer Singh"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Ranveer Singh"
+}
+
+---
+Query 128: hindi Amazon Prime shows
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi", "platform": "Amazon Prime"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi",
+  "platform": "Amazon Prime"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "platform": "Amazon Prime",
+  "language": "Hindi"
+}
+
+---
+Query 129: Dilip Joshi 2025 shows
+Generated output (raw model):
+{"actor": "Dilip Joshi", "year": 2025}
+Parsed JSON (raw model):
+{
+  "actor": "Dilip Joshi",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "year": "2025",
+  "actor": "Dilip Joshi"
+}
+
+---
+Query 130: Salman Khan pop songs
+Generated output (raw model):
+{"actor": "Salman Khan", "genre": "Pop"}
+Parsed JSON (raw model):
+{
+  "actor": "Salman Khan",
+  "genre": "Pop"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Salman Khan"
+}
+
+---
+Query 131: Sports news
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Sports"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Sports"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports"
+}
+
+---
+Query 132: Sonu Nigam
+Generated output (raw model):
+{"actor": "Sonu Nigam"}
+Parsed JSON (raw model):
+{
+  "actor": "Sonu Nigam"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Sonu Nigam"
+}
+
+---
+Query 133: Music Videos
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Music"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Music"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music"
+}
+
+---
+Query 134: 24 Ghanta TV
+Generated output (raw model):
+{"platform": "24 Ghanta"}
+Parsed JSON (raw model):
+{
+  "platform": "24 Ghanta"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 135: Ind bs Aus cricket match
+Generated output (raw model):
+{"query_type": "availability", "title": "Indo-Bengali sports"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "Indo-Bengali sports"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 136: Kids 3-5 years
+Generated output (raw model):
+{"age": 3, "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "age": 3,
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "age": "3-5 years"
+}
+
+---
+Query 137: Hindi commentary
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi"
+}
+
+---
+Query 138: Sports news hindi
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi", "query_type": "availability", "title": "Sports news"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi",
+  "query_type": "availability",
+  "title": "Sports news"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports",
+  "language": "Hindi",
+  "title": "Sports news"
+}
+
+---
+Query 139: latest cricket matches
+Generated output (raw model):
+{"genre": "Cricket", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "genre": "Cricket",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 140: Animation movies
+Generated output (raw model):
+{"genre": "Animation"}
+Parsed JSON (raw model):
+{
+  "genre": "Animation"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 141: anpama
+Generated output (raw model):
+{"title": "Anpama"}
+Parsed JSON (raw model):
+{
+  "title": "Anpama"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Anpama"
+}
+
+---
+Query 142: trending Live channels
+Generated output (raw model):
+{"content_type": "Web Series", "query_type": "rating/review", "title": "Trending Live"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "query_type": "rating/review",
+  "title": "Trending Live"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Trending Live"
+}
+
+---
+Query 143: Bollywood Music
+Generated output (raw model):
+{"genre": "Music", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "genre": "Music",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music"
+}
+
+---
+Query 144: New Bollywood
+Generated output (raw model):
+{"language": "Hindi", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 145: Arijit Singh ke gaane
+Generated output (raw model):
+{"actor": "Arijit Singh", "title": "Gaane"}
+Parsed JSON (raw model):
+{
+  "actor": "Arijit Singh",
+  "title": "Gaane"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Gaane",
+  "actor": "Arijit Singh"
+}
+
+---
+Query 146: Shreya Ghoshal
+Generated output (raw model):
+{"director": "Shreya Ghoshal"}
+Parsed JSON (raw model):
+{
+  "director": "Shreya Ghoshal"
+}
+Final output (after rule-based value mapping):
+{
+  "director": "Shreya Ghoshal"
+}
+
+---
+Query 147: Mithoon songs
+Generated output (raw model):
+{"actor": "Mithun Kumar"}
+Parsed JSON (raw model):
+{
+  "actor": "Mithun Kumar"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs"
+}
+
+---
+Query 148: Gulzar
+Generated output (raw model):
+{"actor": "Gulzar Irrfan"}
+Parsed JSON (raw model):
+{
+  "actor": "Gulzar Irrfan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Gulzar Irrfan"
+}
+
+---
+Query 149: Prasoon Joshi ke movies
+Generated output (raw model):
+{"actor": "Prasoon Joshi"}
+Parsed JSON (raw model):
+{
+  "actor": "Prasoon Joshi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Prasoon Joshi"
+}
+
+---
+Query 150: family friendly movies
+Generated output (raw model):
+{"audience": "family"}
+Parsed JSON (raw model):
+{
+  "audience": "family"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "family"
+}
+
+---
+Query 151: family safe shows
+Generated output (raw model):
+{"audience": "family", "genre": "Safe"}
+Parsed JSON (raw model):
+{
+  "audience": "family",
+  "genre": "Safe"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "audience": "family"
+}
+
+---
+Query 152: Sreekar Prasad action movies
+Generated output (raw model):
+{"actor": "Sreekar Prasad", "genre": "Action"}
+Parsed JSON (raw model):
+{
+  "actor": "Sreekar Prasad",
+  "genre": "Action"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Action",
+  "actor": "Sreekar Prasad"
+}
+
+---
+Query 153: educational kids 5-8
+Generated output (raw model):
+{"audience": "kids", "genre": "Educational", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "audience": "kids",
+  "genre": "Educational",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "age": "5-8 years"
+}
+
+---
+Query 154: Karan Johar movies
+Generated output (raw model):
+{"director": "Karan Johar"}
+Parsed JSON (raw model):
+{
+  "director": "Karan Johar"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Karan Johar"
+}
+
+---
+Query 155: hindi Movies
+Generated output (raw model):
+{"language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi"
+}
+
+---
+Query 156: Kabaddi Highlights
+Generated output (raw model):
+{"title": "Kabaddi"}
+Parsed JSON (raw model):
+{
+  "title": "Kabaddi"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Kabaddi"
+}
+
+---
+Query 157: Latest Shows
+Generated output (raw model):
+{"content_type": "Web Series", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "recency": "latest"
+}
+
+---
+Query 158: India Today
+Generated output (raw model):
+{"title": "India Today"}
+Parsed JSON (raw model):
+{
+  "title": "India Today"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "India Today"
+}
+
+---
+Query 159: Kids Adventure
+Generated output (raw model):
+{"actor": "Prabhas", "genre": "Adventure", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "genre": "Adventure",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids"
+}
+
+---
+Query 160: Vidya Balan
+Generated output (raw model):
+{"actor": "Vidya Balan"}
+Parsed JSON (raw model):
+{
+  "actor": "Vidya Balan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Vidya Balan"
+}
+
+---
+Query 161: Kailash Kher hindi
+Generated output (raw model):
+{"language": "Hindi", "actor": "Kailash Kher"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "actor": "Kailash Kher"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi",
+  "actor": "Kailash Kher"
+}
+
+---
+Query 162: hindi indian channels
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi", "query_type": "availability", "title": "Hindi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi",
+  "query_type": "availability",
+  "title": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi",
+  "title": "Hindi"
+}
+
+---
+Query 163: Christopher Nolan thriller
+Generated output (raw model):
+{"genre": "Thriller", "director": " Christopher Nolan"}
+Parsed JSON (raw model):
+{
+  "genre": "Thriller",
+  "director": " Christopher Nolan"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Thriller",
+  "director": " Christopher Nolan"
+}
+
+---
+Query 164: Preschool
+Generated output (raw model):
+{"title": "Preschool"}
+Parsed JSON (raw model):
+{
+  "title": "Preschool"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Preschool"
+}
+
+---
+Query 165: Kids Songs
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Kids"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Kids"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "audience": "kids"
+}
+
+---
+Query 166: Badminton
+Generated output (raw model):
+{"title": "Badminton"}
+Parsed JSON (raw model):
+{
+  "title": "Badminton"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Badminton"
+}
+
+---
+Query 167: ABP News
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "Al Jazeera"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "Al Jazeera"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 168: BBC news
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "BBC"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "BBC"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 169: Nursery Songs
+Generated output (raw model):
+{"genre": "Children's"}
+Parsed JSON (raw model):
+{
+  "genre": "Children's"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs"
+}
+
+---
+Query 170: trending latest news
+Generated output (raw model):
+{"query_type": "rating/review", "title": "latest news"}
+Parsed JSON (raw model):
+{
+  "query_type": "rating/review",
+  "title": "latest news"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest",
+  "title": "latest news"
+}
+
+---
+Query 171: Peppa Pig episode where George loses his toy
+Generated output (raw model):
+{"actor": "Rajinikanth", "title": "George loses his toy"}
+Parsed JSON (raw model):
+{
+  "actor": "Rajinikanth",
+  "title": "George loses his toy"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "George loses his toy"
+}
+
+---
+Query 172: Atif Aslam
+Generated output (raw model):
+{"actor": "Atif Aslam", "title": "Atif Aslam"}
+Parsed JSON (raw model):
+{
+  "actor": "Atif Aslam",
+  "title": "Atif Aslam"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Atif Aslam",
+  "actor": "Atif Aslam"
+}
+
+---
+Query 173: Amit Trivedi
+Generated output (raw model):
+{"actor": "Amit Trivedi"}
+Parsed JSON (raw model):
+{
+  "actor": "Amit Trivedi"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Amit Trivedi"
+}
+
+---
+Query 174: Ilaiyaraaja
+Generated output (raw model):
+{"actor": "Ilaiyaraaj"}
+Parsed JSON (raw model):
+{
+  "actor": "Ilaiyaraaj"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Ilaiyaraaj"
+}
+
+---
+Query 175: Pritam romantic songs
+Generated output (raw model):
+{"actor": "Pritam Chopra", "mood": "romantic"}
+Parsed JSON (raw model):
+{
+  "actor": "Pritam Chopra",
+  "mood": "romantic"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "mood": "romantic",
+  "actor": "Pritam Chopra"
+}
+
+---
+Query 176: Manoj Muntashir ke gaane
+Generated output (raw model):
+{"actor": "Manoj Kumar", "title": "Gaane"}
+Parsed JSON (raw model):
+{
+  "actor": "Manoj Kumar",
+  "title": "Gaane"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Gaane",
+  "actor": "Manoj Kumar"
+}
+
+---
+Query 177: Varun Grover
+Generated output (raw model):
+{"actor": "Varun Kapoor", "title": "Grover"}
+Parsed JSON (raw model):
+{
+  "actor": "Varun Kapoor",
+  "title": "Grover"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Grover",
+  "actor": "Varun Kapoor"
+}
+
+---
+Query 178: UA rated shows
+Generated output (raw model):
+{"content_type": "Web Series", "badge": "UA"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "badge": "UA"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "badge": "UA"
+}
+
+---
+Query 179: adult shows
+Generated output (raw model):
+{"audience": "adults"}
+Parsed JSON (raw model):
+{
+  "audience": "adults"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "audience": "adults"
+}
+
+---
+Query 180: bacchon ke liye safe content
+Generated output (raw model):
+{"query_type": "rating/review", "title": "Bachchan sahab film"}
+Parsed JSON (raw model):
+{
+  "query_type": "rating/review",
+  "title": "Bachchan sahab film"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 181: 0-3 baby content
+Generated output (raw model):
+{"actor": "Allu Arjun", "query_type": "rating/review", "title": "0-3 Baby"}
+Parsed JSON (raw model):
+{
+  "actor": "Allu Arjun",
+  "query_type": "rating/review",
+  "title": "0-3 Baby"
+}
+Final output (after rule-based value mapping):
+{
+  "age": "0-3 years",
+  "title": "0-3 Baby"
+}
+
+---
+Query 182: adventure shows 8-12
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Adventure", "query_type": "availability", "year": 2020}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Adventure",
+  "query_type": "availability",
+  "year": 2020
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "age": "8-12 years"
+}
+
+---
+Query 183: Imtiaz Ali romantic movies
+Generated output (raw model):
+{"actor": "Imtiaz Ali", "mood": "romantic"}
+Parsed JSON (raw model):
+{
+  "actor": "Imtiaz Ali",
+  "mood": "romantic"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "mood": "romantic",
+  "actor": "Imtiaz Ali"
+}
+
+---
+Query 184: kids educational shows
+Generated output (raw model):
+{"audience": "kids", "genre": "Educational"}
+Parsed JSON (raw model):
+{
+  "audience": "kids",
+  "genre": "Educational"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "audience": "kids"
+}
+
+---
+Query 185: Laughter Chefs
+Generated output (raw model):
+{"actor": "Akshay Kumar", "title": "Laughter Chefs"}
+Parsed JSON (raw model):
+{
+  "actor": "Akshay Kumar",
+  "title": "Laughter Chefs"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Laughter Chefs"
+}
+
+---
+Query 186: Grammy Awards
+Generated output (raw model):
+{"title": "Grammy Awards"}
+Parsed JSON (raw model):
+{
+  "title": "Grammy Awards"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Grammy Awards"
+}
+
+---
+Query 187: Katrina Kaif
+Generated output (raw model):
+{"actor": "Katrina Kaif"}
+Parsed JSON (raw model):
+{
+  "actor": "Katrina Kaif"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Katrina Kaif"
+}
+
+---
+Query 188: India Cricket Team
+Generated output (raw model):
+{"actor": "Amitabh Bachchan", "genre": "Cricket"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bachchan",
+  "genre": "Cricket"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 189: Hindi shows
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "language": "Hindi"
+}
+
+---
+Query 190: Disney adventure cartoons
+Generated output (raw model):
+{"genre": "Adventure", "platform": "Disney"}
+Parsed JSON (raw model):
+{
+  "genre": "Adventure",
+  "platform": "Disney"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "Disney+ Hotstar"
+}
+
+---
+Query 191: Priyanka Chopra
+Generated output (raw model):
+{"actor": "Priyanka Chopra"}
+Parsed JSON (raw model):
+{
+  "actor": "Priyanka Chopra"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Priyanka Chopra"
+}
+
+---
+Query 192: Arjit Singh Songs
+Generated output (raw model):
+{"actor": "Arjun Rai", "genre": "Web Series", "title": "Arjit Singh"}
+Parsed JSON (raw model):
+{
+  "actor": "Arjun Rai",
+  "genre": "Web Series",
+  "title": "Arjit Singh"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "title": "Arjit Singh"
+}
+
+---
+Query 193: SRK Deepika movies
+Generated output (raw model):
+{"actor": "Shah Rukh Khan", "title": "Deepika"}
+Parsed JSON (raw model):
+{
+  "actor": "Shah Rukh Khan",
+  "title": "Deepika"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "title": "Deepika"
+}
+
+---
+Query 194: The Kapil Sharma Amazon Prime
+Generated output (raw model):
+{"actor": "Kapil Sharma", "platform": "Amazon Prime"}
+Parsed JSON (raw model):
+{
+  "actor": "Kapil Sharma",
+  "platform": "Amazon Prime"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "Amazon Prime",
+  "actor": "Kapil Sharma"
+}
+
+---
+Query 195: Breaking news
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Breaking News"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Breaking News"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Breaking News"
+}
+
+---
+Query 196: Hindi channels
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi"
+}
+
+---
+Query 197: Fantasy Kids
+Generated output (raw model):
+{"title": "Fantasy Kids"}
+Parsed JSON (raw model):
+{
+  "title": "Fantasy Kids"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "title": "Fantasy Kids"
+}
+
+---
+Query 198: diljit dosanjh
+Generated output (raw model):
+{"actor": "Dilwale Dulhania Lejeeru", "title": "Dilwale Dulhania Lejeeru"}
+Parsed JSON (raw model):
+{
+  "actor": "Dilwale Dulhania Lejeeru",
+  "title": "Dilwale Dulhania Lejeeru"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 199: Viral Content
+Generated output (raw model):
+{"title": "Viral Content"}
+Parsed JSON (raw model):
+{
+  "title": "Viral Content"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Viral Content"
+}
+
+---
+Query 200: 1975 movies
+Generated output (raw model):
+{"year": 1975}
+Parsed JSON (raw model):
+{
+  "year": 1975
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 201: Wimbledon
+Generated output (raw model):
+{"title": "Wimbledon"}
+Parsed JSON (raw model):
+{
+  "title": "Wimbledon"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Wimbledon"
+}
+
+---
+Query 202: Voot shows
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Voot"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Voot"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "title": "Voot"
+}
+
+---
+Query 203: Atif Aslam ke romantic gaane
+Generated output (raw model):
+{"actor": "Atif Aslam", "title": "Romantic Gaan"}
+Parsed JSON (raw model):
+{
+  "actor": "Atif Aslam",
+  "title": "Romantic Gaan"
+}
+Final output (after rule-based value mapping):
+{
+  "mood": "romantic",
+  "title": "Romantic Gaan",
+  "actor": "Atif Aslam"
+}
+
+---
+Query 204: Arijit Singh sad songs
+Generated output (raw model):
+{"actor": "Arijit Singh", "mood": "sad"}
+Parsed JSON (raw model):
+{
+  "actor": "Arijit Singh",
+  "mood": "sad"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "mood": "sad",
+  "actor": "Arijit Singh"
+}
+
+---
+Query 205: AR Rahman movies
+Generated output (raw model):
+{"actor": "AR Rahman"}
+Parsed JSON (raw model):
+{
+  "actor": "AR Rahman"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "AR Rahman"
+}
+
+---
+Query 206: 13+ action shows
+Generated output (raw model):
+{"genre": "Action", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "genre": "Action",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Action"
+}
+
+---
+Query 207: UA rated action movies
+Generated output (raw model):
+{"genre": "Action", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "genre": "Action",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Action"
+}
+
+---
+Query 208: Sabu Cyril art direction
+Generated output (raw model):
+{"actor": "Sabu", "title": "Cyril"}
+Parsed JSON (raw model):
+{
+  "actor": "Sabu",
+  "title": "Cyril"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Cyril",
+  "actor": "Sabu"
+}
+
+---
+Query 209: Naveen Yelli VFX
+Generated output (raw model):
+{"actor": "Naveen Kapoor", "title": "Yelli VFX"}
+Parsed JSON (raw model):
+{
+  "actor": "Naveen Kapoor",
+  "title": "Yelli VFX"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Yelli VFX",
+  "actor": "Naveen Kapoor"
+}
+
+---
+Query 210: Sabu Cyril ki films
+Generated output (raw model):
+{"actor": "Sabu", "genre": "Psychological thriller"}
+Parsed JSON (raw model):
+{
+  "actor": "Sabu",
+  "genre": "Psychological thriller"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Sabu"
+}
+
+---
+Query 211: kids Hindi 3-5
+Generated output (raw model):
+{"query_type": "rating/review", "title": "Hindi 3-5"}
+Parsed JSON (raw model):
+{
+  "query_type": "rating/review",
+  "title": "Hindi 3-5"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "language": "Hindi",
+  "age": "3-5 years",
+  "title": "Hindi 3-5"
+}
+
+---
+Query 212: SS Rajamouli ki film
+Generated output (raw model):
+{"director": "SS Rajamouli"}
+Parsed JSON (raw model):
+{
+  "director": "SS Rajamouli"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "SS Rajamouli"
+}
+
+---
+Query 213: kids hindi cartoons
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "language": "Hindi"
+}
+
+---
+Query 214: latest kids movies Hindi
+Generated output (raw model):
+{"language": "Hindi", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "kids",
+  "recency": "latest",
+  "language": "Hindi"
+}
+
+---
+Query 215: Family Movies
+Generated output (raw model):
+{"genre": "Family"}
+Parsed JSON (raw model):
+{
+  "genre": "Family"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "family"
+}
+
+---
+Query 216: anupamaa
+Generated output (raw model):
+{"title": "Anupamaa"}
+Parsed JSON (raw model):
+{
+  "title": "Anupamaa"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Anupamaa"
+}
+
+---
+Query 217: trending songs
+Generated output (raw model):
+{"rating_type": "trending"}
+Parsed JSON (raw model):
+{
+  "rating_type": "trending"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs"
+}
+
+---
+Query 218: News channels
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 219: Latest Web Series
+Generated output (raw model):
+{"content_type": "Web Series", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Web Series",
+  "recency": "latest"
+}
+
+---
+Query 220: Tb9
+Generated output (raw model):
+{"title": "Tb9"}
+Parsed JSON (raw model):
+{
+  "title": "Tb9"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Tb9"
+}
+
+---
+Query 221: ABP Ganga
+Generated output (raw model):
+{"actor": "Amitabh Bachchan", "title": "Ganga"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bachchan",
+  "title": "Ganga"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Ganga"
+}
+
+---
+Query 222: Batman
+Generated output (raw model):
+{"title": "Batman"}
+Parsed JSON (raw model):
+{
+  "title": "Batman"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Batman"
+}
+
+---
+Query 223: Hindi TV Shows
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "language": "Hindi"
+}
+
+---
+Query 224: Badminton Highlights
+Generated output (raw model):
+{"title": "Badminton Highlights"}
+Parsed JSON (raw model):
+{
+  "title": "Badminton Highlights"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Badminton Highlights"
+}
+
+---
+Query 225: trending sports news
+Generated output (raw model):
+{"genre": "Sports", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports"
+}
+
+---
+Query 226: 2022
+Generated output (raw model):
+{"year": 2022}
+Parsed JSON (raw model):
+{
+  "year": 2022
+}
+Final output (after rule-based value mapping):
+{
+  "year": "2022"
+}
+
+---
+Query 227: Rajkumar Hirani
+Generated output (raw model):
+{"actor": "Rajkumar Hirani"}
+Parsed JSON (raw model):
+{
+  "actor": "Rajkumar Hirani"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Rajkumar Hirani"
+}
+
+---
+Query 228: Republic TV
+Generated output (raw model):
+{"platform": "Republic"}
+Parsed JSON (raw model):
+{
+  "platform": "Republic"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 229: Hornbill TV
+Generated output (raw model):
+{"platform": "Hornbill"}
+Parsed JSON (raw model):
+{
+  "platform": "Hornbill"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 230: Gurukul
+Generated output (raw model):
+{"title": "Gurukul"}
+Parsed JSON (raw model):
+{
+  "title": "Gurukul"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Gurukul"
+}
+
+---
+Query 231: Marathi Songs
+Generated output (raw model):
+{"genre": "Music", "language": "Marathi"}
+Parsed JSON (raw model):
+{
+  "genre": "Music",
+  "language": "Marathi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Marathi"
+}
+
+---
+Query 232: Bihar news
+Generated output (raw model):
+{"content_type": "Web Series", "network": "MX Player", "title": "Bihar"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "network": "MX Player",
+  "title": "Bihar"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Bihar"
+}
+
+---
+Query 233: Press Conference
+Generated output (raw model):
+{"title": "Press Conference"}
+Parsed JSON (raw model):
+{
+  "title": "Press Conference"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Press Conference"
+}
+
+---
+Query 234: 2000's hit songs
+Generated output (raw model):
+{"rating_type": "hit", "year": 2000}
+Parsed JSON (raw model):
+{
+  "rating_type": "hit",
+  "year": 2000
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "rating_type": "hit"
+}
+
+---
+Query 235: Pankaj Tripathi
+Generated output (raw model):
+{"actor": "Pankaj Tripathi"}
+Parsed JSON (raw model):
+{
+  "actor": "Pankaj Tripathi"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Pankaj Tripathi"
+}
+
+---
+Query 236: Saurav Chakraborty educational
+Generated output (raw model):
+{"actor": "Saurav Chakraborty", "title": "Educational"}
+Parsed JSON (raw model):
+{
+  "actor": "Saurav Chakraborty",
+  "title": "Educational"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Educational",
+  "actor": "Saurav Chakraborty"
+}
+
+---
+Query 237: Sci-Fi Movies
+Generated output (raw model):
+{"genre": "Sci-Fi"}
+Parsed JSON (raw model):
+{
+  "genre": "Sci-Fi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Sci-Fi"
+}
+
+---
+Query 238: Superhero Kids
+Generated output (raw model):
+{"title": "Superhero Kids"}
+Parsed JSON (raw model):
+{
+  "title": "Superhero Kids"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "title": "Superhero Kids"
+}
+
+---
+Query 239: popular kids movies
+Generated output (raw model):
+{"actor": "Prabhas", "rating_type": "popular"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "rating_type": "popular"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "kids"
+}
+
+---
+Query 240: Live India
+Generated output (raw model):
+{"language": "India", "platform": "Live Web Series"}
+Parsed JSON (raw model):
+{
+  "language": "India",
+  "platform": "Live Web Series"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 241: Alessio Pollacci shows
+Generated output (raw model):
+{"actor": "Alessio Pollacci", "show_type": "web series"}
+Parsed JSON (raw model):
+{
+  "actor": "Alessio Pollacci",
+  "show_type": "web series"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "actor": "Alessio Pollacci"
+}
+
+---
+Query 242: Wrestling Highlights
+Generated output (raw model):
+{"title": "Wrestling"}
+Parsed JSON (raw model):
+{
+  "title": "Wrestling"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Wrestling"
+}
+
+---
+Query 243: Khatra Khatra
+Generated output (raw model):
+{"title": "Khatra Khatra"}
+Parsed JSON (raw model):
+{
+  "title": "Khatra Khatra"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Khatra Khatra"
+}
+
+---
+Query 244: Frozen
+Generated output (raw model):
+{"title": "Frozen"}
+Parsed JSON (raw model):
+{
+  "title": "Frozen"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Frozen"
+}
+
+---
+Query 245: Live Cricket
+Generated output (raw model):
+{"genre": "Live", "title": "Cricket"}
+Parsed JSON (raw model):
+{
+  "genre": "Live",
+  "title": "Cricket"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Cricket"
+}
+
+---
+Query 246: Marathi music channels
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Music", "language": "Marathi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Music",
+  "language": "Marathi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music",
+  "language": "Marathi"
+}
+
+---
+Query 247: Jerrod Carmichael Reality Show
+Generated output (raw model):
+{"actor": "Jerrod Carmichael", "genre": "Reality"}
+Parsed JSON (raw model):
+{
+  "actor": "Jerrod Carmichael",
+  "genre": "Reality"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "actor": "Jerrod Carmichael"
+}
+
+---
+Query 248: Shreya Ghoshal Tamil songs
+Generated output (raw model):
+{"language": "Tamil", "director": "Shreya Ghoshal"}
+Parsed JSON (raw model):
+{
+  "language": "Tamil",
+  "director": "Shreya Ghoshal"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Tamil",
+  "director": "Shreya Ghoshal"
+}
+
+---
+Query 249: Pritam
+Generated output (raw model):
+{"title": "Pritam"}
+Parsed JSON (raw model):
+{
+  "title": "Pritam"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Pritam"
+}
+
+---
+Query 250: Javed Akhtar romantic songs
+Generated output (raw model):
+{"actor": "Akshay Kumar", "genre": "Romantic"}
+Parsed JSON (raw model):
+{
+  "actor": "Akshay Kumar",
+  "genre": "Romantic"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "mood": "romantic"
+}
+
+---
+Query 251: Gulzar ki film
+Generated output (raw model):
+{"director": "Gulzar Irrfan"}
+Parsed JSON (raw model):
+{
+  "director": "Gulzar Irrfan"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Gulzar Irrfan"
+}
+
+---
+Query 252: Salim Javed
+Generated output (raw model):
+{"actor": "Salim Shafique", "title": "Javed"}
+Parsed JSON (raw model):
+{
+  "actor": "Salim Shafique",
+  "title": "Javed"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Javed",
+  "actor": "Salim Shafique"
+}
+
+---
+Query 253: A rated movies
+Generated output (raw model):
+{"rating_type": "rated"}
+Parsed JSON (raw model):
+{
+  "rating_type": "rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 254: 13+ shows
+Generated output (raw model):
+{"content_type": "Web Series", "rating_type": "top rated", "query_type": "rating/review", "title": "13+"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "rating_type": "top rated",
+  "query_type": "rating/review",
+  "title": "13+"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "title": "13+"
+}
+
+---
+Query 255: Subhash Ghai productions
+Generated output (raw model):
+{"director": "Subhash Ghai"}
+Parsed JSON (raw model):
+{
+  "director": "Subhash Ghai"
+}
+Final output (after rule-based value mapping):
+{
+  "director": "Subhash Ghai"
+}
+
+---
+Query 256: 3-5 years content
+Generated output (raw model):
+{"query_type": "content", "year": 2025}
+Parsed JSON (raw model):
+{
+  "query_type": "content",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "age": "3-5 years"
+}
+
+---
+Query 257: Shoojit Sircar movies
+Generated output (raw model):
+{"director": "Shoojia Verghese"}
+Parsed JSON (raw model):
+{
+  "director": "Shoojia Verghese"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 258: SS Rajamouli Telugu movies
+Generated output (raw model):
+{"language": "Telugu", "director": "SS Rajamouli"}
+Parsed JSON (raw model):
+{
+  "language": "Telugu",
+  "director": "SS Rajamouli"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Telugu",
+  "director": "SS Rajamouli"
+}
+
+---
+Query 259: comedy Amazon Prime shows
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Comedy", "platform": "Amazon Prime"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Comedy",
+  "platform": "Amazon Prime"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Comedy",
+  "platform": "Amazon Prime"
+}
+
+---
+Query 260: Educational Kids
+Generated output (raw model):
+{"audience": " Kids", "genre": "Educational"}
+Parsed JSON (raw model):
+{
+  "audience": " Kids",
+  "genre": "Educational"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids"
+}
+
+---
+Query 261: Cartoons
+Generated output (raw model):
+{"genre": "Comedy"}
+Parsed JSON (raw model):
+{
+  "genre": "Comedy"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 262: Mauja hi mauja
+Generated output (raw model):
+{"title": "Mauja hi Mauja"}
+Parsed JSON (raw model):
+{
+  "title": "Mauja hi Mauja"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Mauja hi Mauja"
+}
+
+---
+Query 263: News Live
+Generated output (raw model):
+{"content_type": "Web Series", "query_type": "availability", "title": "News"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "query_type": "availability",
+  "title": "News"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "News"
+}
+
+---
+Query 264: Nia DaCosta
+Generated output (raw model):
+{"actor": "Nia Adhami"}
+Parsed JSON (raw model):
+{
+  "actor": "Nia Adhami"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Nia Adhami"
+}
+
+---
+Query 265: Zee music
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Web Series", "language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Web Series",
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music",
+  "platform": "ZEE5"
+}
+
+---
+Query 266: 2025 shows
+Generated output (raw model):
+{"content_type": "Web Series", "year": 2025}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "year": "2025"
+}
+
+---
+Query 267: Virat Kohli
+Generated output (raw model):
+{"actor": "Virat Kohli"}
+Parsed JSON (raw model):
+{
+  "actor": "Virat Kohli"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Virat Kohli"
+}
+
+---
+Query 268: latest educational cartoons
+Generated output (raw model):
+{"genre": "Educational", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "genre": "Educational",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 269: Music Animation
+Generated output (raw model):
+{"genre": "Animation", "genre": "Music"}
+Parsed JSON (raw model):
+{
+  "genre": "Music"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music"
+}
+
+---
+Query 270: Shah Rukh Khan
+Generated output (raw model):
+{"actor": "Shah Rukh Khan"}
+Parsed JSON (raw model):
+{
+  "actor": "Shah Rukh Khan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Shah Rukh Khan"
+}
+
+---
+Query 271: Tamil
+Generated output (raw model):
+{"language": "Tamil"}
+Parsed JSON (raw model):
+{
+  "language": "Tamil"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Tamil"
+}
+
+---
+Query 272: Live Comedy
+Generated output (raw model):
+{"genre": "Live"}
+Parsed JSON (raw model):
+{
+  "genre": "Live"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Comedy"
+}
+
+---
+Query 273: Devotional Live channel
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Devotional"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Devotional"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 274: best football matches ever
+Generated output (raw model):
+{"genre": "Football", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "genre": "Football",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 275: Vikrant Massey
+Generated output (raw model):
+{"actor": "Vikrant Massey"}
+Parsed JSON (raw model):
+{
+  "actor": "Vikrant Massey"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Vikrant Massey"
+}
+
+---
+Query 276: Latest news
+Generated output (raw model):
+{"recency": "latest"}
+Parsed JSON (raw model):
+{
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 277: LionsGate movies
+Generated output (raw model):
+{"platform": "Lions Gate"}
+Parsed JSON (raw model):
+{
+  "platform": "Lions Gate"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 278: Atif Aslam movies
+Generated output (raw model):
+{"director": "Atif Aslam"}
+Parsed JSON (raw model):
+{
+  "director": "Atif Aslam"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Atif Aslam"
+}
+
+---
+Query 279: Amit Trivedi latest songs
+Generated output (raw model):
+{"actor": "Amit Trivedi", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Amit Trivedi",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "recency": "latest",
+  "actor": "Amit Trivedi"
+}
+
+---
+Query 280: Gulzar songs
+Generated output (raw model):
+{"actor": "Gulzar Irrfan", "genre": "Web Series"}
+Parsed JSON (raw model):
+{
+  "actor": "Gulzar Irrfan",
+  "genre": "Web Series"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Gulzar Irrfan"
+}
+
+---
+Query 281: Javed Akhtar ke gaane
+Generated output (raw model):
+{"director": "Javed Akhtar"}
+Parsed JSON (raw model):
+{
+  "director": "Javed Akhtar"
+}
+Final output (after rule-based value mapping):
+{
+  "director": "Javed Akhtar"
+}
+
+---
+Query 282: Manoj Muntashir
+Generated output (raw model):
+{"actor": "Manoj Kumar", "title": "Muntashir"}
+Parsed JSON (raw model):
+{
+  "actor": "Manoj Kumar",
+  "title": "Muntashir"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Muntashir",
+  "actor": "Manoj Kumar"
+}
+
+---
+Query 283: Vijayendra Prasad
+Generated output (raw model):
+{"actor": "Vijay Deverakonda"}
+Parsed JSON (raw model):
+{
+  "actor": "Vijay Deverakonda"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Vijay Deverakonda"
+}
+
+---
+Query 284: Ritesh Shah thriller shows
+Generated output (raw model):
+{"actor": "Ritesh Shah", "genre": "Thriller"}
+Parsed JSON (raw model):
+{
+  "actor": "Ritesh Shah",
+  "genre": "Thriller"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Thriller",
+  "actor": "Ritesh Shah"
+}
+
+---
+Query 285: toddler shows 0-3
+Generated output (raw model):
+{"query_type": "rating/review", "title": "Toddler"}
+Parsed JSON (raw model):
+{
+  "query_type": "rating/review",
+  "title": "Toddler"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "age": "0-3 years",
+  "title": "Toddler"
+}
+
+---
+Query 286: Latest Movies
+Generated output (raw model):
+{"rating_type": "latest"}
+Parsed JSON (raw model):
+{
+  "rating_type": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "recency": "latest"
+}
+
+---
+Query 287: Weather News
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Weather"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Weather"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Weather"
+}
+
+---
+Query 288: Trending shows/web series
+Generated output (raw model):
+{"content_type": "Web Series", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Web Series"
+}
+
+---
+Query 289: hindi comedy shows
+Generated output (raw model):
+{"genre": "Comedy", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "genre": "Comedy",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Comedy",
+  "language": "Hindi"
+}
+
+---
+Query 290: SRK Kajol amrish puri movies
+Generated output (raw model):
+{"actor": "Shah Rukh Khan", "title": "Amrish Puri"}
+Parsed JSON (raw model):
+{
+  "actor": "Shah Rukh Khan",
+  "title": "Amrish Puri"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "title": "Amrish Puri"
+}
+
+---
+Query 291: Sports channels
+Generated output (raw model):
+{"genre": "Sports"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports"
+}
+
+---
+Query 292: Baahubali
+Generated output (raw model):
+{"title": "Baahubali"}
+Parsed JSON (raw model):
+{
+  "title": "Baahubali"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Baahubali"
+}
+
+---
+Query 293: Discovery Kids
+Generated output (raw model):
+{"title": "Discovery Kids"}
+Parsed JSON (raw model):
+{
+  "title": "Discovery Kids"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "title": "Discovery Kids"
+}
+
+---
+Query 294: Coldplay Concert
+Generated output (raw model):
+{"actor": "Coldplay", "title": "Concert"}
+Parsed JSON (raw model):
+{
+  "actor": "Coldplay",
+  "title": "Concert"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Concert",
+  "actor": "Coldplay"
+}
+
+---
+Query 295: Jacqueline Fernandez
+Generated output (raw model):
+{"actor": "Jacqueline Fernandez"}
+Parsed JSON (raw model):
+{
+  "actor": "Jacqueline Fernandez"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Jacqueline Fernandez"
+}
+
+---
+Query 296: Devotional Music
+Generated output (raw model):
+{"genre": "Devotional"}
+Parsed JSON (raw model):
+{
+  "genre": "Devotional"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music"
+}
+
+---
+Query 297: Classical Music
+Generated output (raw model):
+{"genre": "Classical"}
+Parsed JSON (raw model):
+{
+  "genre": "Classical"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music"
+}
+
+---
+Query 298: Politics news
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Politics"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Politics"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 299: Akshay Kumar
+Generated output (raw model):
+{"actor": "Akshay Kumar"}
+Parsed JSON (raw model):
+{
+  "actor": "Akshay Kumar"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Akshay Kumar"
+}
+
+---
+Query 300: latest World Cup
+Generated output (raw model):
+{"actor": "Mohanlal", "recency": "latest", "title": "World Cup"}
+Parsed JSON (raw model):
+{
+  "actor": "Mohanlal",
+  "recency": "latest",
+  "title": "World Cup"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest",
+  "title": "World Cup"
+}
+
+---
+Query 301: Christopher Nolan
+Generated output (raw model):
+{"director": " Christopher Nolan }
+Parsed JSON (raw model):
+<invalid JSON>
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 302: Festival Coverage
+Generated output (raw model):
+{"query_type": "availability", "title": "Festival"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "Festival"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Festival"
+}
+
+---
+Query 303: Madhuri Dixit Zee
+Generated output (raw model):
+{"actor": "Madhuri Dixit", "title": "Zee"}
+Parsed JSON (raw model):
+{
+  "actor": "Madhuri Dixit",
+  "title": "Zee"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "ZEE5",
+  "title": "Zee",
+  "actor": "Madhuri Dixit"
+}
+
+---
+Query 304: Latest songs
+Generated output (raw model):
+{"recency": "latest"}
+Parsed JSON (raw model):
+{
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "recency": "latest"
+}
+
+---
+Query 305: KK Hindi songs
+Generated output (raw model):
+{"language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Hindi"
+}
+
+---
+Query 306: Pritam ke songs
+Generated output (raw model):
+{"actor": "Pritam Chopra", "genre": "Web Series", "title": "Pritam"}
+Parsed JSON (raw model):
+{
+  "actor": "Pritam Chopra",
+  "genre": "Web Series",
+  "title": "Pritam"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "title": "Pritam",
+  "actor": "Pritam Chopra"
+}
+
+---
+Query 307: Sriram Raghavan movies
+Generated output (raw model):
+{"actor": "Sriram Raghavan"}
+Parsed JSON (raw model):
+{
+  "actor": "Sriram Raghavan"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Sriram Raghavan"
+}
+
+---
+Query 308: Salim Javed ki purani films
+Generated output (raw model):
+{"actor": "Salim Shafique", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "actor": "Salim Shafique",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Salim Shafique"
+}
+
+---
+Query 309: sabke liye movies
+Generated output (raw model):
+{"content_type": "Web Series", "query_type": "availability", "title": "Sabke Liye"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "query_type": "availability",
+  "title": "Sabke Liye"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "title": "Sabke Liye"
+}
+
+---
+Query 310: PC Sreeram movies
+Generated output (raw model):
+{"director": "PC Sreeram"}
+Parsed JSON (raw model):
+{
+  "director": "PC Sreeram"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "PC Sreeram"
+}
+
+---
+Query 311: Zoya Akhtar latest movies
+Generated output (raw model):
+{"director": "Zoya Akhtar", "rating_type": "latest"}
+Parsed JSON (raw model):
+{
+  "director": "Zoya Akhtar",
+  "rating_type": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "recency": "latest",
+  "director": "Zoya Akhtar"
+}
+
+---
+Query 312: bacchon ke liye cartoon
+Generated output (raw model):
+{"similar_to": "Bachchan"}
+Parsed JSON (raw model):
+{
+  "similar_to": "Bachchan"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 313: Disney kids movies
+Generated output (raw model):
+{"genre": "Kids"}
+Parsed JSON (raw model):
+{
+  "genre": "Kids"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "kids",
+  "platform": "Disney+ Hotstar"
+}
+
+---
+Query 314: Trending Movies
+Generated output (raw model):
+{"mood": "trending"}
+Parsed JSON (raw model):
+{
+  "mood": "trending"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 315: apunamaa
+Generated output (raw model):
+{"title": "Apunamaa"}
+Parsed JSON (raw model):
+{
+  "title": "Apunamaa"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Apunamaa"
+}
+
+---
+Query 316: Abhishek Pathak thriller
+Generated output (raw model):
+{"actor": "Abhishek Bachchan", "genre": "Thriller", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Abhishek Bachchan",
+  "genre": "Thriller",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Thriller",
+  "actor": "Abhishek Bachchan"
+}
+
+---
+Query 317: trending BBC news
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "BBC", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "BBC",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 318: Just Added
+Generated output (raw model):
+{"title": "Just Added"}
+Parsed JSON (raw model):
+{
+  "title": "Just Added"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Just Added"
+}
+
+---
+Query 319: B4U Music
+Generated output (raw model):
+{"title": "B4U"}
+Parsed JSON (raw model):
+{
+  "title": "B4U"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music",
+  "title": "B4U"
+}
+
+---
+Query 320: Sony Live
+Generated output (raw model):
+{"platform": "Sony"}
+Parsed JSON (raw model):
+{
+  "platform": "Sony"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "SonyLIV"
+}
+
+---
+Query 321: Bollywood Movies
+Generated output (raw model):
+{"language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 322: Pop songs 2025
+Generated output (raw model):
+{"genre": "Pop", "year": 2025}
+Parsed JSON (raw model):
+{
+  "genre": "Pop",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "year": "2025"
+}
+
+---
+Query 323: Kapil Sharma Show
+Generated output (raw model):
+{"actor": "Kapil Sharma"}
+Parsed JSON (raw model):
+{
+  "actor": "Kapil Sharma"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "actor": "Kapil Sharma"
+}
+
+---
+Query 324: Spiritual Shows
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Spiritual"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Spiritual"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows"
+}
+
+---
+Query 325: sad classical songs
+Generated output (raw model):
+{"genre": "Classical", "mood": "sad"}
+Parsed JSON (raw model):
+{
+  "genre": "Classical",
+  "mood": "sad"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "mood": "sad"
+}
+
+---
+Query 326: Educational cartoons
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Educational"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Educational"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 327: Shemaroo MarathiBana
+Generated output (raw model):
+{"language": "Marathi", "title": "Shemaroo"}
+Parsed JSON (raw model):
+{
+  "language": "Marathi",
+  "title": "Shemaroo"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Shemaroo"
+}
+
+---
+Query 328: Music channels
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Music"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Music"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music"
+}
+
+---
+Query 329: Arijit Singh Hindi songs
+Generated output (raw model):
+{"language": "Hindi", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Hindi"
+}
+
+---
+Query 330: Lata Mangeshkar classical songs
+Generated output (raw model):
+{"actor": "Lata Mangeshkar", "genre": "Classical"}
+Parsed JSON (raw model):
+{
+  "actor": "Lata Mangeshkar",
+  "genre": "Classical"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Lata Mangeshkar"
+}
+
+---
+Query 331: Vishal Shekhar Hindi songs
+Generated output (raw model):
+{"language": "Hindi", "director": "Vishal Shekhar"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "director": "Vishal Shekhar"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Hindi",
+  "director": "Vishal Shekhar"
+}
+
+---
+Query 332: Ritesh Shah
+Generated output (raw model):
+{"actor": "Ritesh Shah"}
+Parsed JSON (raw model):
+{
+  "actor": "Ritesh Shah"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Ritesh Shah"
+}
+
+---
+Query 333: Vijayendra Prasad ki films
+Generated output (raw model):
+{"actor": "Vijay Deverakonda"}
+Parsed JSON (raw model):
+{
+  "actor": "Vijay Deverakonda"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Vijay Deverakonda"
+}
+
+---
+Query 334: family friendly Hindi shows
+Generated output (raw model):
+{"audience": "family", "genre": "Hindi"}
+Parsed JSON (raw model):
+{
+  "audience": "family",
+  "genre": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "audience": "family",
+  "language": "Hindi"
+}
+
+---
+Query 335: kids adventure cartoons
+Generated output (raw model):
+{"audience": "kids", "genre": "Adventure", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "audience": "kids",
+  "genre": "Adventure",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids"
+}
+
+---
+Query 336: Bihar politics news
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Politics of Bihar"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Politics of Bihar"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Politics of Bihar"
+}
+
+---
+Query 337: MS Dhoni hindi commentary
+Generated output (raw model):
+{"actor": "MS Dhoni", "language": "Hindi", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "actor": "MS Dhoni",
+  "language": "Hindi",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi",
+  "actor": "MS Dhoni"
+}
+
+---
+Query 338: Trending News
+Generated output (raw model):
+{"query_type": "rating/review", "title": "Trending News"}
+Parsed JSON (raw model):
+{
+  "query_type": "rating/review",
+  "title": "Trending News"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Trending News"
+}
+
+---
+Query 339: Kids Animation
+Generated output (raw model):
+{"genre": "Animation", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "genre": "Animation",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids"
+}
+
+---
+Query 340: Live News
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Live News"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Live News"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Live News"
+}
+
+---
+Query 341: kids movies
+Generated output (raw model):
+{"audience": "kids"}
+Parsed JSON (raw model):
+{
+  "audience": "kids"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "kids"
+}
+
+---
+Query 342: trending kids movies
+Generated output (raw model):
+{"actor": "Prabhas", "query_type": "rating/review", "title": "Trending Kids"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "query_type": "rating/review",
+  "title": "Trending Kids"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "kids",
+  "title": "Trending Kids"
+}
+
+---
+Query 343: Womens IPL
+Generated output (raw model):
+{"actor": "Hrithik Roshan", "title": "IPL"}
+Parsed JSON (raw model):
+{
+  "actor": "Hrithik Roshan",
+  "title": "IPL"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "IPL"
+}
+
+---
+Query 344: Documentary Series
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Documentary"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Documentary"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Series"
+}
+
+---
+Query 345: World Cup
+Generated output (raw model):
+{"title": "World Cup"}
+Parsed JSON (raw model):
+{
+  "title": "World Cup"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "World Cup"
+}
+
+---
+Query 346: The Kapil Sharma
+Generated output (raw model):
+{"actor": "Kapil Sharma", "title": "The Kapil Sharma"}
+Parsed JSON (raw model):
+{
+  "actor": "Kapil Sharma",
+  "title": "The Kapil Sharma"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "The Kapil Sharma",
+  "actor": "Kapil Sharma"
+}
+
+---
+Query 347: cricket Star Sports
+Generated output (raw model):
+{"actor": "Hrithik Roshan", "genre": "Sports", "title": "Cricket"}
+Parsed JSON (raw model):
+{
+  "actor": "Hrithik Roshan",
+  "genre": "Sports",
+  "title": "Cricket"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports",
+  "title": "Cricket"
+}
+
+---
+Query 348: Latest Episodes
+Generated output (raw model):
+{"query_type": "availability", "title": "Latest"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "Latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Episodes",
+  "recency": "latest",
+  "title": "Latest"
+}
+
+---
+Query 349: CNBC Awaaz
+Generated output (raw model):
+{"platform": "CNBC Awaaz"}
+Parsed JSON (raw model):
+{
+  "platform": "CNBC Awaaz"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 350: hindi Zee music songs
+Generated output (raw model):
+{"genre": "Web Series", "language": "Hindi", "content_type": "Web Series"}
+Parsed JSON (raw model):
+{
+  "genre": "Web Series",
+  "language": "Hindi",
+  "content_type": "Web Series"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "platform": "ZEE5",
+  "language": "Hindi"
+}
+
+---
+Query 351: Stree action comedy
+Generated output (raw model):
+{"actor": "Allu Arjun", "genre": "Comedy", "platform": "Stree"}
+Parsed JSON (raw model):
+{
+  "actor": "Allu Arjun",
+  "genre": "Comedy",
+  "platform": "Stree"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Action"
+}
+
+---
+Query 352: Editor Pick
+Generated output (raw model):
+{"title": "Editor Pick"}
+Parsed JSON (raw model):
+{
+  "title": "Editor Pick"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Editor Pick"
+}
+
+---
+Query 353: Punjabi Music Videos
+Generated output (raw model):
+{"genre": "Music", "language": "Punjabi"}
+Parsed JSON (raw model):
+{
+  "genre": "Music",
+  "language": "Punjabi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music",
+  "language": "Punjabi"
+}
+
+---
+Query 354: Sony Live sports channels
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Sports", "platform": "SonyLIV"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Sports",
+  "platform": "SonyLIV"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports",
+  "platform": "SonyLIV"
+}
+
+---
+Query 355: Music Awards
+Generated output (raw model):
+{"genre": "Web Series", "title": "Music Awards"}
+Parsed JSON (raw model):
+{
+  "genre": "Web Series",
+  "title": "Music Awards"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music",
+  "title": "Music Awards"
+}
+
+---
+Query 356: Zee News
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "ZEE News"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "ZEE News"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "ZEE5"
+}
+
+---
+Query 357: 2024 Movies
+Generated output (raw model):
+{"year": 2024}
+Parsed JSON (raw model):
+{
+  "year": 2024
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "year": "2024"
+}
+
+---
+Query 358: Amazon Prime shows
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "Amazon Prime"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "Amazon Prime"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "platform": "Amazon Prime"
+}
+
+---
+Query 359: Prabhas Baahubali
+Generated output (raw model):
+{"actor": "Prabhas", "title": "Baahubali"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "title": "Baahubali"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Baahubali",
+  "actor": "Prabhas"
+}
+
+---
+Query 360: Latest matches
+Generated output (raw model):
+{"query_type": "availability", "title": "latest movies"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "latest movies"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest",
+  "title": "latest movies"
+}
+
+---
+Query 361: Aamir Khan action movies
+Generated output (raw model):
+{"actor": "Aamir Khan", "genre": "Action"}
+Parsed JSON (raw model):
+{
+  "actor": "Aamir Khan",
+  "genre": "Action"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Action",
+  "actor": "Aamir Khan"
+}
+
+---
+Query 362: Shreya Ghoshal songs
+Generated output (raw model):
+{"director": "Shreya Ghoshal"}
+Parsed JSON (raw model):
+{
+  "director": "Shreya Ghoshal"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "director": "Shreya Ghoshal"
+}
+
+---
+Query 363: Mohammed Rafi ke gaane
+Generated output (raw model):
+{"actor": "Mohammed Rafi", "title": "Gaane"}
+Parsed JSON (raw model):
+{
+  "actor": "Mohammed Rafi",
+  "title": "Gaane"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Gaane",
+  "actor": "Mohammed Rafi"
+}
+
+---
+Query 364: Armaan Malik songs
+Generated output (raw model):
+{"actor": "Salman Khan", "genre": "Web Series", "title": "Armaan Malik"}
+Parsed JSON (raw model):
+{
+  "actor": "Salman Khan",
+  "genre": "Web Series",
+  "title": "Armaan Malik"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "title": "Armaan Malik"
+}
+
+---
+Query 365: AR Rahman ki films
+Generated output (raw model):
+{"actor": "AR Rahman"}
+Parsed JSON (raw model):
+{
+  "actor": "AR Rahman"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "AR Rahman"
+}
+
+---
+Query 366: Amitabh Bhattacharya
+Generated output (raw model):
+{"actor": "Amitabh Bhattacharya"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bhattacharya"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Amitabh Bhattacharya"
+}
+
+---
+Query 367: Gulzar Hindi songs
+Generated output (raw model):
+{"language": "Hindi", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Hindi"
+}
+
+---
+Query 368: Juhi Chaturvedi movies
+Generated output (raw model):
+{"actor": "Juhi Chaturvedi"}
+Parsed JSON (raw model):
+{
+  "actor": "Juhi Chaturvedi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Juhi Chaturvedi"
+}
+
+---
+Query 369: Abhijat Joshi
+Generated output (raw model):
+{"title": "Abhijat Joshi"}
+Parsed JSON (raw model):
+{
+  "title": "Abhijat Joshi"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Abhijat Joshi"
+}
+
+---
+Query 370: chhote bacchon ka content
+Generated output (raw model):
+{"actor": "Amitabh Bachchan", "title": "Chhote Bachchan"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bachchan",
+  "title": "Chhote Bachchan"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Chhote Bachchan"
+}
+
+---
+Query 371: Alessio Pollacci 2025 shows
+Generated output (raw model):
+{"actor": "Alessio Pollacci", "year": 2025}
+Parsed JSON (raw model):
+{
+  "actor": "Alessio Pollacci",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "year": "2025",
+  "actor": "Alessio Pollacci"
+}
+
+---
+Query 372: Stree
+Generated output (raw model):
+{"title": "Stree"}
+Parsed JSON (raw model):
+{
+  "title": "Stree"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Stree"
+}
+
+---
+Query 373: Adult rated movies
+Generated output (raw model):
+{"audience": "adults"}
+Parsed JSON (raw model):
+{
+  "audience": "adults"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "adults"
+}
+
+---
+Query 374: Latest news on Toofan
+Generated output (raw model):
+{"actor": "Salman Khan", "query_type": "availability", "title": "Toofan"}
+Parsed JSON (raw model):
+{
+  "actor": "Salman Khan",
+  "query_type": "availability",
+  "title": "Toofan"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest",
+  "title": "Toofan"
+}
+
+---
+Query 375: Salman Khan
+Generated output (raw model):
+{"actor": "Salman Khan"}
+Parsed JSON (raw model):
+{
+  "actor": "Salman Khan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Salman Khan"
+}
+
+---
+Query 376: Adventure Kids
+Generated output (raw model):
+{"actor": "Prabhas", "title": "Adventure Kids"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "title": "Adventure Kids"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "title": "Adventure Kids"
+}
+
+---
+Query 377: Politics BBC news
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Politics", "platform": "BBC"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Politics",
+  "platform": "BBC"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 378: Tribute Concert
+Generated output (raw model):
+{"title": "Tribute Concert"}
+Parsed JSON (raw model):
+{
+  "title": "Tribute Concert"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Tribute Concert"
+}
+
+---
+Query 379: LEGO Marvel
+Generated output (raw model):
+{"genre": "Marvel", "platform": "Lego"}
+Parsed JSON (raw model):
+{
+  "genre": "Marvel",
+  "platform": "Lego"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 380: Aaj Thaak
+Generated output (raw model):
+{"title": "Aaj Thaak"}
+Parsed JSON (raw model):
+{
+  "title": "Aaj Thaak"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Aaj Thaak"
+}
+
+---
+Query 381: Tom and Jerry hindi
+Generated output (raw model):
+{"language": "Hindi", "similar_to": "Tom and Jerry"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "similar_to": "Tom and Jerry"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi",
+  "similar_to": "Tom and Jerry"
+}
+
+---
+Query 382: Business Today
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Business"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Business"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Business"
+}
+
+---
+Query 383: Man With A Plan
+Generated output (raw model):
+{"title": "Man With A Plan"}
+Parsed JSON (raw model):
+{
+  "title": "Man With A Plan"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Man With A Plan"
+}
+
+---
+Query 384: Animated Shows
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Animated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Animated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows"
+}
+
+---
+Query 385: Reality Shows
+Generated output (raw model):
+{"genre": "Reality"}
+Parsed JSON (raw model):
+{
+  "genre": "Reality"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows"
+}
+
+---
+Query 386: Pop Concerts
+Generated output (raw model):
+{"title": "Pop"}
+Parsed JSON (raw model):
+{
+  "title": "Pop"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Pop"
+}
+
+---
+Query 387: World News
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "World News"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "World News"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 388: Political News
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Political"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Political"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 389: Short shows
+Generated output (raw model):
+{"content_type": "Web Series", "rating_type": "short"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "rating_type": "short"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows"
+}
+
+---
+Query 390: Drama shows 2025
+Generated output (raw model):
+{"genre": "Drama", "year": 2025}
+Parsed JSON (raw model):
+{
+  "genre": "Drama",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Drama",
+  "year": "2025"
+}
+
+---
+Query 391: JioCinema thriller movies
+Generated output (raw model):
+{"genre": "Thriller", "platform": "Jio Cinema"}
+Parsed JSON (raw model):
+{
+  "genre": "Thriller",
+  "platform": "Jio Cinema"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Thriller"
+}
+
+---
+Query 392: Neha Kakkar
+Generated output (raw model):
+{"actor": "Neha Kakkar"}
+Parsed JSON (raw model):
+{
+  "actor": "Neha Kakkar"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Neha Kakkar"
+}
+
+---
+Query 393: Lata Mangeshkar
+Generated output (raw model):
+{"actor": "Lata Mangeshkar"}
+Parsed JSON (raw model):
+{
+  "actor": "Lata Mangeshkar"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Lata Mangeshkar"
+}
+
+---
+Query 394: Arijit Singh romantic songs
+Generated output (raw model):
+{"actor": "Arijit Singh", "genre": "Romantic"}
+Parsed JSON (raw model):
+{
+  "actor": "Arijit Singh",
+  "genre": "Romantic"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "mood": "romantic",
+  "actor": "Arijit Singh"
+}
+
+---
+Query 395: Vishal Shekhar songs
+Generated output (raw model):
+{"director": "Vishal Shekhar"}
+Parsed JSON (raw model):
+{
+  "director": "Vishal Shekhar"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "director": "Vishal Shekhar"
+}
+
+---
+Query 396: Bhavani Iyer movies
+Generated output (raw model):
+{"director": "Bhavani Iyer"}
+Parsed JSON (raw model):
+{
+  "director": "Bhavani Iyer"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Bhavani Iyer"
+}
+
+---
+Query 397: Santosh Sivan movies
+Generated output (raw model):
+{"actor": "Santosh Sivan"}
+Parsed JSON (raw model):
+{
+  "actor": "Santosh Sivan"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Santosh Sivan"
+}
+
+---
+Query 398: SS Rajamouli movies
+Generated output (raw model):
+{"director": "SS Rajamouli"}
+Parsed JSON (raw model):
+{
+  "director": "SS Rajamouli"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "SS Rajamouli"
+}
+
+---
+Query 399: Mani Ratnam
+Generated output (raw model):
+{"director": "Mani Ratnam"}
+Parsed JSON (raw model):
+{
+  "director": "Mani Ratnam"
+}
+Final output (after rule-based value mapping):
+{
+  "director": "Mani Ratnam"
+}
+
+---
+Query 400: MS Dhoni
+Generated output (raw model):
+{"actor": "Amitabh Bachchan", "title": "Dhoni"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bachchan",
+  "title": "Dhoni"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Dhoni"
+}
+
+---
+Query 401: 4K shows
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Kannada", "platform": "4K"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Kannada",
+  "platform": "4K"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows"
+}
+
+---
+Query 402: Sa Re Ga Ma Pa
+Generated output (raw model):
+{"mood": "sad"}
+Parsed JSON (raw model):
+{
+  "mood": "sad"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 403: Paw petrol
+Generated output (raw model):
+{"actor": "Priyanka Chopra", "title": "Paw"}
+Parsed JSON (raw model):
+{
+  "actor": "Priyanka Chopra",
+  "title": "Paw"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Paw"
+}
+
+---
+Query 404: Sony Live hindi
+Generated output (raw model):
+{"language": "Hindi", "platform": "Sony LIVE"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "platform": "Sony LIVE"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "SonyLIV",
+  "language": "Hindi"
+}
+
+---
+Query 405: Khatra Khatra hindi
+Generated output (raw model):
+{"language": "Hindi", "title": "Khatra Khatra"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "title": "Khatra Khatra"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi",
+  "title": "Khatra Khatra"
+}
+
+---
+Query 406: Jazz Performances
+Generated output (raw model):
+{"query_type": "availability", "title": "Jazz"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "Jazz"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Jazz"
+}
+
+---
+Query 407: latest Bihar news
+Generated output (raw model):
+{"content_type": "Web Series", "network": "Bhojpuri", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "network": "Bhojpuri",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 408: IPL
+Generated output (raw model):
+{"title": "IPL"}
+Parsed JSON (raw model):
+{
+  "title": "IPL"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "IPL"
+}
+
+---
+Query 409: News X
+Generated output (raw model):
+{"content_type": "Web Series", "title": "News X"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "News X"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "News X"
+}
+
+---
+Query 410: Elections news
+Generated output (raw model):
+{"content_type": "Web Series", "title": "Elections"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "title": "Elections"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Elections"
+}
+
+---
+Query 411: Anushka Sharma
+Generated output (raw model):
+{"actor": "Anushka Sharma"}
+Parsed JSON (raw model):
+{
+  "actor": "Anushka Sharma"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Anushka Sharma"
+}
+
+---
+Query 412: Hindustani Classical
+Generated output (raw model):
+{"genre": "Classical", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "genre": "Classical",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 413: Sony entertainment channels
+Generated output (raw model):
+{"platform": "Sony Entertainment"}
+Parsed JSON (raw model):
+{
+  "platform": "Sony Entertainment"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "SonyLIV"
+}
+
+---
+Query 414: Indian cartoon
+Generated output (raw model):
+{"content_type": "Web Series", "language": "India"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "India"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 415: Times Now
+Generated output (raw model):
+{"title": "Times Now"}
+Parsed JSON (raw model):
+{
+  "title": "Times Now"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Times Now"
+}
+
+---
+Query 416: Most popular shows
+Generated output (raw model):
+{"content_type": "Web Series", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows"
+}
+
+---
+Query 417: latest kids 5-8
+Generated output (raw model):
+{"actor": "Prabhas", "genre": "Kids", "rating_type": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "genre": "Kids",
+  "rating_type": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "recency": "latest",
+  "age": "5-8 years"
+}
+
+---
+Query 418: hindi sports channels
+Generated output (raw model):
+{"genre": "Sports", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports",
+  "language": "Hindi"
+}
+
+---
+Query 419: Comedy shows
+Generated output (raw model):
+{"genre": "Comedy"}
+Parsed JSON (raw model):
+{
+  "genre": "Comedy"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Comedy"
+}
+
+---
+Query 420: Aamir Khan
+Generated output (raw model):
+{"actor": "Aamir Khan"}
+Parsed JSON (raw model):
+{
+  "actor": "Aamir Khan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Aamir Khan"
+}
+
+---
+Query 421: Latest Hindi
+Generated output (raw model):
+{"language": "Hindi", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest",
+  "language": "Hindi"
+}
+
+---
+Query 422: latest sports news
+Generated output (raw model):
+{"genre": "Sports", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports",
+  "recency": "latest"
+}
+
+---
+Query 423: Hrithik Roshan
+Generated output (raw model):
+{"actor": "Hrithik Roshan"}
+Parsed JSON (raw model):
+{
+  "actor": "Hrithik Roshan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Hrithik Roshan"
+}
+
+---
+Query 424: entertainment indian channels
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Indian", "mood": "entertainment"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Indian",
+  "mood": "entertainment"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 425: India Todya
+Generated output (raw model):
+{"actor": "Prabhas", "title": "Todya"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "title": "Todya"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Todya"
+}
+
+---
+Query 426: Action Movies
+Generated output (raw model):
+{"genre": "Action"}
+Parsed JSON (raw model):
+{
+  "genre": "Action"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Action"
+}
+
+---
+Query 427: trending Sports
+Generated output (raw model):
+{"genre": "Sports", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports"
+}
+
+---
+Query 428: Neha Kakkar latest songs
+Generated output (raw model):
+{"actor": "Neha Kakkar", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Neha Kakkar",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "recency": "latest",
+  "actor": "Neha Kakkar"
+}
+
+---
+Query 429: AR Rahman Tamil songs
+Generated output (raw model):
+{"language": "Tamil", "actor": "AR Rahman"}
+Parsed JSON (raw model):
+{
+  "language": "Tamil",
+  "actor": "AR Rahman"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Tamil",
+  "actor": "AR Rahman"
+}
+
+---
+Query 430: Amitabh Bhattacharya Hindi songs
+Generated output (raw model):
+{"language": "Hindi", "actor": "Amitabh Bhattacharya"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "actor": "Amitabh Bhattacharya"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "language": "Hindi",
+  "actor": "Amitabh Bhattacharya"
+}
+
+---
+Query 431: Sudha Kongara
+Generated output (raw model):
+{"actor": "Sudeep", "title": "Kongara"}
+Parsed JSON (raw model):
+{
+  "actor": "Sudeep",
+  "title": "Kongara"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Kongara"
+}
+
+---
+Query 432: Abhijat Joshi Hindi movies
+Generated output (raw model):
+{"language": "Hindi", "director": "Abhijat Joshi"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "director": "Abhijat Joshi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi",
+  "director": "Abhijat Joshi"
+}
+
+---
+Query 433: adult content
+Generated output (raw model):
+{"audience": "adults"}
+Parsed JSON (raw model):
+{
+  "audience": "adults"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "adults"
+}
+
+---
+Query 434: safe content for teenagers
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Teenage", "rating_type": "safe"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Teenage",
+  "rating_type": "safe"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 435: 3 se 5 saal ke bacchon ke liye
+Generated output (raw model):
+{"query_type": "availability", "title": "3 se 5"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "3 se 5"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 436: animated kids movies
+Generated output (raw model):
+{"audience": "kids", "genre": "Animated"}
+Parsed JSON (raw model):
+{
+  "audience": "kids",
+  "genre": "Animated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "kids"
+}
+
+---
+Query 437: Comedy Cartoon
+Generated output (raw model):
+{"genre": "Comedy", "language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "genre": "Comedy",
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Comedy"
+}
+
+---
+Query 438: Romantic Comedy Movies
+Generated output (raw model):
+{"genre": "Romance"}
+Parsed JSON (raw model):
+{
+  "genre": "Romance"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Comedy",
+  "mood": "romantic"
+}
+
+---
+Query 439: Anime
+Generated output (raw model):
+{"title": "Anime"}
+Parsed JSON (raw model):
+{
+  "title": "Anime"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Anime"
+}
+
+---
+Query 440: Virat Kohli cricket
+Generated output (raw model):
+{"actor": "Virat Kohli", "genre": "Cricket"}
+Parsed JSON (raw model):
+{
+  "actor": "Virat Kohli",
+  "genre": "Cricket"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Virat Kohli"
+}
+
+---
+Query 441: Animated Series
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Animated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Animated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Series"
+}
+
+---
+Query 442: Live cricket Matches
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Cricket", "platform": "Live"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Cricket",
+  "platform": "Live"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 443: Hindi Cartoon
+Generated output (raw model):
+{"genre": "Cartoon", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "genre": "Cartoon",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi"
+}
+
+---
+Query 444: latest India cricket team
+Generated output (raw model):
+{"actor": "Hrithik Roshan", "genre": "Cricket", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Hrithik Roshan",
+  "genre": "Cricket",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 445: Indie Music
+Generated output (raw model):
+{"genre": "Indie"}
+Parsed JSON (raw model):
+{
+  "genre": "Indie"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Music"
+}
+
+---
+Query 446: Hafta Vasooli
+Generated output (raw model):
+{"actor": "Akshay Kumar", "title": "Hafta Vasooli"}
+Parsed JSON (raw model):
+{
+  "actor": "Akshay Kumar",
+  "title": "Hafta Vasooli"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Hafta Vasooli"
+}
+
+---
+Query 447: Donald Duck
+Generated output (raw model):
+{"actor": "Donald Duck"}
+Parsed JSON (raw model):
+{
+  "actor": "Donald Duck"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Donald Duck"
+}
+
+---
+Query 448: New Content
+Generated output (raw model):
+{"content_type": "Web Series", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 449: Inception
+Generated output (raw model):
+{"title": "Inception"}
+Parsed JSON (raw model):
+{
+  "title": "Inception"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Inception"
+}
+
+---
+Query 450: Suhas Kadav comedy cartoon
+Generated output (raw model):
+{"actor": "Sujatha Jalateen", "genre": "Comedy", "language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "actor": "Sujatha Jalateen",
+  "genre": "Comedy",
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Comedy"
+}
+
+---
+Query 451: Kailash Kher classical
+Generated output (raw model):
+{"actor": "Kailash Kher", "genre": "Classical"}
+Parsed JSON (raw model):
+{
+  "actor": "Kailash Kher",
+  "genre": "Classical"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Kailash Kher"
+}
+
+---
+Query 452: Amitabh Bachchan
+Generated output (raw model):
+{"actor": "Amitabh Bachchan"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bachchan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Amitabh Bachchan"
+}
+
+---
+Query 453: Hindi News
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi"
+}
+
+---
+Query 454: trending pop songs
+Generated output (raw model):
+{"genre": "Pop", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "genre": "Pop",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs"
+}
+
+---
+Query 455: Technology News
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Technology"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Technology"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 456: Latest kids content
+Generated output (raw model):
+{"actor": "Prabhas", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "actor": "Prabhas",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "recency": "latest"
+}
+
+---
+Query 457: Ravi Chopra Movies
+Generated output (raw model):
+{"director": "Ravi Chopra"}
+Parsed JSON (raw model):
+{
+  "director": "Ravi Chopra"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Ravi Chopra"
+}
+
+---
+Query 458: Star Sports
+Generated output (raw model):
+{"genre": "Sports", "language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports",
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports"
+}
+
+---
+Query 459: Latest Regional
+Generated output (raw model):
+{"genre": "Regional", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "genre": "Regional",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 460: Pop songs
+Generated output (raw model):
+{"genre": "Pop"}
+Parsed JSON (raw model):
+{
+  "genre": "Pop"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs"
+}
+
+---
+Query 461: Indian channels
+Generated output (raw model):
+{"content_type": "Web Series", "language": "India"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "India"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 462: Indian Sony Live
+Generated output (raw model):
+{"platform": "SonyLIVE", "language": "Indian"}
+Parsed JSON (raw model):
+{
+  "platform": "SonyLIVE",
+  "language": "Indian"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "SonyLIV"
+}
+
+---
+Query 463: hindi movies 2025
+Generated output (raw model):
+{"language": "Hindi", "year": 2025}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi",
+  "year": "2025"
+}
+
+---
+Query 464: Today Schedule
+Generated output (raw model):
+{"query_type": "availability", "title": "Today"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "Today"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Today"
+}
+
+---
+Query 465: Jacqueline Fernandez Movies
+Generated output (raw model):
+{"actor": "Jacqueline Fernandez"}
+Parsed JSON (raw model):
+{
+  "actor": "Jacqueline Fernandez"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "actor": "Jacqueline Fernandez"
+}
+
+---
+Query 466: Hindi cartoons
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Hindi"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Hindi"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi"
+}
+
+---
+Query 467: MX Player pe movies
+Generated output (raw model):
+{"platform": "MX Player"}
+Parsed JSON (raw model):
+{
+  "platform": "MX Player"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "platform": "MX Player"
+}
+
+---
+Query 468: Sunidhi Chauhan
+Generated output (raw model):
+{"actor": "Sunidhi Chauhan"}
+Parsed JSON (raw model):
+{
+  "actor": "Sunidhi Chauhan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Sunidhi Chauhan"
+}
+
+---
+Query 469: Javed Akhtar
+Generated output (raw model):
+{"director": "Javed Akhtar"}
+Parsed JSON (raw model):
+{
+  "director": "Javed Akhtar"
+}
+Final output (after rule-based value mapping):
+{
+  "director": "Javed Akhtar"
+}
+
+---
+Query 470: Neeraj Pandey action movies
+Generated output (raw model):
+{"actor": "Neeraj Pandey", "genre": "Action"}
+Parsed JSON (raw model):
+{
+  "actor": "Neeraj Pandey",
+  "genre": "Action"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Action",
+  "actor": "Neeraj Pandey"
+}
+
+---
+Query 471: Niharika Khan costume design
+Generated output (raw model):
+{"actor": "Narration Khan", "query_type": "rating/review", "title": "Niharika Khan costume design"}
+Parsed JSON (raw model):
+{
+  "actor": "Narration Khan",
+  "query_type": "rating/review",
+  "title": "Niharika Khan costume design"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Niharika Khan costume design",
+  "actor": "Narration Khan"
+}
+
+---
+Query 472: 5-8 years shows
+Generated output (raw model):
+{"content_type": "Web Series", "year": 2020}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "year": 2020
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "age": "5-8 years"
+}
+
+---
+Query 473: Zoya Akhtar
+Generated output (raw model):
+{"director": "Zoya Akhtar"}
+Parsed JSON (raw model):
+{
+  "director": "Zoya Akhtar"
+}
+Final output (after rule-based value mapping):
+{
+  "director": "Zoya Akhtar"
+}
+
+---
+Query 474: Anurag Kashyap
+Generated output (raw model):
+{"director": "Anurag Kashyap"}
+Parsed JSON (raw model):
+{
+  "director": "Anurag Kashyap"
+}
+Final output (after rule-based value mapping):
+{
+  "director": "Anurag Kashyap"
+}
+
+---
+Query 475: Tamil movies
+Generated output (raw model):
+{"language": "Tamil"}
+Parsed JSON (raw model):
+{
+  "language": "Tamil"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Tamil"
+}
+
+---
+Query 476: 90's movies of SRK
+Generated output (raw model):
+{"actor": "Shah Rukh Khan", "genre": "Web Series", "year": 2018}
+Parsed JSON (raw model):
+{
+  "actor": "Shah Rukh Khan",
+  "genre": "Web Series",
+  "year": 2018
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies"
+}
+
+---
+Query 477: Dilip Joshi show
+Generated output (raw model):
+{"actor": "Dilip Joshi"}
+Parsed JSON (raw model):
+{
+  "actor": "Dilip Joshi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "actor": "Dilip Joshi"
+}
+
+---
+Query 478: Saurav Chakraborty
+Generated output (raw model):
+{"actor": "Saurav Chakraborty"}
+Parsed JSON (raw model):
+{
+  "actor": "Saurav Chakraborty"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Saurav Chakraborty"
+}
+
+---
+Query 479: Entertainment channels
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Entertainment"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Entertainment"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 480: trending marathi news
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Marathi", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Marathi",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Marathi"
+}
+
+---
+Query 481: 90s kids shows
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Web Series", "year": 2019}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Web Series",
+  "year": 2019
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "audience": "kids"
+}
+
+---
+Query 482: HT News
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "Hindi", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "Hindi",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 483: Sony Live hindi channels
+Generated output (raw model):
+{"language": "Hindi", "platform": "SonyLIVE"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "platform": "SonyLIVE"
+}
+Final output (after rule-based value mapping):
+{
+  "platform": "SonyLIV",
+  "language": "Hindi"
+}
+
+---
+Query 484: Discovery Kids hindi
+Generated output (raw model):
+{"language": "Hindi", "genre": "Discovery"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "genre": "Discovery"
+}
+Final output (after rule-based value mapping):
+{
+  "audience": "kids",
+  "language": "Hindi"
+}
+
+---
+Query 485: Abhishek Pathak
+Generated output (raw model):
+{"actor": "Abhishek Bachchan"}
+Parsed JSON (raw model):
+{
+  "actor": "Abhishek Bachchan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Abhishek Bachchan"
+}
+
+---
+Query 486: cricket World Cup
+Generated output (raw model):
+{"title": "Cricket World Cup"}
+Parsed JSON (raw model):
+{
+  "title": "Cricket World Cup"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Cricket World Cup"
+}
+
+---
+Query 487: Live Marathon
+Generated output (raw model):
+{"title": "Live Marathon"}
+Parsed JSON (raw model):
+{
+  "title": "Live Marathon"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Live Marathon"
+}
+
+---
+Query 488: New Releases
+Generated output (raw model):
+{"recency": "latest"}
+Parsed JSON (raw model):
+{
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest"
+}
+
+---
+Query 489: PM e Vidya 09
+Generated output (raw model):
+{"actor": "Vidya Balan", "year": 2009}
+Parsed JSON (raw model):
+{
+  "actor": "Vidya Balan",
+  "year": 2009
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Vidya Balan"
+}
+
+---
+Query 490: hit latest songs
+Generated output (raw model):
+{"rating_type": "hit"}
+Parsed JSON (raw model):
+{
+  "rating_type": "hit"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "rating_type": "hit",
+  "recency": "latest"
+}
+
+---
+Query 491: movie channels Sony
+Generated output (raw model):
+{"platform": "Sony"}
+Parsed JSON (raw model):
+{
+  "platform": "Sony"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "platform": "SonyLIV"
+}
+
+---
+Query 492: Entertainment News
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Entertainment"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Entertainment"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 493: IPL matches
+Generated output (raw model):
+{"query_type": "availability", "title": "IPL"}
+Parsed JSON (raw model):
+{
+  "query_type": "availability",
+  "title": "IPL"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "IPL"
+}
+
+---
+Query 494: Romantic hindi movies
+Generated output (raw model):
+{"language": "Hindi", "mood": "romantic"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "mood": "romantic"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "mood": "romantic",
+  "language": "Hindi"
+}
+
+---
+Query 495: kialash kher
+Generated output (raw model):
+{"actor": "Kialesh Ghatana", "title": "Kialash Kher"}
+Parsed JSON (raw model):
+{
+  "actor": "Kialesh Ghatana",
+  "title": "Kialash Kher"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Kialash Kher"
+}
+
+---
+Query 496: TV9
+Generated output (raw model):
+{"platform": "TV9"}
+Parsed JSON (raw model):
+{
+  "platform": "TV9"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 497: chota bheem
+Generated output (raw model):
+{"title": "Chota Bheem"}
+Parsed JSON (raw model):
+{
+  "title": "Chota Bheem"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Chota Bheem"
+}
+
+---
+Query 498: Kailash Kher songs
+Generated output (raw model):
+{"actor": "Kailash Kher"}
+Parsed JSON (raw model):
+{
+  "actor": "Kailash Kher"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Kailash Kher"
+}
+
+---
+Query 499: Rock Concerts
+Generated output (raw model):
+{"genre": "Rock"}
+Parsed JSON (raw model):
+{
+  "genre": "Rock"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 500: Kishore Kumar songs
+Generated output (raw model):
+{"actor": "Kishore Kumar"}
+Parsed JSON (raw model):
+{
+  "actor": "Kishore Kumar"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Kishore Kumar"
+}
+
+---
+Query 501: Shankar Ehsaan Loy
+Generated output (raw model):
+{"actor": "Shankar Ehsaan", "title": "Loy"}
+Parsed JSON (raw model):
+{
+  "actor": "Shankar Ehsaan",
+  "title": "Loy"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Loy",
+  "actor": "Shankar Ehsaan"
+}
+
+---
+Query 502: Shankar Ehsaan Loy ke best gaane
+Generated output (raw model):
+{"actor": "Shankar Ehsaan", "rating_type": "top rated", "title": "Loy"}
+Parsed JSON (raw model):
+{
+  "actor": "Shankar Ehsaan",
+  "rating_type": "top rated",
+  "title": "Loy"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Loy",
+  "actor": "Shankar Ehsaan"
+}
+
+---
+Query 503: U rated Hindi movies
+Generated output (raw model):
+{"language": "Hindi", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi"
+}
+
+---
+Query 504: Resul Pookutty
+Generated output (raw model):
+{"title": "Resul Pookutty"}
+Parsed JSON (raw model):
+{
+  "title": "Resul Pookutty"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Resul Pookutty"
+}
+
+---
+Query 505: PC Sreeram Tamil movies
+Generated output (raw model):
+{"language": "Tamil", "director": "PC Sreeram"}
+Parsed JSON (raw model):
+{
+  "language": "Tamil",
+  "director": "PC Sreeram"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Tamil",
+  "director": "PC Sreeram"
+}
+
+---
+Query 506: teen content 13+
+Generated output (raw model):
+{"content_type": "Web Series", "genre": "Teen", "rating_type": "13+"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "genre": "Teen",
+  "rating_type": "13+"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 507: Zoya Akhtar movies
+Generated output (raw model):
+{"director": "Zoya Akhtar"}
+Parsed JSON (raw model):
+{
+  "director": "Zoya Akhtar"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Zoya Akhtar"
+}
+
+---
+Query 508: Anurag Kashyap thriller movies
+Generated output (raw model):
+{"genre": "Thriller", "director": "Anurag Kashyap"}
+Parsed JSON (raw model):
+{
+  "genre": "Thriller",
+  "director": "Anurag Kashyap"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Thriller",
+  "director": "Anurag Kashyap"
+}
+
+---
+Query 509: children shows
+Generated output (raw model):
+{"content_type": "Web Series", "recency": "latest"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "recency": "latest"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "audience": "kids"
+}
+
+---
+Query 510: Sanjay Leela Bhansali Films
+Generated output (raw model):
+{"director": "Sanjay Leela Bhansali"}
+Parsed JSON (raw model):
+{
+  "director": "Sanjay Leela Bhansali"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "director": "Sanjay Leela Bhansali"
+}
+
+---
+Query 511: Marathi Movies
+Generated output (raw model):
+{"language": "Marathi"}
+Parsed JSON (raw model):
+{
+  "language": "Marathi"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Marathi"
+}
+
+---
+Query 512: indian news channels
+Generated output (raw model):
+{"content_type": "Web Series", "language": "Indian"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "language": "Indian"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 513: kailash kher
+Generated output (raw model):
+{"actor": "Kailash Kher", "title": "Kailash Kher"}
+Parsed JSON (raw model):
+{
+  "actor": "Kailash Kher",
+  "title": "Kailash Kher"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Kailash Kher",
+  "actor": "Kailash Kher"
+}
+
+---
+Query 514: Classical songs
+Generated output (raw model):
+{"genre": "Classical"}
+Parsed JSON (raw model):
+{
+  "genre": "Classical"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs"
+}
+
+---
+Query 515: Movie channels
+Generated output (raw model):
+{"content_type": "Web Series", "query_type": "availability", "title": "Movie"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "query_type": "availability",
+  "title": "Movie"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "title": "Movie"
+}
+
+---
+Query 516: Action
+Generated output (raw model):
+{"genre": "Action"}
+Parsed JSON (raw model):
+{
+  "genre": "Action"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Action"
+}
+
+---
+Query 517: latest IPL matches
+Generated output (raw model):
+{"actor": "Hrithik Roshan", "title": "IPL 2021"}
+Parsed JSON (raw model):
+{
+  "actor": "Hrithik Roshan",
+  "title": "IPL 2021"
+}
+Final output (after rule-based value mapping):
+{
+  "recency": "latest",
+  "title": "IPL 2021"
+}
+
+---
+Query 518: Deepika Padukone
+Generated output (raw model):
+{"actor": "Deepika Padukone"}
+Parsed JSON (raw model):
+{
+  "actor": "Deepika Padukone"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Deepika Padukone"
+}
+
+---
+Query 519: Live Sports
+Generated output (raw model):
+{"genre": "Sports", "platform": "Live Web Series"}
+Parsed JSON (raw model):
+{
+  "genre": "Sports",
+  "platform": "Live Web Series"
+}
+Final output (after rule-based value mapping):
+{
+  "genre": "Sports"
+}
+
+---
+Query 520: Chintu TV
+Generated output (raw model):
+{"content_type": "Web Series", "platform": "Chintu"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "platform": "Chintu"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 521: Arnab Goswami
+Generated output (raw model):
+{"actor": "Arnab Goswami"}
+Parsed JSON (raw model):
+{
+  "actor": "Arnab Goswami"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Arnab Goswami"
+}
+
+---
+Query 522: Live Football
+Generated output (raw model):
+{"genre": "Football", "platform": "Live"}
+Parsed JSON (raw model):
+{
+  "genre": "Football",
+  "platform": "Live"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 523: Action comedy movies
+Generated output (raw model):
+{"genre": "Action", "content_type": "Web Series", "language": "Kannada"}
+Parsed JSON (raw model):
+{
+  "genre": "Action",
+  "content_type": "Web Series",
+  "language": "Kannada"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Action"
+}
+
+---
+Query 524: Action movies 2025
+Generated output (raw model):
+{"genre": "Action", "year": 2025}
+Parsed JSON (raw model):
+{
+  "genre": "Action",
+  "year": 2025
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Action",
+  "year": "2025"
+}
+
+---
+Query 525: Avatar
+Generated output (raw model):
+{"title": "Avatar"}
+Parsed JSON (raw model):
+{
+  "title": "Avatar"
+}
+Final output (after rule-based value mapping):
+{
+  "title": "Avatar"
+}
+
+---
+Query 526: Trending Web Series
+Generated output (raw model):
+{"content_type": "Web Series", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "content_type": "Web Series",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Web Series"
+}
+
+---
+Query 527: Biopic Movies
+Generated output (raw model):
+{"genre": "Biopic"}
+Parsed JSON (raw model):
+{
+  "genre": "Biopic"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Biopic"
+}
+
+---
+Query 528: Dilip Joshi drama shows
+Generated output (raw model):
+{"actor": "Dilip Joshi", "genre": "Drama"}
+Parsed JSON (raw model):
+{
+  "actor": "Dilip Joshi",
+  "genre": "Drama"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "genre": "Drama",
+  "actor": "Dilip Joshi"
+}
+
+---
+Query 529: Arijit Singh songs
+Generated output (raw model):
+{"director": "Arijit Singh"}
+Parsed JSON (raw model):
+{
+  "director": "Arijit Singh"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "director": "Arijit Singh"
+}
+
+---
+Query 530: Kishore Kumar old songs
+Generated output (raw model):
+{"actor": "Kishore Kumar", "rating_type": "old"}
+Parsed JSON (raw model):
+{
+  "actor": "Kishore Kumar",
+  "rating_type": "old"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Kishore Kumar"
+}
+
+---
+Query 531: Ilaiyaraaja Tamil movies
+Generated output (raw model):
+{"language": "Tamil", "director": "Ilaiyaraaja"}
+Parsed JSON (raw model):
+{
+  "language": "Tamil",
+  "director": "Ilaiyaraaja"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Tamil",
+  "director": "Ilaiyaraaja"
+}
+
+---
+Query 532: Amitabh Bhattacharya songs
+Generated output (raw model):
+{"actor": "Amitabh Bhattacharya"}
+Parsed JSON (raw model):
+{
+  "actor": "Amitabh Bhattacharya"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs",
+  "actor": "Amitabh Bhattacharya"
+}
+
+---
+Query 533: Sameer songs
+Generated output (raw model):
+{"actor": "Kareena Kapoor", "genre": "Similar to"}
+Parsed JSON (raw model):
+{
+  "actor": "Kareena Kapoor",
+  "genre": "Similar to"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Songs"
+}
+
+---
+Query 534: Sriram Raghavan
+Generated output (raw model):
+{"actor": "Sriram Raghavan"}
+Parsed JSON (raw model):
+{
+  "actor": "Sriram Raghavan"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Sriram Raghavan"
+}
+
+---
+Query 535: family friendly comedy movies
+Generated output (raw model):
+{"audience": "family", "genre": "Comedy", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "audience": "family",
+  "genre": "Comedy",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "audience": "family",
+  "genre": "Comedy"
+}
+
+---
+Query 536: A rated thriller movies
+Generated output (raw model):
+{"mood": "thriller", "rating_type": "rated"}
+Parsed JSON (raw model):
+{
+  "mood": "thriller",
+  "rating_type": "rated"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "genre": "Thriller"
+}
+
+---
+Query 537: 8-12 age group movies
+Generated output (raw model):
+{"age_range": "8-12"}
+Parsed JSON (raw model):
+{
+  "age_range": "8-12"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "age": "8-12 years",
+  "age_range": "8-12"
+}
+
+---
+Query 538: Hindi cartoon 0-3
+Generated output (raw model):
+{"language": "Hindi", "content_type": "Web Series", "query_type": "rating/review", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "content_type": "Web Series",
+  "query_type": "rating/review",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{
+  "language": "Hindi",
+  "age": "0-3 years"
+}
+
+---
+Query 539: animated movies 5-8
+Generated output (raw model):
+{"mood": "animated", "rating_type": "top rated", "range": "5-8"}
+Parsed JSON (raw model):
+{
+  "mood": "animated",
+  "rating_type": "top rated",
+  "range": "5-8"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "age": "5-8 years",
+  "range": "5-8"
+}
+
+---
+Query 540: Imtiaz Ali
+Generated output (raw model):
+{"director": "Imtiaz Ali"}
+Parsed JSON (raw model):
+{
+  "director": "Imtiaz Ali"
+}
+Final output (after rule-based value mapping):
+{
+  "director": "Imtiaz Ali"
+}
+
+---
+Query 541: Shoojit Sircar Hindi movies
+Generated output (raw model):
+{"language": "Hindi", "director": "Shoojay Sircar"}
+Parsed JSON (raw model):
+{
+  "language": "Hindi",
+  "director": "Shoojay Sircar"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Movies",
+  "language": "Hindi",
+  "director": "Shoojay Sircar"
+}
+
+---
+Query 542: kids comedy shows
+Generated output (raw model):
+{"audience": "kids", "genre": "Comedy"}
+Parsed JSON (raw model):
+{
+  "audience": "kids",
+  "genre": "Comedy"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "audience": "kids",
+  "genre": "Comedy"
 }
 

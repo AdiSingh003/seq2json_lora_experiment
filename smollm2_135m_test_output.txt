@@ -1,0 +1,32 @@
+---
+Query 1: Saurav Chakraborty kids 3-5
+Generated output:
+
+{"actor": "Sallu", "title": "Sallu Chakraborty kids 3-5"}
+Parsed JSON:
+{
+  "actor": "Sallu",
+  "title": "Sallu Chakraborty kids 3-5"
+}
+
+---
+Query 2: Salman Khan songs
+Generated output:
+
+{"actor": "Salman Khan"}
+Parsed JSON:
+{
+  "actor": "Salman Khan"
+}
+
+---
+Query 3: Disney kids
+Generated output:
+
+{"actor": "Hrithik Roshan", "genre": "Family"}
+Parsed JSON:
+{
+  "actor": "Hrithik Roshan",
+  "genre": "Family"
+}
+
