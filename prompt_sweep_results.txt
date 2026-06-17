@@ -1,0 +1,860 @@
+PROMPT VARIANT SWEEP — SmolLM2 Intent Extractor
+Base model : HuggingFaceTB/SmolLM2-360M-Instruct
+Adapter    : artifacts_full_dataset/models/smollm2/adapter
+Eval size  : 31 queries
+
+======================================================================
+VARIANT: v1_minimal
+======================================================================
+
+  [01] Query   : Saurav Chakraborty kids 3-5
+       Expected: {"actor": "Saurav Chakraborty", "audience": "kids", "age": "3-5 years"}
+       Got     : {"actor": "Saurav Chakraborty", "title": "Kesari"}
+       F1=0.400  P=0.500  R=0.333  missing=['age', 'audience']  extra=['title']
+
+  [02] Query   : Meera Nair movies
+       Expected: {"actor": "Meera Nair", "content_type": "Movies"}
+       Got     : {"director": "Meera Nair"}
+       F1=0.000  P=0.000  R=0.000  missing=['actor', 'content_type']  extra=['director']
+
+  [03] Query   : Arjun Kapoor action flicks
+       Expected: {"actor": "Arjun Kapoor", "content_type": "Movies", "genre": "Action"}
+       Got     : {"actor": "Arjun Kapoor", "genre": "Action"}
+       F1=0.800  P=1.000  R=0.667  missing=['content_type']
+
+  [04] Query   : Nandita Das drama films
+       Expected: {"actor": "Nandita Das", "content_type": "Movies", "genre": "Drama"}
+       Got     : {"genre": "Drama", "title": "Nandita Das"}
+       F1=0.400  P=0.500  R=0.333  missing=['actor', 'content_type']  extra=['title']
+
+  [05] Query   : Konkona Sen Sharma thriller
+       Expected: {"actor": "Konkona Sen Sharma", "genre": "Thriller"}
+       Got     : {"actor": "Konkona Sen Sharma", "genre": "Thriller"}
+       F1=1.000  P=1.000  R=1.000
+
+  [06] Query   : Anuv Jain songs
+       Expected: {"actor": "Anuv Jain", "content_type": "Songs"}
+       Got     : {"actor": "Anuv Jain", "genre": "Web Series"}
+       F1=0.500  P=0.500  R=0.500  missing=['content_type']  extra=['genre']
+
+  [07] Query   : Arijit Singh music
+       Expected: {"actor": "Arijit Singh", "content_type": "Music"}
+       Got     : {"actor": "Arijit Singh", "genre": "Music"}
+       F1=0.500  P=0.500  R=0.500  missing=['content_type']  extra=['genre']
+
+  [08] Query   : Raghav juyal popular cinema
+       Expected: {"actor": "Raghav juyal", "content_type": "Movies", "rating_type": "top rated"}
+       Got     : {"actor": "Raghav Leo", "rating_type": "popular"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type']  wrong={'rating_type': {'predicted': 'popular', 'expected': 'top rated'}, 'actor': {'predicted': 'Raghav Leo', 'expected': 'Raghav juyal'}}
+
+  [09] Query   : Devanand flicks
+       Expected: {"actor": "Devanand", "content_type": "Movies"}
+       Got     : {"title": "Devanand"}
+       F1=0.000  P=0.000  R=0.000  missing=['actor', 'content_type']  extra=['title']
+
+  [10] Query   : manish paul episodes
+       Expected: {"actor": "Manish Paul", "content_type": "Episodes"}
+       Got     : {"actor": "Mishra Priyanka", "query_type": "availability", "title": "Priyanka Mishra Paul"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type']  extra=['query_type', 'title']  wrong={'actor': {'predicted': 'Mishra Priyanka', 'expected': 'Manish Paul'}}
+
+  [11] Query   : Dilip Joshi hindi shows Prime
+       Expected: {"actor": "Dilip Joshi", "language": "Hindi", "content_type": "Shows", "platform": "Amazon Prime"}
+       Got     : {"actor": "Dilip Joshi", "genre": "Hindi thriller", "platform": "Prime"}
+       F1=0.286  P=0.333  R=0.250  missing=['content_type', 'language']  extra=['genre']  wrong={'platform': {'predicted': 'Prime', 'expected': 'Amazon Prime'}}
+
+  [12] Query   : latest Hindi films on Hotstar
+       Expected: {"recency": "latest", "language": "Hindi", "content_type": "Movies", "platform": "Disney+ Hotstar"}
+       Got     : {"language": "Hindi", "platform": "Hotstar", "recency": "latest"}
+       F1=0.571  P=0.667  R=0.500  missing=['content_type']  wrong={'platform': {'predicted': 'Hotstar', 'expected': 'Disney+ Hotstar'}}
+
+  [13] Query   : Tamil action on Sony
+       Expected: {"language": "Tamil", "genre": "Action", "platform": "SonyLIV"}
+       Got     : {"genre": "Action", "language": "Tamil", "platform": "Sony"}
+       F1=0.667  P=0.667  R=0.667  wrong={'platform': {'predicted': 'Sony', 'expected': 'SonyLIV'}}
+
+  [14] Query   : Kannada movies on Zee
+       Expected: {"language": "Kannada", "content_type": "Movies", "platform": "ZEE5"}
+       Got     : {"language": "Kannada", "platform": "ZEE5"}
+       F1=0.800  P=1.000  R=0.667  missing=['content_type']
+
+  [15] Query   : Marathi comedy on Jio
+       Expected: {"language": "Marathi", "genre": "Comedy", "platform": "Jio Cinema"}
+       Got     : {"genre": "Comedy", "language": "Marathi", "platform": "Jio Cinema"}
+       F1=1.000  P=1.000  R=1.000
+
+  [16] Query   : Disney kids 6-8
+       Expected: {"title": "Disney", "audience": "kids", "age": "6-8 years"}
+       Got     : {"genre": "Family", "rating_type": "top rated", "year": 2020}
+       F1=0.000  P=0.000  R=0.000  missing=['age', 'audience', 'title']  extra=['genre', 'rating_type', 'year']
+
+  [17] Query   : cartoon shows for children 4 years
+       Expected: {"content_type": "Shows", "audience": "kids", "age": "4 years"}
+       Got     : {"genre": "Comedy", "rating_type": "top rated", "year": 2020}
+       F1=0.000  P=0.000  R=0.000  missing=['age', 'audience', 'content_type']  extra=['genre', 'rating_type', 'year']
+
+  [18] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"audience": "family", "platform": "Netflix"}
+       F1=0.800  P=1.000  R=0.667  missing=['content_type']
+
+  [19] Query   : educational cartoons kids 5-10
+       Expected: {"genre": "Educational", "content_type": "Show", "audience": "kids", "age": "5-10 years"}
+       Got     : {"audience": " kids 5-10", "genre": "Educational"}
+       F1=0.333  P=0.500  R=0.250  missing=['age', 'content_type']  wrong={'audience': {'predicted': ' kids 5-10', 'expected': 'kids'}}
+
+  [20] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"audience": "family", "platform": "Netflix"}
+       F1=0.800  P=1.000  R=0.667  missing=['content_type']
+
+  [21] Query   : feel good Bollywood movies
+       Expected: {"mood": "feel good", "language": "Hindi", "content_type": "Movies"}
+       Got     : {"language": "Hindi", "mood": "feel good", "rating_type": "top rated"}
+       F1=0.667  P=0.667  R=0.667  missing=['content_type']  extra=['rating_type']
+
+  [22] Query   : scary Hindi horror
+       Expected: {"mood": "scary", "language": "Hindi", "genre": "Horror"}
+       Got     : {"genre": "Horror", "language": "Hindi", "mood": "scary"}
+       F1=1.000  P=1.000  R=1.000
+
+  [23] Query   : must watch Tamil thriller
+       Expected: {"rating_type": "must watch", "language": "Tamil", "genre": "Thriller"}
+       Got     : {"genre": "Thriller", "language": "Tamil", "rating_type": "must watch"}
+       F1=1.000  P=1.000  R=1.000
+
+  [24] Query   : underrated Telugu drama
+       Expected: {"rating_type": "underrated", "language": "Telugu", "genre": "Drama"}
+       Got     : {"genre": "Drama", "language": "Telugu", "rating_type": "underrated"}
+       F1=1.000  P=1.000  R=1.000
+
+  [25] Query   : Hrithik Roshan action movies on Netflix 2023
+       Expected: {"actor": "Hrithik Roshan", "genre": "Action", "content_type": "Movies", "platform": "Netflix", "year": "2023"}
+       Got     : {"actor": "Hrithik Roshan", "genre": "Action", "platform": "Netflix", "year": 2023}
+       F1=0.889  P=1.000  R=0.800  missing=['content_type']
+
+  [26] Query   : latest Malayalam blockbuster on Prime
+       Expected: {"recency": "latest", "language": "Malayalam", "rating_type": "blockbuster", "platform": "Amazon Prime"}
+       Got     : {"language": "Malayalam", "rating_type": "blockbuster", "platform": "Prime"}
+       F1=0.571  P=0.667  R=0.500  missing=['recency']  wrong={'platform': {'predicted': 'Prime', 'expected': 'Amazon Prime'}}
+
+  [27] Query   : Alia Bhatt romantic drama 2022
+       Expected: {"actor": "Alia Bhatt", "genre": "Romance", "content_type": "Movies", "year": "2022"}
+       Got     : {"actor": "Alia Bhatt", "genre": "Romance", "year": 2022}
+       F1=0.857  P=1.000  R=0.750  missing=['content_type']
+
+  [28] Query   : latest elections news
+       Expected: {"recency": "latest", "content_type": "LiveChannel"}
+       Got     : {"query_type": "rating/review", "title": "Elections"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type', 'recency']  extra=['query_type', 'title']
+
+  [29] Query   : something similar to RRR
+       Expected: {"similar_to": "RRR"}
+       Got     : {"similar_to": "RRR"}
+       F1=1.000  P=1.000  R=1.000
+
+  [30] Query   : CNN News 18
+       Expected: {"content_type": "LiveChannel", "title": "CNN News 18"}
+       Got     : {"platform": "CNN", "query_type": "availability", "title": "CNN News 18"}
+       F1=0.400  P=0.333  R=0.500  missing=['content_type']  extra=['platform', 'query_type']
+
+  [31] Query   : Football matches
+       Expected: {"content_type": "LiveChannel", "title": "Football"}
+       Got     : {"genre": "Football"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type', 'title']  extra=['genre']
+
+  SUMMARY — F1=0.5239  P=0.5753  R=0.4909  ExactMatch=19.4%
+
+======================================================================
+VARIANT: v2_field_list
+======================================================================
+
+  [01] Query   : Saurav Chakraborty kids 3-5
+       Expected: {"actor": "Saurav Chakraborty", "audience": "kids", "age": "3-5 years"}
+       Got     : {"actor": "Saurav Chakraborty", "title": "Kesari", "similar_to": "Kesari"}
+       F1=0.333  P=0.333  R=0.333  missing=['age', 'audience']  extra=['similar_to', 'title']
+
+  [02] Query   : Meera Nair movies
+       Expected: {"actor": "Meera Nair", "content_type": "Movies"}
+       Got     : {"actor": "Meera Kesari", "director": "Rajkumar Hirani", "title": "Meera Nair"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type']  extra=['director', 'title']  wrong={'actor': {'predicted': 'Meera Kesari', 'expected': 'Meera Nair'}}
+
+  [03] Query   : Arjun Kapoor action flicks
+       Expected: {"actor": "Arjun Kapoor", "content_type": "Movies", "genre": "Action"}
+       Got     : {"actor": "Arjun Kapoor", "genre": "Action", "recency": "latest", "title": "Mard ko dard nahi hota"}
+       F1=0.571  P=0.500  R=0.667  missing=['content_type']  extra=['recency', 'title']
+
+  [04] Query   : Nandita Das drama films
+       Expected: {"actor": "Nandita Das", "content_type": "Movies", "genre": "Drama"}
+       Got     : {"actor": "Nawazuddin Siddiqui", "genre": "Drama", "title": "Nandita Das"}
+       F1=0.333  P=0.333  R=0.333  missing=['content_type']  extra=['title']  wrong={'actor': {'predicted': 'Nawazuddin Siddiqui', 'expected': 'Nandita Das'}}
+
+  [05] Query   : Konkona Sen Sharma thriller
+       Expected: {"actor": "Konkona Sen Sharma", "genre": "Thriller"}
+       Got     : {"actor": "Konkona Sen Sharma", "genre": "Thriller", "recency": "latest", "year": 2018}
+       F1=0.667  P=0.500  R=1.000  extra=['recency', 'year']
+
+  [06] Query   : Anuv Jain songs
+       Expected: {"actor": "Anuv Jain", "content_type": "Songs"}
+       Got     : {"actor": "Anuv Jain", "title": "Anuv Jain"}
+       F1=0.500  P=0.500  R=0.500  missing=['content_type']  extra=['title']
+
+  [07] Query   : Arijit Singh music
+       Expected: {"actor": "Arijit Singh", "content_type": "Music"}
+       Got     : {"actor": "Arijit Singh", "title": "Music"}
+       F1=0.500  P=0.500  R=0.500  missing=['content_type']  extra=['title']
+
+  [08] Query   : Raghav juyal popular cinema
+       Expected: {"actor": "Raghav juyal", "content_type": "Movies", "rating_type": "top rated"}
+       Got     : {"actor": "Raghav Leela Bhansali", "director": "Sanjay Leela Bhansali", "title": "Raghav Leela Bhansali", "similar_to": "Raghav Leela Bhansali"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type', 'rating_type']  extra=['director', 'similar_to', 'title']  wrong={'actor': {'predicted': 'Raghav Leela Bhansali', 'expected': 'Raghav juyal'}}
+
+  [09] Query   : Devanand flicks
+       Expected: {"actor": "Devanand", "content_type": "Movies"}
+       Got     : {"actor": "Shah Rukh Khan", "director": "Rajkumar Hirani", "title": "Devanand", "similar_to": "Shah Rukh Rangde"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type']  extra=['director', 'similar_to', 'title']  wrong={'actor': {'predicted': 'Shah Rukh Khan', 'expected': 'Devanand'}}
+
+  [10] Query   : manish paul episodes
+       Expected: {"actor": "Manish Paul", "content_type": "Episodes"}
+       Got     : {"actor": "Mishra Priyanka", "title": "Mishra Pritikonda"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type']  extra=['title']  wrong={'actor': {'predicted': 'Mishra Priyanka', 'expected': 'Manish Paul'}}
+
+  [11] Query   : Dilip Joshi hindi shows Prime
+       Expected: {"actor": "Dilip Joshi", "language": "Hindi", "content_type": "Shows", "platform": "Amazon Prime"}
+       Got     : {"actor": "Dilip Joshi", "language": "Hindi", "query_type": "availability", "rating_type": "top rated", "audience": "adults", "age": 15, "recency": "latest", "year": 2018}
+       F1=0.333  P=0.250  R=0.500  missing=['content_type', 'platform']  extra=['age', 'audience', 'query_type', 'rating_type', 'recency', 'year']
+
+  [12] Query   : latest Hindi films on Hotstar
+       Expected: {"recency": "latest", "language": "Hindi", "content_type": "Movies", "platform": "Disney+ Hotstar"}
+       Got     : {"language": "Hindi", "query_type": "latest", "platform": "Hotstar", "rating_type": "latest"}
+       F1=0.250  P=0.250  R=0.250  missing=['content_type', 'recency']  extra=['query_type', 'rating_type']  wrong={'platform': {'predicted': 'Hotstar', 'expected': 'Disney+ Hotstar'}}
+
+  [13] Query   : Tamil action on Sony
+       Expected: {"language": "Tamil", "genre": "Action", "platform": "SonyLIV"}
+       Got     : {"language": "Tamil", "query_type": "availability", "title": "Sony action"}
+       F1=0.333  P=0.333  R=0.333  missing=['genre', 'platform']  extra=['query_type', 'title']
+
+  [14] Query   : Kannada movies on Zee
+       Expected: {"language": "Kannada", "content_type": "Movies", "platform": "ZEE5"}
+       Got     : {"language": "Kannada", "query_type": "availability", "title": "Zee"}
+       F1=0.333  P=0.333  R=0.333  missing=['content_type', 'platform']  extra=['query_type', 'title']
+
+  [15] Query   : Marathi comedy on Jio
+       Expected: {"language": "Marathi", "genre": "Comedy", "platform": "Jio Cinema"}
+       Got     : {"language": "Marathi", "genre": "Comedy", "platform": "Jio", "query_type": "availability", "rating_type": "top rated"}
+       F1=0.500  P=0.400  R=0.667  extra=['query_type', 'rating_type']  wrong={'platform': {'predicted': 'Jio', 'expected': 'Jio Cinema'}}
+
+  [16] Query   : Disney kids 6-8
+       Expected: {"title": "Disney", "audience": "kids", "age": "6-8 years"}
+       Got     : {"platform": "Disney+ Kids", "query_type": "availability", "rating_type": "top rated", "language": "Hindi", "mood": "funny", "audience": "kids", "age": 6, "year": 2018}
+       F1=0.182  P=0.125  R=0.333  missing=['title']  extra=['language', 'mood', 'platform', 'query_type', 'rating_type', 'year']  wrong={'age': {'predicted': 6, 'expected': '6-8 years'}}
+
+  [17] Query   : cartoon shows for children 4 years
+       Expected: {"content_type": "Shows", "audience": "kids", "age": "4 years"}
+       Got     : {"content_type": "Web Series", "language": "Hindi", "mood": "funny", "platform": "Netflix", "rating_type": "top rated", "audience": "children", "year": 2018, "query_type": "availability"}
+       F1=0.000  P=0.000  R=0.000  missing=['age']  extra=['language', 'mood', 'platform', 'query_type', 'rating_type', 'year']  wrong={'audience': {'predicted': 'children', 'expected': 'kids'}, 'content_type': {'predicted': 'Web Series', 'expected': 'Shows'}}
+
+  [18] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"audience": "family", "genre": "Family", "platform": "Netflix", "rating_type": "top rated", "recency": "latest", "year": 2018}
+       F1=0.444  P=0.333  R=0.667  missing=['content_type']  extra=['genre', 'rating_type', 'recency', 'year']
+
+  [19] Query   : educational cartoons kids 5-10
+       Expected: {"genre": "Educational", "content_type": "Show", "audience": "kids", "age": "5-10 years"}
+       Got     : {"audience": "kids 5-10", "genre": "Educational", "language": "Hindi", "mood": "feel good", "platform": "Netflix", "rating_type": "top rated", "recency": "latest", "year": 2018}
+       F1=0.167  P=0.125  R=0.250  missing=['age', 'content_type']  extra=['language', 'mood', 'platform', 'rating_type', 'recency', 'year']  wrong={'audience': {'predicted': 'kids 5-10', 'expected': 'kids'}}
+
+  [20] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"audience": "family", "genre": "Family", "platform": "Netflix", "rating_type": "top rated", "recency": "latest", "year": 2018}
+       F1=0.444  P=0.333  R=0.667  missing=['content_type']  extra=['genre', 'rating_type', 'recency', 'year']
+
+  [21] Query   : feel good Bollywood movies
+       Expected: {"mood": "feel good", "language": "Hindi", "content_type": "Movies"}
+       Got     : {"language": "Hindi", "mood": "feel good", "platform": "Hollywood on YouTube", "recency": "latest", "year": 2018}
+       F1=0.500  P=0.400  R=0.667  missing=['content_type']  extra=['platform', 'recency', 'year']
+
+  [22] Query   : scary Hindi horror
+       Expected: {"mood": "scary", "language": "Hindi", "genre": "Horror"}
+       Got     : {"language": "Hindi", "mood": "scary", "genre": "Horror", "platform": "Hindi", "rating_type": "top rated", "audience": "adults", "year": 2018, "query_type": "availability"}
+       F1=0.545  P=0.375  R=1.000  extra=['audience', 'platform', 'query_type', 'rating_type', 'year']
+
+  [23] Query   : must watch Tamil thriller
+       Expected: {"rating_type": "must watch", "language": "Tamil", "genre": "Thriller"}
+       Got     : {"language": "Tamil", "mood": "thriller", "query_type": "availability", "rating_type": "top rated", "audience": "adults", "age": 18, "recency": "latest", "year": 2018}
+       F1=0.182  P=0.125  R=0.333  missing=['genre']  extra=['age', 'audience', 'mood', 'query_type', 'recency', 'year']  wrong={'rating_type': {'predicted': 'top rated', 'expected': 'must watch'}}
+
+  [24] Query   : underrated Telugu drama
+       Expected: {"rating_type": "underrated", "language": "Telugu", "genre": "Drama"}
+       Got     : {"genre": "Drama", "language": "Telugu", "mood": "underrated", "platform": "Telugu", "rating_type": "latest", "audience": "adults", "year": 2018, "query_type": "rating/review"}
+       F1=0.364  P=0.250  R=0.667  extra=['audience', 'mood', 'platform', 'query_type', 'year']  wrong={'rating_type': {'predicted': 'latest', 'expected': 'underrated'}}
+
+  [25] Query   : Hrithik Roshan action movies on Netflix 2023
+       Expected: {"actor": "Hrithik Roshan", "genre": "Action", "content_type": "Movies", "platform": "Netflix", "year": "2023"}
+       Got     : {"actor": "Hrithik Roshan", "genre": "Action", "platform": "Netflix", "year": 2023}
+       F1=0.889  P=1.000  R=0.800  missing=['content_type']
+
+  [26] Query   : latest Malayalam blockbuster on Prime
+       Expected: {"recency": "latest", "language": "Malayalam", "rating_type": "blockbuster", "platform": "Amazon Prime"}
+       Got     : {"language": "Malayalam", "query_type": "availability", "title": "Prime", "rating_type": "latest"}
+       F1=0.250  P=0.250  R=0.250  missing=['platform', 'recency']  extra=['query_type', 'title']  wrong={'rating_type': {'predicted': 'latest', 'expected': 'blockbuster'}}
+
+  [27] Query   : Alia Bhatt romantic drama 2022
+       Expected: {"actor": "Alia Bhatt", "genre": "Romance", "content_type": "Movies", "year": "2022"}
+       Got     : {"actor": "Alia Bhatt", "genre": "Romance", "year": 2022, "recency": "latest"}
+       F1=0.750  P=0.750  R=0.750  missing=['content_type']  extra=['recency']
+
+  [28] Query   : latest elections news
+       Expected: {"recency": "latest", "content_type": "LiveChannel"}
+       Got     : {"query_type": "availability", "title": "Elections"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type', 'recency']  extra=['query_type', 'title']
+
+  [29] Query   : something similar to RRR
+       Expected: {"similar_to": "RRR"}
+       Got     : {"actor": "Akshay Kumar", "director": "Sanjay Leela Bhansali", "title": "RRR"}
+       F1=0.000  P=0.000  R=0.000  missing=['similar_to']  extra=['actor', 'director', 'title']
+
+  [30] Query   : CNN News 18
+       Expected: {"content_type": "LiveChannel", "title": "CNN News 18"}
+       Got     : {"platform": "CNN News 18", "query_type": "availability", "rating_type": "top rated", "language": "Hindi", "mood": "moody", "audience": "adults", "age": 18, "recency": "latest", "year": 2018}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type', 'title']  extra=['age', 'audience', 'language', 'mood', 'platform', 'query_type', 'rating_type', 'recency', 'year']
+
+  [31] Query   : Football matches
+       Expected: {"content_type": "LiveChannel", "title": "Football"}
+       Got     : {"query_type": "availability", "title": "Football"}
+       F1=0.500  P=0.500  R=0.500  missing=['content_type']  extra=['query_type']
+
+  SUMMARY — F1=0.3184  P=0.2839  R=0.3968  ExactMatch=0.0%
+
+======================================================================
+VARIANT: v3_rules
+======================================================================
+
+  [01] Query   : Saurav Chakraborty kids 3-5
+       Expected: {"actor": "Saurav Chakraborty", "audience": "kids", "age": "3-5 years"}
+       Got     : {"actor": "Saurav Chakraborty", "title": "Kesari", "similar_to": "Kesari"}
+       F1=0.333  P=0.333  R=0.333  missing=['age', 'audience']  extra=['similar_to', 'title']
+
+  [02] Query   : Meera Nair movies
+       Expected: {"actor": "Meera Nair", "content_type": "Movies"}
+       Got     : {"actor": "Meera Nair", "director": "Rajkumar Hirani"}
+       F1=0.500  P=0.500  R=0.500  missing=['content_type']  extra=['director']
+
+  [03] Query   : Arjun Kapoor action flicks
+       Expected: {"actor": "Arjun Kapoor", "content_type": "Movies", "genre": "Action"}
+       Got     : {"actor": "Arjun Kapoor", "genre": "Action", "title": "Kapoor"}
+       F1=0.667  P=0.667  R=0.667  missing=['content_type']  extra=['title']
+
+  [04] Query   : Nandita Das drama films
+       Expected: {"actor": "Nandita Das", "content_type": "Movies", "genre": "Drama"}
+       Got     : {"actor": "Nawazuddin Siddiqui", "director": "Rajkumar Hirani", "title": "Nandita Das"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type', 'genre']  extra=['director', 'title']  wrong={'actor': {'predicted': 'Nawazuddin Siddiqui', 'expected': 'Nandita Das'}}
+
+  [05] Query   : Konkona Sen Sharma thriller
+       Expected: {"actor": "Konkona Sen Sharma", "genre": "Thriller"}
+       Got     : {"actor": "Konkona Sen Sharma", "genre": "Thriller", "rating_type": "top rated"}
+       F1=0.800  P=0.667  R=1.000  extra=['rating_type']
+
+  [06] Query   : Anuv Jain songs
+       Expected: {"actor": "Anuv Jain", "content_type": "Songs"}
+       Got     : {"actor": "Anuv Jain", "title": "Songs"}
+       F1=0.500  P=0.500  R=0.500  missing=['content_type']  extra=['title']
+
+  [07] Query   : Arijit Singh music
+       Expected: {"actor": "Arijit Singh", "content_type": "Music"}
+       Got     : {"actor": "Arijit Singh", "director": "Rajkumar Hirani", "title": "Arijit Singh"}
+       F1=0.400  P=0.333  R=0.500  missing=['content_type']  extra=['director', 'title']
+
+  [08] Query   : Raghav juyal popular cinema
+       Expected: {"actor": "Raghav juyal", "content_type": "Movies", "rating_type": "top rated"}
+       Got     : {"actor": "Raghav Lele", "director": "Rajkumar Hirani", "title": "Raghav Jial"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type', 'rating_type']  extra=['director', 'title']  wrong={'actor': {'predicted': 'Raghav Lele', 'expected': 'Raghav juyal'}}
+
+  [09] Query   : Devanand flicks
+       Expected: {"actor": "Devanand", "content_type": "Movies"}
+       Got     : {"actor": "Anurag Kashyap", "director": "Rajkumar Hirani", "title": "Devanand"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type']  extra=['director', 'title']  wrong={'actor': {'predicted': 'Anurag Kashyap', 'expected': 'Devanand'}}
+
+  [10] Query   : manish paul episodes
+       Expected: {"actor": "Manish Paul", "content_type": "Episodes"}
+       Got     : {"actor": "Mishra Priyanka", "director": "Priyanka Chopra", "title": "Priyanka Chopra", "similar_to": "Priyanka Chopra"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type']  extra=['director', 'similar_to', 'title']  wrong={'actor': {'predicted': 'Mishra Priyanka', 'expected': 'Manish Paul'}}
+
+  [11] Query   : Dilip Joshi hindi shows Prime
+       Expected: {"actor": "Dilip Joshi", "language": "Hindi", "content_type": "Shows", "platform": "Amazon Prime"}
+       Got     : {"actor": "Dilip Joshi", "language": "Hindi", "content_type": "Shows", "rating_type": "top rated", "audience": "family", "year": 2018}
+       F1=0.600  P=0.500  R=0.750  missing=['platform']  extra=['audience', 'rating_type', 'year']
+
+  [12] Query   : latest Hindi films on Hotstar
+       Expected: {"recency": "latest", "language": "Hindi", "content_type": "Movies", "platform": "Disney+ Hotstar"}
+       Got     : {"content_type": "Web Series", "language": "Hindi", "mood": "latest", "platform": "Hotstar", "rating_type": "latest"}
+       F1=0.222  P=0.200  R=0.250  missing=['recency']  extra=['mood', 'rating_type']  wrong={'platform': {'predicted': 'Hotstar', 'expected': 'Disney+ Hotstar'}, 'content_type': {'predicted': 'Web Series', 'expected': 'Movies'}}
+
+  [13] Query   : Tamil action on Sony
+       Expected: {"language": "Tamil", "genre": "Action", "platform": "SonyLIV"}
+       Got     : {"genre": "Action", "language": "Tamil", "recency": "latest", "title": "Sony action"}
+       F1=0.571  P=0.500  R=0.667  missing=['platform']  extra=['recency', 'title']
+
+  [14] Query   : Kannada movies on Zee
+       Expected: {"language": "Kannada", "content_type": "Movies", "platform": "ZEE5"}
+       Got     : {"language": "Kannada", "platform": "ZEE5", "title": "Kannada"}
+       F1=0.667  P=0.667  R=0.667  missing=['content_type']  extra=['title']
+
+  [15] Query   : Marathi comedy on Jio
+       Expected: {"language": "Marathi", "genre": "Comedy", "platform": "Jio Cinema"}
+       Got     : {"genre": "Comedy", "language": "Marathi", "platform": "Jio Cinema", "rating_type": "top rated"}
+       F1=0.857  P=0.750  R=1.000  extra=['rating_type']
+
+  [16] Query   : Disney kids 6-8
+       Expected: {"title": "Disney", "audience": "kids", "age": "6-8 years"}
+       Got     : {"actor": "Amitabh Bachchan", "director": "Sanjay Leela Bhansali", "title": "Disney Kids 6-8"}
+       F1=0.000  P=0.000  R=0.000  missing=['age', 'audience']  extra=['actor', 'director']  wrong={'title': {'predicted': 'Disney Kids 6-8', 'expected': 'Disney'}}
+
+  [17] Query   : cartoon shows for children 4 years
+       Expected: {"content_type": "Shows", "audience": "kids", "age": "4 years"}
+       Got     : {"content_type": "Shows", "language": "Hindi", "mood": "cartoon", "platform": "Kannada", "rating_type": "top rated", "audience": "children", "year": 2018}
+       F1=0.200  P=0.143  R=0.333  missing=['age']  extra=['language', 'mood', 'platform', 'rating_type', 'year']  wrong={'audience': {'predicted': 'children', 'expected': 'kids'}}
+
+  [18] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"actor": "Amitabh Bachchan", "director": "Sanjay Leela Bhansali", "title": "Rang deoling", "similar_to": "Rang deoling"}
+       F1=0.000  P=0.000  R=0.000  missing=['audience', 'content_type', 'platform']  extra=['actor', 'director', 'similar_to', 'title']
+
+  [19] Query   : educational cartoons kids 5-10
+       Expected: {"genre": "Educational", "content_type": "Show", "audience": "kids", "age": "5-10 years"}
+       Got     : {"actor": "Prabhas", "director": "Amitabh Bachchan", "title": "Educational Cartoons", "similar_to": "Educational Cartoons"}
+       F1=0.000  P=0.000  R=0.000  missing=['age', 'audience', 'content_type', 'genre']  extra=['actor', 'director', 'similar_to', 'title']
+
+  [20] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"actor": "Amitabh Bachchan", "director": "Sanjay Leela Bhansali", "title": "Rang deoling", "similar_to": "Rang deoling"}
+       F1=0.000  P=0.000  R=0.000  missing=['audience', 'content_type', 'platform']  extra=['actor', 'director', 'similar_to', 'title']
+
+  [21] Query   : feel good Bollywood movies
+       Expected: {"mood": "feel good", "language": "Hindi", "content_type": "Movies"}
+       Got     : {"language": "Hindi", "mood": "feel good", "content_type": "Movies", "rating_type": "top rated", "audience": "kids", "year": 2018}
+       F1=0.667  P=0.500  R=1.000  extra=['audience', 'rating_type', 'year']
+
+  [22] Query   : scary Hindi horror
+       Expected: {"mood": "scary", "language": "Hindi", "genre": "Horror"}
+       Got     : {"language": "Hindi", "mood": "scary", "genre": "Horror", "platform": "Hindi", "rating_type": "top rated"}
+       F1=0.750  P=0.600  R=1.000  extra=['platform', 'rating_type']
+
+  [23] Query   : must watch Tamil thriller
+       Expected: {"rating_type": "must watch", "language": "Tamil", "genre": "Thriller"}
+       Got     : {"genre": "Thriller", "language": "Tamil", "recency": "latest", "title": "Kota Chakravarthan"}
+       F1=0.571  P=0.500  R=0.667  missing=['rating_type']  extra=['recency', 'title']
+
+  [24] Query   : underrated Telugu drama
+       Expected: {"rating_type": "underrated", "language": "Telugu", "genre": "Drama"}
+       Got     : {"actor": "Hrithik Roshan", "director": "Rajkumar Hirani", "title": "Rrr", "similar_to": "Rrr"}
+       F1=0.000  P=0.000  R=0.000  missing=['genre', 'language', 'rating_type']  extra=['actor', 'director', 'similar_to', 'title']
+
+  [25] Query   : Hrithik Roshan action movies on Netflix 2023
+       Expected: {"actor": "Hrithik Roshan", "genre": "Action", "content_type": "Movies", "platform": "Netflix", "year": "2023"}
+       Got     : {"actor": "Hrithik Roshan", "genre": "Action", "platform": "Netflix", "year": 2023}
+       F1=0.889  P=1.000  R=0.800  missing=['content_type']
+
+  [26] Query   : latest Malayalam blockbuster on Prime
+       Expected: {"recency": "latest", "language": "Malayalam", "rating_type": "blockbuster", "platform": "Amazon Prime"}
+       Got     : {"actor": "Hrithik Roshan", "director": "Sanjay Leela Bhansali", "title": "Malayalam 2020", "similar_to": "Malayalam 2020"}
+       F1=0.000  P=0.000  R=0.000  missing=['language', 'platform', 'rating_type', 'recency']  extra=['actor', 'director', 'similar_to', 'title']
+
+  [27] Query   : Alia Bhatt romantic drama 2022
+       Expected: {"actor": "Alia Bhatt", "genre": "Romance", "content_type": "Movies", "year": "2022"}
+       Got     : {"actor": "Alia Bhatt", "genre": "Romance", "year": 2022, "recency": "latest"}
+       F1=0.750  P=0.750  R=0.750  missing=['content_type']  extra=['recency']
+
+  [28] Query   : latest elections news
+       Expected: {"recency": "latest", "content_type": "LiveChannel"}
+       Got     : {"content_type": "Web Series", "language": "Hindi", "mood": "latest", "platform": "Netflix", "rating_type": "top rated", "audience": "family", "year": 2020}
+       F1=0.000  P=0.000  R=0.000  missing=['recency']  extra=['audience', 'language', 'mood', 'platform', 'rating_type', 'year']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'LiveChannel'}}
+
+  [29] Query   : something similar to RRR
+       Expected: {"similar_to": "RRR"}
+       Got     : {"similar_to": "RRR"}
+       F1=1.000  P=1.000  R=1.000
+
+  [30] Query   : CNN News 18
+       Expected: {"content_type": "LiveChannel", "title": "CNN News 18"}
+       Got     : {"content_type": "Web Series", "language": "Hindi", "mood": "moody", "platform": "CNN", "rating_type": "top rated", "audience": "family", "year": 2018}
+       F1=0.000  P=0.000  R=0.000  missing=['title']  extra=['audience', 'language', 'mood', 'platform', 'rating_type', 'year']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'LiveChannel'}}
+
+  [31] Query   : Football matches
+       Expected: {"content_type": "LiveChannel", "title": "Football"}
+       Got     : {"actor": "Aamir Khan", "director": "Akshay Kumar", "title": "Football", "similar_to": "Football"}
+       F1=0.333  P=0.250  R=0.500  missing=['content_type']  extra=['actor', 'director', 'similar_to']
+
+  SUMMARY — F1=0.3638  P=0.3342  R=0.4156  ExactMatch=3.2%
+
+======================================================================
+VARIANT: v4_few_shot
+======================================================================
+
+  [01] Query   : Saurav Chakraborty kids 3-5
+       Expected: {"actor": "Saurav Chakraborty", "audience": "kids", "age": "3-5 years"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "recency": "latest", "language": "Hindi", "genre": "Action", "platform": "Netflix"}
+       F1=0.000  P=0.000  R=0.000  missing=['age', 'audience']  extra=['content_type', 'genre', 'language', 'platform', 'recency']  wrong={'actor': {'predicted': 'Salman Khan', 'expected': 'Saurav Chakraborty'}}
+
+  [02] Query   : Meera Nair movies
+       Expected: {"actor": "Meera Nair", "content_type": "Movies"}
+       Got     : {"actor": "Meera Nair", "content_type": "Movies"}
+       F1=1.000  P=1.000  R=1.000
+
+  [03] Query   : Arjun Kapoor action flicks
+       Expected: {"actor": "Arjun Kapoor", "content_type": "Movies", "genre": "Action"}
+       Got     : {"actor": "Arjun Kapoor", "content_type": "Songs"}
+       F1=0.400  P=0.500  R=0.333  missing=['genre']  wrong={'content_type': {'predicted': 'Songs', 'expected': 'Movies'}}
+
+  [04] Query   : Nandita Das drama films
+       Expected: {"actor": "Nandita Das", "content_type": "Movies", "genre": "Drama"}
+       Got     : {"actor": "Nandita Das", "content_type": "Drama", "recency": "latest", "language": "Hindi", "mood": "drama", "platform": "Disney+ Hotstar"}
+       F1=0.222  P=0.167  R=0.333  missing=['genre']  extra=['language', 'mood', 'platform', 'recency']  wrong={'content_type': {'predicted': 'Drama', 'expected': 'Movies'}}
+
+  [05] Query   : Konkona Sen Sharma thriller
+       Expected: {"actor": "Konkona Sen Sharma", "genre": "Thriller"}
+       Got     : {"actor": "Konkona Sen Sharma", "content_type": "Thriller", "recency": "latest", "language": "Tamil", "genre": "Thriller", "platform": "Disney+ Hotstar"}
+       F1=0.500  P=0.333  R=1.000  extra=['content_type', 'language', 'platform', 'recency']
+
+  [06] Query   : Anuv Jain songs
+       Expected: {"actor": "Anuv Jain", "content_type": "Songs"}
+       Got     : {"actor": "Anuv Jain", "content_type": "Songs"}
+       F1=1.000  P=1.000  R=1.000
+
+  [07] Query   : Arijit Singh music
+       Expected: {"actor": "Arijit Singh", "content_type": "Music"}
+       Got     : {"actor": "Arijit Singh", "content_type": "Music"}
+       F1=1.000  P=1.000  R=1.000
+
+  [08] Query   : Raghav juyal popular cinema
+       Expected: {"actor": "Raghav juyal", "content_type": "Movies", "rating_type": "top rated"}
+       Got     : {"actor": "Raghav Leyal", "content_type": "Web Series", "language": "Hindi", "mood": "popular", "recency": "latest", "rating_type": "top rated", "audience": "family", "age": "6-8 years"}
+       F1=0.182  P=0.125  R=0.333  extra=['age', 'audience', 'language', 'mood', 'recency']  wrong={'actor': {'predicted': 'Raghav Leyal', 'expected': 'Raghav juyal'}, 'content_type': {'predicted': 'Web Series', 'expected': 'Movies'}}
+
+  [09] Query   : Devanand flicks
+       Expected: {"actor": "Devanand", "content_type": "Movies"}
+       Got     : {"actor": "Vania Devanand", "content_type": "Flicks"}
+       F1=0.000  P=0.000  R=0.000  wrong={'actor': {'predicted': 'Vania Devanand', 'expected': 'Devanand'}, 'content_type': {'predicted': 'Flicks', 'expected': 'Movies'}}
+
+  [10] Query   : manish paul episodes
+       Expected: {"actor": "Manish Paul", "content_type": "Episodes"}
+       Got     : {"actor": "Mishnareshwar Pandya", "content_type": "Web Series", "language": "Tamil", "mood": "moody", "recency": "latest", "rating_type": "top rated", "audience": "family", "age": "6-8 years"}
+       F1=0.000  P=0.000  R=0.000  extra=['age', 'audience', 'language', 'mood', 'rating_type', 'recency']  wrong={'actor': {'predicted': 'Mishnareshwar Pandya', 'expected': 'Manish Paul'}, 'content_type': {'predicted': 'Web Series', 'expected': 'Episodes'}}
+
+  [11] Query   : Dilip Joshi hindi shows Prime
+       Expected: {"actor": "Dilip Joshi", "language": "Hindi", "content_type": "Shows", "platform": "Amazon Prime"}
+       Got     : {"actor": "Dilip Joshi", "content_type": "Web Series", "language": "Hindi", "mood": "heartwarming", "recency": "latest", "rating_type": "top rated", "audience": "family", "age": "6-8 years"}
+       F1=0.333  P=0.250  R=0.500  missing=['platform']  extra=['age', 'audience', 'mood', 'rating_type', 'recency']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'Shows'}}
+
+  [12] Query   : latest Hindi films on Hotstar
+       Expected: {"recency": "latest", "language": "Hindi", "content_type": "Movies", "platform": "Disney+ Hotstar"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "recency": "latest", "language": "Hindi", "genre": "Music", "platform": "Netflix"}
+       F1=0.400  P=0.333  R=0.500  extra=['actor', 'genre']  wrong={'platform': {'predicted': 'Netflix', 'expected': 'Disney+ Hotstar'}, 'content_type': {'predicted': 'Songs', 'expected': 'Movies'}}
+
+  [13] Query   : Tamil action on Sony
+       Expected: {"language": "Tamil", "genre": "Action", "platform": "SonyLIV"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "language": "Tamil", "mood": "action", "recency": "latest", "platform": "SonyLIV"}
+       F1=0.444  P=0.333  R=0.667  missing=['genre']  extra=['actor', 'content_type', 'mood', 'recency']
+
+  [14] Query   : Kannada movies on Zee
+       Expected: {"language": "Kannada", "content_type": "Movies", "platform": "ZEE5"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "language": "Hindi", "mood": "feeling good", "platform": "ZEE5"}
+       F1=0.250  P=0.200  R=0.333  extra=['actor', 'mood']  wrong={'language': {'predicted': 'Hindi', 'expected': 'Kannada'}, 'content_type': {'predicted': 'Songs', 'expected': 'Movies'}}
+
+  [15] Query   : Marathi comedy on Jio
+       Expected: {"language": "Marathi", "genre": "Comedy", "platform": "Jio Cinema"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "language": "Marathi", "mood": "funny", "recency": "latest", "platform": "Jio Cinema"}
+       F1=0.444  P=0.333  R=0.667  missing=['genre']  extra=['actor', 'content_type', 'mood', 'recency']
+
+  [16] Query   : Disney kids 6-8
+       Expected: {"title": "Disney", "audience": "kids", "age": "6-8 years"}
+       Got     : {"actor": "Disney+ Hotstar", "audience": "kids", "language": "Tamil", "genre": "Kids", "recency": "latest", "title": "Disney+ Kids 6-8"}
+       F1=0.222  P=0.167  R=0.333  missing=['age']  extra=['actor', 'genre', 'language', 'recency']  wrong={'title': {'predicted': 'Disney+ Kids 6-8', 'expected': 'Disney'}}
+
+  [17] Query   : cartoon shows for children 4 years
+       Expected: {"content_type": "Shows", "audience": "kids", "age": "4 years"}
+       Got     : {"actor": "Prabhas", "content_type": "Shows", "language": "Hindi", "mood": "cartoon", "recency": "latest", "year": 2022}
+       F1=0.222  P=0.167  R=0.333  missing=['age', 'audience']  extra=['actor', 'language', 'mood', 'recency', 'year']
+
+  [18] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "language": "Hindi", "mood": "feeling good", "platform": "Netflix"}
+       F1=0.250  P=0.200  R=0.333  missing=['audience']  extra=['actor', 'language', 'mood']  wrong={'content_type': {'predicted': 'Songs', 'expected': 'Movies'}}
+
+  [19] Query   : educational cartoons kids 5-10
+       Expected: {"genre": "Educational", "content_type": "Show", "audience": "kids", "age": "5-10 years"}
+       Got     : {"actor": "Salman Khan", "content_type": "Trailers", "language": "Hindi", "genre": "Thriller", "recency": "latest", "year": 2018}
+       F1=0.000  P=0.000  R=0.000  missing=['age', 'audience']  extra=['actor', 'language', 'recency', 'year']  wrong={'genre': {'predicted': 'Thriller', 'expected': 'Educational'}, 'content_type': {'predicted': 'Trailers', 'expected': 'Show'}}
+
+  [20] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "language": "Hindi", "mood": "feeling good", "platform": "Netflix"}
+       F1=0.250  P=0.200  R=0.333  missing=['audience']  extra=['actor', 'language', 'mood']  wrong={'content_type': {'predicted': 'Songs', 'expected': 'Movies'}}
+
+  [21] Query   : feel good Bollywood movies
+       Expected: {"mood": "feel good", "language": "Hindi", "content_type": "Movies"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "language": "Hindi", "mood": "feel good", "platform": "Netflix"}
+       F1=0.500  P=0.400  R=0.667  extra=['actor', 'platform']  wrong={'content_type': {'predicted': 'Songs', 'expected': 'Movies'}}
+
+  [22] Query   : scary Hindi horror
+       Expected: {"mood": "scary", "language": "Hindi", "genre": "Horror"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "recency": "latest", "language": "Hindi", "genre": "Action", "platform": "Netflix"}
+       F1=0.222  P=0.167  R=0.333  missing=['mood']  extra=['actor', 'content_type', 'platform', 'recency']  wrong={'genre': {'predicted': 'Action', 'expected': 'Horror'}}
+
+  [23] Query   : must watch Tamil thriller
+       Expected: {"rating_type": "must watch", "language": "Tamil", "genre": "Thriller"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "language": "Tamil", "mood": "heartwarming", "recency": "latest", "year": 2018}
+       F1=0.222  P=0.167  R=0.333  missing=['genre', 'rating_type']  extra=['actor', 'content_type', 'mood', 'recency', 'year']
+
+  [24] Query   : underrated Telugu drama
+       Expected: {"rating_type": "underrated", "language": "Telugu", "genre": "Drama"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "language": "Telugu", "mood": "underrated", "recency": "latest", "platform": "Netflix"}
+       F1=0.222  P=0.167  R=0.333  missing=['genre', 'rating_type']  extra=['actor', 'content_type', 'mood', 'platform', 'recency']
+
+  [25] Query   : Hrithik Roshan action movies on Netflix 2023
+       Expected: {"actor": "Hrithik Roshan", "genre": "Action", "content_type": "Movies", "platform": "Netflix", "year": "2023"}
+       Got     : {"actor": "Hrithik Roshan", "content_type": "Action", "recency": "2023"}
+       F1=0.250  P=0.333  R=0.200  missing=['genre', 'platform', 'year']  extra=['recency']  wrong={'content_type': {'predicted': 'Action', 'expected': 'Movies'}}
+
+  [26] Query   : latest Malayalam blockbuster on Prime
+       Expected: {"recency": "latest", "language": "Malayalam", "rating_type": "blockbuster", "platform": "Amazon Prime"}
+       Got     : {"actor": "Salman Khan", "content_type": "Songs", "recency": "latest", "language": "Malayalam", "genre": "Blockbuster", "platform": "Amazon Prime"}
+       F1=0.600  P=0.500  R=0.750  missing=['rating_type']  extra=['actor', 'content_type', 'genre']
+
+  [27] Query   : Alia Bhatt romantic drama 2022
+       Expected: {"actor": "Alia Bhatt", "genre": "Romance", "content_type": "Movies", "year": "2022"}
+       Got     : {"actor": "Alia Bhatt", "audience": "kids", "language": "Tamil", "genre": "Romance", "recency": "latest", "platform": "Disney+ Hotstar"}
+       F1=0.400  P=0.333  R=0.500  missing=['content_type', 'year']  extra=['audience', 'language', 'platform', 'recency']
+
+  [28] Query   : latest elections news
+       Expected: {"recency": "latest", "content_type": "LiveChannel"}
+       Got     : {"actor": "Salman Khan", "content_type": "Web Series", "language": "Hindi", "mood": "feeling good", "recency": "latest", "year": 2018}
+       F1=0.250  P=0.167  R=0.500  extra=['actor', 'language', 'mood', 'year']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'LiveChannel'}}
+
+  [29] Query   : something similar to RRR
+       Expected: {"similar_to": "RRR"}
+       Got     : {"actor": "Salman Khan", "content_type": "Trailers"}
+       F1=0.000  P=0.000  R=0.000  missing=['similar_to']  extra=['actor', 'content_type']
+
+  [30] Query   : CNN News 18
+       Expected: {"content_type": "LiveChannel", "title": "CNN News 18"}
+       Got     : {"actor": "CNN News 18", "content_type": "Web Series", "language": "Hindi", "mood": "positive", "recency": "latest", "rating_type": "top rated", "audience": "family", "age": "6-8 years"}
+       F1=0.000  P=0.000  R=0.000  missing=['title']  extra=['actor', 'age', 'audience', 'language', 'mood', 'rating_type', 'recency']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'LiveChannel'}}
+
+  [31] Query   : Football matches
+       Expected: {"content_type": "LiveChannel", "title": "Football"}
+       Got     : {"actor": "Kareena Kapoor", "content_type": "Web Series", "language": "Hindi", "genre": "Web Series", "recency": "latest", "mood": "feeling good", "platform": "Disney+ Hotstar"}
+       F1=0.000  P=0.000  R=0.000  missing=['title']  extra=['actor', 'genre', 'language', 'mood', 'platform', 'recency']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'LiveChannel'}}
+
+  SUMMARY — F1=0.3157  P=0.2755  R=0.4070  ExactMatch=9.7%
+
+======================================================================
+VARIANT: v5_negative_examples
+======================================================================
+
+  [01] Query   : Saurav Chakraborty kids 3-5
+       Expected: {"actor": "Saurav Chakraborty", "audience": "kids", "age": "3-5 years"}
+       Got     : {"actor": "Salman Khan", "content_type": "Music", "language": "Hindi", "mood": "feeling good", "platform": "Netflix", "audience": "kids", "year": 2018}
+       F1=0.200  P=0.143  R=0.333  missing=['age']  extra=['content_type', 'language', 'mood', 'platform', 'year']  wrong={'actor': {'predicted': 'Salman Khan', 'expected': 'Saurav Chakraborty'}}
+
+  [02] Query   : Meera Nair movies
+       Expected: {"actor": "Meera Nair", "content_type": "Movies"}
+       Got     : {"actor": "Meera Nair", "content_type": "Web Series", "language": "Tamil", "mood": "mood pe jaise achi", "platform": "Netflix", "recency": "latest", "year": 2018}
+       F1=0.222  P=0.143  R=0.500  extra=['language', 'mood', 'platform', 'recency', 'year']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'Movies'}}
+
+  [03] Query   : Arjun Kapoor action flicks
+       Expected: {"actor": "Arjun Kapoor", "content_type": "Movies", "genre": "Action"}
+       Got     : {"actor": "Arjun Kapoor", "genre": "Action", "content_type": "Movies", "platform": "Netflix", "year": 2023}
+       F1=0.750  P=0.600  R=1.000  extra=['platform', 'year']
+
+  [04] Query   : Nandita Das drama films
+       Expected: {"actor": "Nandita Das", "content_type": "Movies", "genre": "Drama"}
+       Got     : {"actor": "Nandita Das", "genre": "Drama", "content_type": "Web Series", "language": "Hindi", "mood": "feeling good", "platform": "Netflix", "recency": "latest", "year": 2018}
+       F1=0.364  P=0.250  R=0.667  extra=['language', 'mood', 'platform', 'recency', 'year']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'Movies'}}
+
+  [05] Query   : Konkona Sen Sharma thriller
+       Expected: {"actor": "Konkona Sen Sharma", "genre": "Thriller"}
+       Got     : {"actor": "Konkona Sen Sharma", "genre": "Thriller", "content_type": "Web Series"}
+       F1=0.800  P=0.667  R=1.000  extra=['content_type']
+
+  [06] Query   : Anuv Jain songs
+       Expected: {"actor": "Anuv Jain", "content_type": "Songs"}
+       Got     : {"actor": "Anuv Jain", "content_type": "Songs"}
+       F1=1.000  P=1.000  R=1.000
+
+  [07] Query   : Arijit Singh music
+       Expected: {"actor": "Arijit Singh", "content_type": "Music"}
+       Got     : {"actor": "Arijit Singh", "genre": "Music"}
+       F1=0.500  P=0.500  R=0.500  missing=['content_type']  extra=['genre']
+
+  [08] Query   : Raghav juyal popular cinema
+       Expected: {"actor": "Raghav juyal", "content_type": "Movies", "rating_type": "top rated"}
+       Got     : {"actor": "Raghav Leela Bhansali", "content_type": "Web Series", "language": "Hindi", "mood": "popular", "platform": "Netflix", "audience": "family", "year": 2018}
+       F1=0.000  P=0.000  R=0.000  missing=['rating_type']  extra=['audience', 'language', 'mood', 'platform', 'year']  wrong={'actor': {'predicted': 'Raghav Leela Bhansali', 'expected': 'Raghav juyal'}, 'content_type': {'predicted': 'Web Series', 'expected': 'Movies'}}
+
+  [09] Query   : Devanand flicks
+       Expected: {"actor": "Devanand", "content_type": "Movies"}
+       Got     : {"actor": "Devanand M.O.O.", "content_type": "Trailers"}
+       F1=0.000  P=0.000  R=0.000  wrong={'actor': {'predicted': 'Devanand M.O.O.', 'expected': 'Devanand'}, 'content_type': {'predicted': 'Trailers', 'expected': 'Movies'}}
+
+  [10] Query   : manish paul episodes
+       Expected: {"actor": "Manish Paul", "content_type": "Episodes"}
+       Got     : {"actor": "Mishra Mani Ratnam", "content_type": "Web Series", "language": "Hindi", "mood": "moody", "platform": "Netflix", "recency": "latest", "year": 2018}
+       F1=0.000  P=0.000  R=0.000  extra=['language', 'mood', 'platform', 'recency', 'year']  wrong={'actor': {'predicted': 'Mishra Mani Ratnam', 'expected': 'Manish Paul'}, 'content_type': {'predicted': 'Web Series', 'expected': 'Episodes'}}
+
+  [11] Query   : Dilip Joshi hindi shows Prime
+       Expected: {"actor": "Dilip Joshi", "language": "Hindi", "content_type": "Shows", "platform": "Amazon Prime"}
+       Got     : {"actor": "Dilip Joshi", "genre": "Hindi", "content_type": "Web Series", "platform": "Netflix", "year": 2018}
+       F1=0.222  P=0.200  R=0.250  missing=['language']  extra=['genre', 'year']  wrong={'platform': {'predicted': 'Netflix', 'expected': 'Amazon Prime'}, 'content_type': {'predicted': 'Web Series', 'expected': 'Shows'}}
+
+  [12] Query   : latest Hindi films on Hotstar
+       Expected: {"recency": "latest", "language": "Hindi", "content_type": "Movies", "platform": "Disney+ Hotstar"}
+       Got     : {"actor": "Salman Khan", "content_type": "Movies", "language": "Hindi", "mood": "feeling good", "platform": "Netflix", "recency": "latest", "year": 2018}
+       F1=0.545  P=0.429  R=0.750  extra=['actor', 'mood', 'year']  wrong={'platform': {'predicted': 'Netflix', 'expected': 'Disney+ Hotstar'}}
+
+  [13] Query   : Tamil action on Sony
+       Expected: {"language": "Tamil", "genre": "Action", "platform": "SonyLIV"}
+       Got     : {"actor": "Hrithik Roshan", "content_type": "Movies", "language": "Tamil", "mood": "action", "recency": "latest", "year": 2018}
+       F1=0.222  P=0.167  R=0.333  missing=['genre', 'platform']  extra=['actor', 'content_type', 'mood', 'recency', 'year']
+
+  [14] Query   : Kannada movies on Zee
+       Expected: {"language": "Kannada", "content_type": "Movies", "platform": "ZEE5"}
+       Got     : {"actor": "Salman Khan", "genre": "Kannada"}
+       F1=0.000  P=0.000  R=0.000  missing=['content_type', 'language', 'platform']  extra=['actor', 'genre']
+
+  [15] Query   : Marathi comedy on Jio
+       Expected: {"language": "Marathi", "genre": "Comedy", "platform": "Jio Cinema"}
+       Got     : {"actor": "Salman Khan", "genre": "Comedy", "title": "Marathi Comedy"}
+       F1=0.333  P=0.333  R=0.333  missing=['language', 'platform']  extra=['actor', 'title']
+
+  [16] Query   : Disney kids 6-8
+       Expected: {"title": "Disney", "audience": "kids", "age": "6-8 years"}
+       Got     : {"actor": "Salman Khan", "genre": "Music", "content_type": "Trailers", "language": "Hindi", "mood": "feeling good", "platform": "Netflix", "recency": "latest", "year": 2018}
+       F1=0.000  P=0.000  R=0.000  missing=['age', 'audience', 'title']  extra=['actor', 'content_type', 'genre', 'language', 'mood', 'platform', 'recency', 'year']
+
+  [17] Query   : cartoon shows for children 4 years
+       Expected: {"content_type": "Shows", "audience": "kids", "age": "4 years"}
+       Got     : {"actor": "Salman Khan", "genre": "Cartoon", "title": "For Children 4 years"}
+       F1=0.000  P=0.000  R=0.000  missing=['age', 'audience', 'content_type']  extra=['actor', 'genre', 'title']
+
+  [18] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"actor": "Salman Khan", "genre": "Family", "title": "Salman Khan Movies"}
+       F1=0.000  P=0.000  R=0.000  missing=['audience', 'content_type', 'platform']  extra=['actor', 'genre', 'title']
+
+  [19] Query   : educational cartoons kids 5-10
+       Expected: {"genre": "Educational", "content_type": "Show", "audience": "kids", "age": "5-10 years"}
+       Got     : {"actor": "Salman Khan", "audience": "kids", "genre": "Educational", "content_type": "Trailers"}
+       F1=0.500  P=0.500  R=0.500  missing=['age']  extra=['actor']  wrong={'content_type': {'predicted': 'Trailers', 'expected': 'Show'}}
+
+  [20] Query   : family movies on Netflix
+       Expected: {"audience": "family", "content_type": "Movies", "platform": "Netflix"}
+       Got     : {"actor": "Salman Khan", "genre": "Family", "title": "Salman Khan Movies"}
+       F1=0.000  P=0.000  R=0.000  missing=['audience', 'content_type', 'platform']  extra=['actor', 'genre', 'title']
+
+  [21] Query   : feel good Bollywood movies
+       Expected: {"mood": "feel good", "language": "Hindi", "content_type": "Movies"}
+       Got     : {"actor": "Salman Khan", "genre": "Feel good", "language": "Hindi", "recency": "latest", "year": 2018}
+       F1=0.250  P=0.200  R=0.333  missing=['content_type', 'mood']  extra=['actor', 'genre', 'recency', 'year']
+
+  [22] Query   : scary Hindi horror
+       Expected: {"mood": "scary", "language": "Hindi", "genre": "Horror"}
+       Got     : {"actor": "Salman Khan", "genre": "Horror", "language": "Hindi", "mood": "scary"}
+       F1=0.857  P=0.750  R=1.000  extra=['actor']
+
+  [23] Query   : must watch Tamil thriller
+       Expected: {"rating_type": "must watch", "language": "Tamil", "genre": "Thriller"}
+       Got     : {"actor": "Salman Khan", "content_type": "Thriller", "language": "Tamil", "mood": "moody", "platform": "Netflix", "recency": "latest", "year": 2018}
+       F1=0.200  P=0.143  R=0.333  missing=['genre', 'rating_type']  extra=['actor', 'content_type', 'mood', 'platform', 'recency', 'year']
+
+  [24] Query   : underrated Telugu drama
+       Expected: {"rating_type": "underrated", "language": "Telugu", "genre": "Drama"}
+       Got     : {"actor": "Salman Khan", "genre": "Drama", "title": "Kota Revolution"}
+       F1=0.333  P=0.333  R=0.333  missing=['language', 'rating_type']  extra=['actor', 'title']
+
+  [25] Query   : Hrithik Roshan action movies on Netflix 2023
+       Expected: {"actor": "Hrithik Roshan", "genre": "Action", "content_type": "Movies", "platform": "Netflix", "year": "2023"}
+       Got     : {"actor": "Hrithik Roshan", "genre": "Action", "content_type": "Movies", "platform": "Netflix", "year": 2023}
+       F1=1.000  P=1.000  R=1.000
+
+  [26] Query   : latest Malayalam blockbuster on Prime
+       Expected: {"recency": "latest", "language": "Malayalam", "rating_type": "blockbuster", "platform": "Amazon Prime"}
+       Got     : {"actor": "Salman Khan", "content_type": "Movies", "language": "Malayalam", "mood": "hit", "platform": "Netflix", "recency": "latest", "year": 2018}
+       F1=0.364  P=0.286  R=0.500  missing=['rating_type']  extra=['actor', 'content_type', 'mood', 'year']  wrong={'platform': {'predicted': 'Netflix', 'expected': 'Amazon Prime'}}
+
+  [27] Query   : Alia Bhatt romantic drama 2022
+       Expected: {"actor": "Alia Bhatt", "genre": "Romance", "content_type": "Movies", "year": "2022"}
+       Got     : {"actor": "Alia Bhatt", "genre": "Romance", "title": "2022"}
+       F1=0.571  P=0.667  R=0.500  missing=['content_type', 'year']  extra=['title']
+
+  [28] Query   : latest elections news
+       Expected: {"recency": "latest", "content_type": "LiveChannel"}
+       Got     : {"actor": "Salman Khan", "content_type": "Web Series", "language": "Hindi", "mood": "feeling good", "platform": "Netflix", "recency": "latest", "year": 2018}
+       F1=0.222  P=0.143  R=0.500  extra=['actor', 'language', 'mood', 'platform', 'year']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'LiveChannel'}}
+
+  [29] Query   : something similar to RRR
+       Expected: {"similar_to": "RRR"}
+       Got     : {"actor": "Salman Khan", "title": "RRR"}
+       F1=0.000  P=0.000  R=0.000  missing=['similar_to']  extra=['actor', 'title']
+
+  [30] Query   : CNN News 18
+       Expected: {"content_type": "LiveChannel", "title": "CNN News 18"}
+       Got     : {"actor": "CNN News 18", "content_type": "Web Series", "language": "Hindi", "mood": "feeling good", "platform": "Netflix", "audience": "family", "year": 2018}
+       F1=0.000  P=0.000  R=0.000  missing=['title']  extra=['actor', 'audience', 'language', 'mood', 'platform', 'year']  wrong={'content_type': {'predicted': 'Web Series', 'expected': 'LiveChannel'}}
+
+  [31] Query   : Football matches
+       Expected: {"content_type": "LiveChannel", "title": "Football"}
+       Got     : {"actor": "Salman Khan", "content_type": "Music"}
+       F1=0.000  P=0.000  R=0.000  missing=['title']  extra=['actor']  wrong={'content_type': {'predicted': 'Music', 'expected': 'LiveChannel'}}
+
+  SUMMARY — F1=0.3051  P=0.2727  R=0.3763  ExactMatch=6.5%
+
+
+======================================================================
+LEADERBOARD (sorted by F1)
+======================================================================
+  Variant                         F1  Precision  Recall   Exact%
+  --------------------------  ------  ---------  ------  -------
+  v1_minimal                  0.5239     0.5753  0.4909    19.4%
+  v3_rules                    0.3638     0.3342  0.4156     3.2%
+  v2_field_list               0.3184     0.2839  0.3968     0.0%
+  v4_few_shot                 0.3157     0.2755  0.4070     9.7%
+  v5_negative_examples        0.3051     0.2727  0.3763     6.5%
+
+  ✓ Best prompt: v1_minimal  (F1=0.5239)
+
+
+======================================================================
+PER-QUERY F1 COMPARISON
+======================================================================
+  Query                                         v1_minimal  v2_field_l    v3_rules  v4_few_sho  v5_negativ
+  Saurav Chakraborty kids 3-5                        0.400       0.333       0.333       0.000       0.200
+  Meera Nair movies                                  0.000       0.000       0.500       1.000       0.222
+  Arjun Kapoor action flicks                         0.800       0.571       0.667       0.400       0.750
+  Nandita Das drama films                            0.400       0.333       0.000       0.222       0.364
+  Konkona Sen Sharma thriller                        1.000       0.667       0.800       0.500       0.800
+  Anuv Jain songs                                    0.500       0.500       0.500       1.000       1.000
+  Arijit Singh music                                 0.500       0.500       0.400       1.000       0.500
+  Raghav juyal popular cinema                        0.000       0.000       0.000       0.182       0.000
+  Devanand flicks                                    0.000       0.000       0.000       0.000       0.000
+  manish paul episodes                               0.000       0.000       0.000       0.000       0.000
+  Dilip Joshi hindi shows Prime                      0.286       0.333       0.600       0.333       0.222
+  latest Hindi films on Hotstar                      0.571       0.250       0.222       0.400       0.545
+  Tamil action on Sony                               0.667       0.333       0.571       0.444       0.222
+  Kannada movies on Zee                              0.800       0.333       0.667       0.250       0.000
+  Marathi comedy on Jio                              1.000       0.500       0.857       0.444       0.333
+  Disney kids 6-8                                    0.000       0.182       0.000       0.222       0.000
+  cartoon shows for children 4 years                 0.000       0.000       0.200       0.222       0.000
+  family movies on Netflix                           0.800       0.444       0.000       0.250       0.000
+  educational cartoons kids 5-10                     0.333       0.167       0.000       0.000       0.500
+  family movies on Netflix                           0.800       0.444       0.000       0.250       0.000
+  feel good Bollywood movies                         0.667       0.500       0.667       0.500       0.250
+  scary Hindi horror                                 1.000       0.545       0.750       0.222       0.857
+  must watch Tamil thriller                          1.000       0.182       0.571       0.222       0.200
+  underrated Telugu drama                            1.000       0.364       0.000       0.222       0.333
+  Hrithik Roshan action movies on Netflix 2023       0.889       0.889       0.889       0.250       1.000
+  latest Malayalam blockbuster on Prime              0.571       0.250       0.000       0.600       0.364
+  Alia Bhatt romantic drama 2022                     0.857       0.750       0.750       0.400       0.571
+  latest elections news                              0.000       0.000       0.000       0.250       0.222
+  something similar to RRR                           1.000       0.000       1.000       0.000       0.000
+  CNN News 18                                        0.400       0.000       0.000       0.000       0.000
+  Football matches                                   0.000       0.500       0.333       0.000       0.000

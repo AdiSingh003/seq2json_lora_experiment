@@ -9,4 +9,4 @@ print(f'visible_gpu_count={torch.cuda.device_count()}')
 if torch.cuda.device_count() != 1:
     raise SystemExit(f'Expected exactly 1 visible GPU, found {torch.cuda.device_count()}')
 PY
-python test_smollm2.py --query-file custom_queries.txt
+python test_smollm2_query_expansion.py --query-file custom_queries.txt --expand --num-expansions 4

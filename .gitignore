@@ -11,9 +11,6 @@ venv/
 *.env
 
 # Hugging Face / Transformers / PEFT artifacts
-*.bin
-*.safetensors
-adapter/
 checkpoints/
 model/*
 models/*

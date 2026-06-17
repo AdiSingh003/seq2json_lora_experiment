@@ -1,0 +1,61 @@
+---
+Query 1: Dilip Joshi ke hindi shows
+Generated output (raw model):
+{"actor": "Dilip Joshi", "content_type": "Hindi shows"}
+Parsed JSON (raw model):
+{
+  "actor": "Dilip Joshi",
+  "content_type": "Hindi shows"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "language": "Hindi",
+  "actor": "Dilip Joshi"
+}
+
+---
+Query 2: Dilip Joshi acted hindi shows
+Generated output (raw model):
+{"actor": "Dilip Joshi", "content_type": "Web Series", "title": "Hindi Shows"}
+Parsed JSON (raw model):
+{
+  "actor": "Dilip Joshi",
+  "content_type": "Web Series",
+  "title": "Hindi Shows"
+}
+Final output (after rule-based value mapping):
+{
+  "content_type": "Shows",
+  "language": "Hindi",
+  "actor": "Dilip Joshi",
+  "title": "Hindi Shows"
+}
+
+---
+Query 3: konsa best documentary hai?
+Generated output (raw model):
+{"actor": "Karan Johar", "genre": "Documentary", "rating_type": "top rated"}
+Parsed JSON (raw model):
+{
+  "actor": "Karan Johar",
+  "genre": "Documentary",
+  "rating_type": "top rated"
+}
+Final output (after rule-based value mapping):
+{}
+
+---
+Query 4: tilak verma highlights
+Generated output (raw model):
+{"actor": "Tilak Rajendra Rajendra Sharma", "title": "Hilfsanschrift"}
+Parsed JSON (raw model):
+{
+  "actor": "Tilak Rajendra Rajendra Sharma",
+  "title": "Hilfsanschrift"
+}
+Final output (after rule-based value mapping):
+{
+  "actor": "Tilak Rajendra Rajendra Sharma"
+}
+

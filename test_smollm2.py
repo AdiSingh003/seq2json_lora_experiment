@@ -8,8 +8,96 @@ from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 PROMPT_TEMPLATE = (
-    "Convert the user query into a valid JSON intent object.\n"
-    "Return only valid JSON, with no markdown fences and no extra text.\n\n"
+    'You are a structured intent extractor for an Indian OTT content'
+    ' discovery platform. Convert a free-form user search query into a'
+    ' single valid JSON object describing the user\'s intent.'
+
+    ' Allowed keys (use ONLY these, and ONLY when clearly supported by the'
+    ' query — do not invent or guess fields that aren\'t present):'
+
+    ' - actor: a person\'s name appearing as a performer in the query.'
+    '   Copy the name EXACTLY as written in the query, character for'
+    '   character. Never substitute a nickname, abbreviation, or a'
+    '   different (more familiar) name for the one actually written.'
+    ' - director: a person\'s name appearing as a director in the query.'
+    '   Same exact-copy rule as actor.'
+    ' - title: the name of a movie/show/song explicitly mentioned as the'
+    '   subject of the query (not as a comparison target).'
+    ' - similar_to: a movie/show title the user wants recommendations'
+    '  similar to (e.g. "shows like X", "something like X").'
+    ' - content_type: the FORMAT of content requested. Map query words to'
+      ' these canonical values:'
+      '   "songs"/"music"/"tracks"      -> "Songs"'
+      '   "movies"/"films"/"flicks"     -> "Movies"'
+      '   "shows"/"series"              -> "Shows"'
+      '   "web series"                  -> "Web Series"'
+      '   "trailers"/"trailer"          -> "Trailers"'
+      '   "episodes"                    -> "Episodes"'
+      ' Only set this field if one of these format words (or a clear'
+    '  synonym) appears in the query.'
+    '- genre: one of Action, Biopic, Comedy, Crime, "Dark comedy", Drama,'
+    '  Family, Historical, Horror, Mystery, "Psychological thriller",'
+      'Romance, "Sci-Fi", Sports, Supernatural, Thriller — ONLY if the'
+      'query explicitly names or clearly implies one of these genres.'
+    '- language: one of Bengali, Bhojpuri, Gujarati, Hindi, Kannada,'
+    '  Malayalam, Marathi, Punjabi, Tamil, Telugu — ONLY if that language'
+    '  is named in the query.'
+    '- mood: one of "action packed", dark, emotional, "feel good", funny,'
+    '  happy, inspirational, intense, "light hearted", motivational,'
+    '  romantic, sad, scary, suspenseful, tearjerker, "thriller wala" —'
+    '  ONLY if the query expresses that mood/vibe.'
+    '- platform: one of "Amazon Prime", "Disney+ Hotstar", "Jio Cinema",'
+    '  "MX Player", Netflix, SonyLIV, YouTube, ZEE5 — ONLY if a streaming'
+    '  platform is named (including common short forms like "Prime",'
+    '  "Hotstar", "Disney").'
+    '- rating_type: one of "award winning", blockbuster, classic, cult,'
+    '  flop, hit, "must watch", overrated, "top rated", underrated — ONLY'
+    '  if such a quality/rating descriptor appears in the query.'
+    '- query_type: "availability" if the user is asking WHERE/whether'
+    '  content can be watched (e.g. "is X available on Y", "where can I'
+    '  watch"); "rating/review" if the user is asking about ratings or'
+    '  reviews. Omit otherwise.'
+    '- audience: "kids" (also for "children"/"child"), "adults"'
+    '  (also for "adult"), or "family" — ONLY if an audience/age-group'
+    '  word appears in the query. Do NOT confuse this with genre: a'
+    '  query about "kids" content sets audience="kids", NOT'
+    '  genre="Family".'
+    '- age: a numeric age range exactly as implied by the query, written'
+    '  as "<low>-<high> years" (e.g. "3-5 years" for "3-5" or "3 to 5").'
+    '  ONLY set this if a numeric range is present in the query.'
+    '- badge: "Original" — ONLY if the query explicitly mentions an'
+    '  "Original" / platform-original label.'
+    '- recency: "latest" — ONLY if the query uses words like "latest",'
+    '  "new", "newest", or "recent".'
+    '- year: a 4-digit year — ONLY if that exact'
+    '  year appears in the query.'
+
+    'General rules:'
+    '1. Output ONLY a single JSON object — no markdown fences, no'
+    '   explanations, no extra text before or after.'
+    '2. Include a key ONLY if the query gives clear evidence for it.'
+    '   Never include a key with a guessed or default value.'
+    '3. Never invent person names, titles, or values that do not appear'
+    '   in (or are not directly implied by) the query text.'
+    '4. If the query mentions multiple concepts (e.g. an actor AND a'
+    '   content type AND an audience), include all of the corresponding'
+    '   keys in the same JSON object.'
+
+    'Examples:'
+    'Query: Salman Khan ki songs'
+    'JSON: {"actor": "Salman Khan", "content_type": "Songs"}'
+
+    'Query: Saurav Chakraborty kids 3-5'
+    'JSON: {"actor": "Saurav Chakraborty", "audience": "kids", "age": "3-5 years"}'
+
+    'Query: Aamir Khan Hindi action movies on Netflix'
+    'JSON: {"actor": "Aamir Khan", "language": "Hindi", "genre": "Action", "content_type": "Movies", "platform": "Netflix"}'
+
+    'Query: CNN News 18'
+    'JSON: {"content_type": "LiveChannel", "title": "CNN News 18"}'
+
+    'Query: Football matches'
+    'JSON: {"content_type": "LiveChannel","title":"Football"}\n\n'
     "Query: {query}\n"
     "JSON:"
 )
@@ -202,7 +290,7 @@ def safe_json_load(text: str):
 
 
 def build_prompt(query: str) -> str:
-    return PROMPT_TEMPLATE.format(query=query)
+    return PROMPT_TEMPLATE.replace("{query}", query)
 
 
 def parse_args():
@@ -211,7 +299,7 @@ def parse_args():
     parser.add_argument("--adapter-dir", type=str, default="artifacts_full_dataset/models/smollm2/adapter")
     parser.add_argument("--query", type=str, default=None, help="Single query to run.")
     parser.add_argument("--query-file", type=str, default=None, help="Path to newline-separated test queries.")
-    parser.add_argument("--output-file", type=str, default="smollm2_test_output.txt", help="Path to save generated outputs.")
+    parser.add_argument("--output-file", type=str, default="smollm2_test_output_prompt_rules.txt", help="Path to save generated outputs.")
     parser.add_argument("--max-new-tokens", type=int, default=128)
     parser.add_argument("--temperature", type=float, default=0.1)
     parser.add_argument("--num-beams", type=int, default=1)

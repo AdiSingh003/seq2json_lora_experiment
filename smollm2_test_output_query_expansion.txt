@@ -1,0 +1,69 @@
+---
+Query 1: Dilip Joshi ke hindi shows
+Expansions (0 paraphrases + original):
+  [ORIGINAL] Dilip Joshi ke hindi shows
+    Raw  : {"language": "Hindi", "query_type": "availability", "title": "Dilip Joshi"}
+    Valid: {"language": "Hindi", "query_type": "availability", "title": "Dilip Joshi"}
+Vote counts: {'{"language": "Hindi", "query_type": "availability", "title": "Dilip Joshi"}': 1}
+Final JSON (majority vote):
+{
+  "language": "Hindi",
+  "query_type": "availability",
+  "title": "Dilip Joshi"
+}
+
+---
+Query 2: Dilip Joshi acted hindi shows
+Expansions (0 paraphrases + original):
+  [ORIGINAL] Dilip Joshi acted hindi shows
+    Raw  : {"actor": "Dilip Joshi", "genre": "Web series", "language": "Hindi"}
+    Valid: {"actor": "Dilip Joshi", "genre": "Web series", "language": "Hindi"}
+Vote counts: {'{"actor": "Dilip Joshi", "genre": "Web series", "language": "Hindi"}': 1}
+Final JSON (majority vote):
+{
+  "actor": "Dilip Joshi",
+  "genre": "Web series",
+  "language": "Hindi"
+}
+
+---
+Query 3: konsa best documentary hai?
+Expansions (0 paraphrases + original):
+  [ORIGINAL] konsa best documentary hai?
+    Raw  : {"genre": "Documentary", "rating_type": "top rated", "title": "Konsa"}
+    Valid: {"genre": "Documentary", "rating_type": "top rated", "title": "Konsa"}
+Vote counts: {'{"genre": "Documentary", "rating_type": "top rated", "title": "Konsa"}': 1}
+Final JSON (majority vote):
+{
+  "genre": "Documentary",
+  "rating_type": "top rated",
+  "title": "Konsa"
+}
+
+---
+Query 4: tilak verma highlights
+Expansions (0 paraphrases + original):
+  [ORIGINAL] tilak verma highlights
+    Raw  : {"actor": "Salman Khan", "query_type": "rating/review", "title": "Tilak Verma"}
+    Valid: {"actor": "Salman Khan", "query_type": "rating/review", "title": "Tilak Verma"}
+Vote counts: {'{"actor": "Salman Khan", "query_type": "rating/review", "title": "Tilak Verma"}': 1}
+Final JSON (majority vote):
+{
+  "actor": "Salman Khan",
+  "query_type": "rating/review",
+  "title": "Tilak Verma"
+}
+
+---
+Query 5: CNN News 18
+Expansions (0 paraphrases + original):
+  [ORIGINAL] CNN News 18
+    Raw  : {"platform": "CNN", "year": 2018}
+    Valid: {"platform": "CNN", "year": 2018}
+Vote counts: {'{"platform": "CNN", "year": 2018}': 1}
+Final JSON (majority vote):
+{
+  "platform": "CNN",
+  "year": 2018
+}
+
